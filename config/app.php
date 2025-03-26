@@ -127,6 +127,9 @@ return [
     'brevo_api_key' => env('BREVO_API_KEY'),
     'simplify_whatsapp_signup_list_id_in_brevo' => env('SIMPLIFY_WHATSAPP_SIGNUP_LIST_ID_IN_BREVO'),
     'webhook_secret_token' => env('WEBHOOK_SECRET_TOKEN'),
+    'lesson_planner_url' => env('LESSON_PLANNER_URL'),
+
+    'unify_kids_assessment_url' => env('UNIFY_KIDS_ASSESSMENT_URL'),
 
 
 ];

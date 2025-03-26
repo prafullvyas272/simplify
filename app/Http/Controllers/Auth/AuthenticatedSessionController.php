@@ -35,6 +35,10 @@ class AuthenticatedSessionController extends Controller
         $request->authenticate();
         $user = Auth::user();
 
+        if ((bool) $user['is_invited_from_lesson_planner']) {
+            return redirect()->route('profile.showWelcomeUserPage');
+        }
+
         if (!isset($user->data['profile_completed']) || !$user->data['profile_completed']) {
             Auth::logout();
             return Inertia::render('Auth/Login', [
@@ -60,9 +64,12 @@ class AuthenticatedSessionController extends Controller
             }
         }
 
+        if ((bool) $user['is_invited_from_lesson_planner']) {
+            return redirect()->route('profile.showWelcomeUserPage');
+        } else {
+            return redirect()->intended(route('profile.report', absolute: false));
+        }
 
-
-        return redirect()->intended(route('profile.report', absolute: false));
     }
 
     /**

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Webhook\WebhookController;
 use App\Models\BrevoListId;
 use App\Models\Child;
 use App\Models\ChildAnswers;
@@ -31,8 +32,9 @@ class UserReportController extends Controller
 
             $user_id = Auth::user()->id;
 
+            $userReport = null;
             if (!empty($validated['disc_report_url'])) {
-                UserReport::create([
+                $userReport = UserReport::create([
                     'user_id' => $user_id,
                     'child_id' => $request->child_id,
                     'type' => 1,
@@ -46,7 +48,7 @@ class UserReportController extends Controller
 
             // Create the Learning Styles Report record if the URL is provided
             if (!empty($validated['learn_report_url'])) {
-                UserReport::create([
+                $userReport = UserReport::create([
                     'user_id' => $user_id,
                     'child_id' => $request->child_id,
                     'type' => 2,
@@ -62,6 +64,12 @@ class UserReportController extends Controller
             ]);
             //send emal to user
             $this->sendEmail($user_id, $request->child_id);
+
+            $authUser = Auth::user();
+            if ($authUser['is_invited_from_lesson_planner']) {
+                $webhookController = new WebhookController();
+                $webhookController->updateLearningStyleDataInLessonPlanner($authUser['email'], $userReport);
+            }
 
             return response()->json(['message' => 'Reports created successfully.'], 201);
         } catch (\Throwable $exception) {
