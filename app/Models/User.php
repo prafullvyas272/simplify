@@ -61,7 +61,7 @@ class User extends Authenticatable
         "data->personal_goals",
         "data->professional_certificate",
         // "active_status",
-
+        "is_invited_from_lesson_planner",
     ];
 
     /**
