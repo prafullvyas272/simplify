@@ -157,8 +157,8 @@ const pageTitle = computed(() => {
 
                 <h2 class="text-4xl font-bold">Let’s get you started!</h2>
                 <h3 class="text-lg font-semibold">
-                    Dont have an account?
-                    <a href="/register/1" class="text-blue-500">Sign Up.</a>
+                    Already have an account?
+                    <a href="/login" class="text-blue-500">Sign in here</a>
                 </h3>
                 <div class="w-full flex flex-col gap-4 mt-10">
                     <h5 class="text-2xl font-bold"> Please let us know the age of your child that will be taking the
