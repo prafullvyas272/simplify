@@ -123,4 +123,10 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'brevo_api_url' => env('BREVO_API_URL'),
+    'brevo_api_key' => env('BREVO_API_KEY'),
+    'simplify_whatsapp_signup_list_id_in_brevo' => env('SIMPLIFY_WHATSAPP_SIGNUP_LIST_ID_IN_BREVO'),
+    'webhook_secret_token' => env('WEBHOOK_SECRET_TOKEN'),
+
+
 ];

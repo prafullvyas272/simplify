@@ -2,8 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\WhatsappSignupRequest;
+use App\Models\SimplifyWhatsappSignup;
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Http;
 
 class BrevoAPIController extends Controller
 {
@@ -76,6 +80,57 @@ class BrevoAPIController extends Controller
             ], 200);
 
         } catch (\Exception $e) {
+            return response()->json([
+                'status' => 'error',
+                'message' => $e->getMessage(),
+            ], 500);
+        }
+    }
+
+    /**
+     * Methot to send simplify whatsapp signup data to brevo
+     */
+    public function sendSimplifyWhatsappSignupDataToBrevo(WhatsappSignupRequest $request)
+    {
+        $client = new Client();
+        $apiKey = config('app.brevo_api_key');
+        $listId = config('app.simplify_whatsapp_signup_list_id_in_brevo');   // For sending
+
+        $data = [
+            "email" => $request->input('email'),
+            "attributes" => [
+                "NAME" => $request->input('first_name') . ' ' .  $request->input('last_name'),
+                "FIRSTNAME" => $request->input('first_name'),
+                "LASTNAME" => $request->input('last_name'),
+                "PHONE" => $request->input('phone'),
+            ],
+            "listIds" => [ (int) $listId],
+        ];
+
+        try {
+            $apiUrl = config('app.brevo_api_url') . 'contacts';
+            $apiHeaders = [
+                'api-key' => $apiKey,
+                'Content-Type' => 'application/json',
+            ];
+            $response = $client->post($apiUrl, [
+                'headers' => $apiHeaders,
+                'json' => $data,
+            ]);
+
+            if ($response->getStatusCode() === 201) {
+                return response()->json([
+                    'status' => 'success',
+                    'data' => 'Data sent to brevo successfully',
+                ], 200);
+            } else {
+                return response()->json([
+                    'status' => 'failed',
+                    'data' => 'Something went wrogn when sending data to brevo.',
+                ], 200);
+            }
+        } catch (\Exception $e) {
+            Log::error('Something went wrogn when sending data to brevo.' . $e);
             return response()->json([
                 'status' => 'error',
                 'message' => $e->getMessage(),
