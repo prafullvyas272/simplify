@@ -126,11 +126,11 @@ class BrevoAPIController extends Controller
             } else {
                 return response()->json([
                     'status' => 'failed',
-                    'data' => 'Something went wrogn when sending data to brevo.',
+                    'data' => 'Something went wrong when sending data to brevo.',
                 ], 200);
             }
         } catch (\Exception $e) {
-            Log::error('Something went wrogn when sending data to brevo.' . $e);
+            Log::error('Something went wrong when sending data to brevo.' . $e);
             return response()->json([
                 'status' => 'error',
                 'message' => $e->getMessage(),
