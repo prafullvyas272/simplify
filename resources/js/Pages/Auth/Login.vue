@@ -11,6 +11,7 @@ import InputField from "@/Components/InputField.vue";
 import TodaiInputBox from "@/Components/Todai/TodaiInputBox.vue";
 import TodaiButton from "@/Components/Todai/TodaiButton.vue";
 import { ref, onMounted, onUnmounted } from 'vue';
+import TodaiPasswordInputBox from "@/Components/Todai/TodaiPasswordInputBox.vue";
 
 defineProps({
     canResetPassword: {
@@ -91,7 +92,7 @@ onUnmounted(() => {
 
                         <div class="mt-4">
 
-                            <TodaiInputBox id="password" type="password" v-model="form.password" required
+                            <TodaiPasswordInputBox id="password" type="password" v-model="form.password" required
                                 placeholder="Password" autocomplete="current-password" />
                             <InputError class="mt-2" :message="form.errors.password" />
                         </div>
