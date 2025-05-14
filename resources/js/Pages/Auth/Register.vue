@@ -8,6 +8,7 @@ import Checkbox from "@/Components/Checkbox.vue";
 import { onMounted, ref, computed, onUnmounted } from "vue";
 import TodaiInputBox from "@/Components/Todai/TodaiInputBox.vue";
 import TodaiButton from "@/Components/Todai/TodaiButton.vue";
+import TodaiPasswordInputBox from "@/Components/Todai/TodaiPasswordInputBox.vue";
 
 const props = defineProps({
     countries: Object,
@@ -369,7 +370,7 @@ ismrorlarger .special_input {
                                     <label
                                         class="flex-1 text-sm text-brand-primary-text ml-1 font-medium">Password</label>
                                 </div>
-                                <TodaiInputBox id="password" type="password"
+                                <TodaiPasswordInputBox id="password" type="password"
                                     :class="{ '': true, 'input-error': form.hasTriedSubmit && !form.passwordValid }"
                                     v-model="form.password" required placeholder="Password" />
                                 <InputError class="mt-2"
@@ -381,7 +382,7 @@ ismrorlarger .special_input {
                                     <label class="flex-1 text-sm text-brand-primary-text ml-1 font-medium">Confirm
                                         Password</label>
                                 </div>
-                                <TodaiInputBox id="password_confirmation" type="password"
+                                <TodaiPasswordInputBox id="password_confirmation" type="password"
                                     :class="{ '': true, 'input-error': form.hasTriedSubmit && !form.passwordConfirmValid }"
                                     v-model="form.password_confirmation" required placeholder="Confirm Password" />
                                 <InputError class="mt-2"
