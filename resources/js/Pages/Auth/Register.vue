@@ -332,7 +332,7 @@ ismrorlarger .special_input {
                     <div v-if="current_step === 1" class="flex flex-col gap-3 ">
                         <h2 class="text-4xl font-bold">Let’s get you started!</h2>
                         <h3 class="text-lg font-semibold">
-                            Already a member testing?
+                            Already a member?
                             <a href="/login" class="text-blue-500">Log in.</a>
                         </h3>
                         <div class="flex w-full gap-2">
