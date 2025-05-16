@@ -5,6 +5,7 @@ import UpdatePasswordForm from './Partials/UpdatePasswordForm.vue';
 import UpdateProfileInformationForm from './Partials/UpdateProfileInformationForm.vue';
 import { Head } from '@inertiajs/vue3';
 import MainLayout from "@/Layouts/MainLayout.vue";
+import UpdateAccessTokenForm from './Partials/UpdateAccessTokenForm.vue';
 
 defineProps({
     mustVerifyEmail: {
@@ -13,6 +14,9 @@ defineProps({
     status: {
         type: String,
     },
+    authUser: {
+        type: Object,
+    }
 });
 </script>
 
@@ -32,6 +36,10 @@ defineProps({
 
                 <div class="p-4 sm:p-8 bg-transparent   ">
                     <UpdatePasswordForm class="max-w-xl" />
+                </div>
+
+                <div class="p-4 sm:p-8 bg-transparent   ">
+                    <UpdateAccessTokenForm class="max-w-xl" :authUser="authUser" />
                 </div>
 
                 <div class="p-4 sm:p-8 bg-transparent  ">
