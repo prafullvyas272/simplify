@@ -12,10 +12,7 @@
                 <div class="space-y-3 text-base text-gray-700">
                     <p>
                         If you do not have a Calendly account, please set one up at
-                        <Link :href="calendlyLink" target="_blank" rel="noopener noreferrer"
-                            class="text-blue-600 underline ml-1">
-                        {{ calendlyLink }}
-                        </Link>
+                        <a target="blank" href="https://calendly.com/"><b>https://calendly.com/</b></a>
                         and link your email that you want to use in Simplify.
                     </p>
                     <p>Please note, this should be the email address you have signed up with.</p>
