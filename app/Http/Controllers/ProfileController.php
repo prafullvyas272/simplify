@@ -29,6 +29,7 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Storage;
 use Inertia\Inertia;
 use Inertia\Response;
+use App\Http\Requests\CalendlyAccessTokenUpdateRequest;
 
 class ProfileController extends Controller
 {
@@ -37,7 +38,9 @@ class ProfileController extends Controller
      */
     public function edit(Request $request): Response
     {
+        $authUser = $request->user();
         return Inertia::render('Profile/Edit', [
+            'authUser' => $authUser,
             'mustVerifyEmail' => $request->user() instanceof MustVerifyEmail,
             'status' => session('status'),
         ]);
@@ -652,5 +655,22 @@ class ProfileController extends Controller
         ]);
     }
 
+    /**
+     * Method to show add calendly page
+     */
+    public function showAddCalendlyPage()
+    {
+        return Inertia::render('Calendly/AddCalendly');
+    }
 
+    /**
+     * Method to update calendly_access_token for users
+     */
+    public function updateCalendlyAccessToken(CalendlyAccessTokenUpdateRequest $request)
+    {
+        $request->user()->update(['calendly_access_token' => $request->input('calendly_access_token')]);
+
+        return redirect()->back()->with('message', 'Calendly Access Token updated successfully.');
+
+    }
 }

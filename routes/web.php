@@ -326,6 +326,8 @@ Route::middleware(["auth", \App\Http\Middleware\CheckAssessmentAvailableMiddlewa
     // Route::get("notes/sessions" , [CoachUserController::class , "index_for_note"])->name("notes.sessions");
     // Route::resource("notes" , \App\Http\Controllers\NoteController::class);
     // Route::get("/me" , [ProfileController::class, 'me'])->name("profile.me");
+    Route::get('add-calendly-token', [ProfileController::class, 'showAddCalendlyPage'])->name('profile.showAddCalendlyPage');
+    Route::post('add-calendly-token', [ProfileController::class, 'updateCalendlyAccessToken'])->name('profile.updateCalendlyToken');
 });
 
 
