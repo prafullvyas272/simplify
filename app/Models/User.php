@@ -61,7 +61,9 @@ class User extends Authenticatable
         "data->personal_goals",
         "data->professional_certificate",
         // "active_status",
+
         "is_invited_from_lesson_planner",
+
         'calendly_access_token',
     ];
 
@@ -197,5 +199,10 @@ class User extends Authenticatable
     public function notes()
     {
         return $this->hasMany(Note::class);
+    }
+
+    public function childrens()
+    {
+        return $this->hasMany(Child::class, 'user_id');
     }
 }

@@ -47,45 +47,29 @@ class DiscAssessmentController extends Controller
         // return Inertia::render("DiscAssessments/DiscAssessmentQuestions");
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(StoreAssessmentRequest $request)
-    {
-        //
-    }
 
     /**
-     * Display the specified resource.
+     * Show the form for taking second term disc assessment.
      */
-    public function show(Assessment $assessment)
+    public function showSecondTermAssessmentForm($id)
     {
-        //
+        $childDetail = Child::where('id', $id)->first();
+        if(empty($childDetail)){
+            return redirect()->route('homepage');
+        }
+        $assessmentApiUrl = config('app.assessment_api_url');
+        return Inertia::render('DiscAssessments/SecondTermDiscAssessmentQuestions', [
+            "childId" => $id,
+            "childDetail" => $childDetail,
+            'assessmentApiUrl' => $assessmentApiUrl,
+        ]);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Assessment $assessment)
-    {
-        //
-    }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(UpdateAssessmentRequest $request, Assessment $assessment)
-    {
-        //
-    }
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Assessment $assessment)
-    {
-        //
-    }
+
+
+
 
     public function mine()
     {

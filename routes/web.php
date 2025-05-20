@@ -91,6 +91,19 @@ Route::middleware(["auth"])->group(function (){
 
     Route::get("/information/create" , [RegisteredUserController::class , "create_information"])->name("users.create_information");
     Route::inertia("processing" , "AssessmentWait")->name("assessments.wait");
+
+    // Second term routes
+    Route::prefix('second-term')->group(function () {
+        Route::get('/thank-you-message/{id}',[PaymentController::class , "showSecondTermThankyouPage"])->name('showSecondTermThankyouPage');
+        Route::get("/note-for-parents/{id}" ,[PaymentController::class, 'showSecondTermNoteForParentsPage'])->name("showSecondTermNoteForParentsPage");
+        Route::get("/ready-to-discover/{id}" , [PaymentController::class, 'showSecondTermReadyToDiscoverPage'])->name("showSecondTermReadyToDiscoverPage");
+        Route::get("/disc-assessments/create/{id}" , [DiscAssessmentController::class , "showSecondTermAssessmentForm"])->name("disc.showSecondTermAssessmentForm");
+        Route::get("/learning-assessments/create/{id}" , [LearningAssessmentController::class , "showSecondTermAssessmentForm"])->name("learning.showSecondTermAssessmentForm");
+        Route::get('/completed-disc-assessment/{id}', [ProfileController::class, 'showSecondTermCompletedAssessmentPage'])->name('showCompletedAssessmentPage');
+        Route::get('/disc/assessments/{id}', [PaymentController::class, 'showSecondTermDiscAssessmentBefore'])->name('showSecondTermDiscAssessmentBefore');
+    });
+
+
     //assessments
     // Route::get("/assessments/pay", function (){
     //     $payment= \App\Models\Payment::create([
