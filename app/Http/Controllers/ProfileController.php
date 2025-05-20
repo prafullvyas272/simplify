@@ -655,4 +655,27 @@ class ProfileController extends Controller
         return redirect()->back()->with('message', 'Calendly Access Token updated successfully.');
 
     }
+
+    public function showSecondTermCompletedAssessmentPage($id): Response|RedirectResponse
+    {
+        $childDetail = Child::where('id', $id)->where('payment_status','paid')->first();
+        if(empty($childDetail)){
+            return redirect()->route('homepage');
+        }
+        $countries=CountriesHelper::get_countries();
+        $languages=LanguageHelper::get_languages();
+        $industries=Industry::all();
+
+        return Inertia::render('SecondTerm/DiscAssessmentComplete', [
+            "user"=>Auth::user()->makeVisible(["data" , "country_id","birthday" ])->load([
+                "languages:id",
+                "industries:id",
+            ]),
+            "countries"=>$countries,
+            "languages"=>$languages,
+            "industries"=>$industries,
+            "childId" => $id,
+            "childDetail" => $childDetail,
+        ]);
+    }
 }
