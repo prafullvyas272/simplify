@@ -222,6 +222,12 @@ Route::middleware(["auth" ])->group(function (){
     Route::post('/store-user-que-ans', [UserReportController::class, 'storeReportData'])->name('store.user-que-ans');
     Route::post('/store-user-que-ans', [UserReportController::class, 'storeDiscReportData'])->name('store.user-que-ans');
 
+    // Route to show the welcome page to invited user from lessonplanner
+    Route::get('/welcome-user', [ProfileController::class, 'showWelcomeUserPage'])->name('profile.showWelcomeUserPage');
+
+    // Route to show the completed assessment page to invited user from lessonplanner
+    Route::get('/welcome-user-assessment-completed/{id}', [ProfileController::class, 'showCompletedAssessmentPageToInvitedUSer'])->name('profile.showCompletedAssessmentPageToInvitedUSer');
+
 
 
 

@@ -179,6 +179,8 @@ export default {
             type: Object,
             default: () => ({}), // Provide an empty object as the default value
         },
+        assessmentUrl: String,
+        isInvitedFromLessonPlanner: Boolean,
     },
     data() {
         return {
@@ -297,8 +299,9 @@ export default {
                             learn: response.data.learn,
                         };
                         // Post the data to the API
+                        const apiUrl = this.assessmentUrl + 'assessment/result';
                         axios
-                            .post("https://todai.blueskythinkingtesting.com/unify-kids/api/assessment/result", payload)
+                            .post(apiUrl, payload)  // todo: SHOULD NOT BE HARDCODED
                             .then((response) => {
                                 // console.log(response);
                                 // this.submitting = false;
@@ -315,7 +318,14 @@ export default {
                                             learn_scores: response.data.data.learn_scores.learn_scores ?? null,
 
                                         }).then(response => {
-                                            window.location.href = `/welcome/${this.childDetail.id}`;
+                                            console.log(response);
+                                            this.submitting = false;
+                                            if (this.isInvitedFromLessonPlanner) {
+                                                window.location.href = `/welcome-user-assessment-completed/${this.childDetail.id}`;
+                                            } else {
+                                                window.location.href = `/welcome/${this.childDetail.id}`;
+                                            }
+
                                     })
                                 }
                             })
@@ -385,7 +395,7 @@ export default {
                 userType = 'teens';
             }
 
-            var getQuestionUrlEndPoint = `https://todai.blueskythinkingtesting.com/unify-kids/api/assessment/disc?type=${userType}`;
+            var getQuestionUrlEndPoint = `${this.assessmentUrl}/assessment/disc?type=${userType}`;
 
             axios
                 .get(getQuestionUrlEndPoint)

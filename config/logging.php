@@ -127,6 +127,13 @@ return [
             'path' => storage_path('logs/laravel.log'),
         ],
 
+        'webhooks' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/webhooks/webhooks.log'),
+            'level' => 'info',
+            'days' => 7, // Keep logs for 7 days
+        ],
+
     ],
 
 ];
