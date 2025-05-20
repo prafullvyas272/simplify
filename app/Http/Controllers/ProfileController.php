@@ -700,15 +700,5 @@ class ProfileController extends Controller
         ]);
     }
 
-    /**
-     * Method to update calendly_access_token for users
-     */
-    public function updateCalendlyAccessToken(CalendlyAccessTokenUpdateRequest $request)
-    {
-        $request->user()->update(['calendly_access_token' => $request->input('calendly_access_token')]);
-
-        return redirect()->back()->with('message', 'Calendly Access Token updated successfully.');
-
-
-    }
+    
 }
