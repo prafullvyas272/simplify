@@ -197,4 +197,9 @@ class User extends Authenticatable
     {
         return $this->hasMany(Note::class);
     }
+
+    public function childrens()
+    {
+        return $this->hasMany(Child::class, 'user_id');
+    }
 }
