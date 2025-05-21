@@ -24,6 +24,7 @@ use Illuminate\Support\Facades\Route;
 use Laravel\Cashier\Cashier;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\PricingController;
+use App\Http\Controllers\SecondTermAssessmentController;
 
 require __DIR__.'/auth.php';
 
@@ -101,6 +102,12 @@ Route::middleware(["auth"])->group(function (){
         Route::get("/learning-assessments/create/{id}" , [LearningAssessmentController::class , "showSecondTermAssessmentForm"])->name("learning.showSecondTermAssessmentForm");
         Route::get('/completed-disc-assessment/{id}', [ProfileController::class, 'showSecondTermCompletedAssessmentPage'])->name('showCompletedAssessmentPage');
         Route::get('/disc/assessments/{id}', [PaymentController::class, 'showSecondTermDiscAssessmentBefore'])->name('showSecondTermDiscAssessmentBefore');
+
+
+        Route::get("reports/assessments/{type}/{user}" , [SecondTermAssessmentController::class , "showKidsDiscStyleReport"])->name("secondTerm.showKidsDiscStyleReport");
+        // Route::get("kids/learning-style/reports/assessments/{type}/{user}" , [AssessmentController::class , "kidsLearningStyle"])->name("assessments.kidsLearningStyle");
+        // Route::get("teens/reports/assessments/{type}/{user}" , [AssessmentController::class , "teensDiscStyle"])->name("assessments.teensDiscStyle");
+        // Route::get("teens/learning-style/reports/assessments/{type}/{user}" , [AssessmentController::class , "teensLearningStyle"])->name("assessments.teensLearningStyle");
     });
 
 
