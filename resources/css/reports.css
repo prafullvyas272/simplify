@@ -1,0 +1,72 @@
+div.col-6>h4.font-medium,
+li>div>h4,
+div.space-y-2>h4.font-medium {
+    color: rgb(36, 168, 250);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+div.col-6>h4.font-medium,
+li>div>h4,
+strong,
+div.space-y-2>h4.font-medium {
+    color: rgb(36, 168, 250);
+    font-weight: bold;
+    color: #fa25c4;
+    /* font-size: 19px; */
+}
+
+h2,
+.p-6>.row>.col-6>h2 {
+    color: rgb(55 48 163);
+    font-weight: bold !important;
+}
+
+ul>li {
+    margin-top: 17px;
+}
+
+p,
+ul>li {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+/* Add these new mobile responsive styles */
+@media (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+
+    .col-6 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .p-6 {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem !important;
+    }
+
+    /* Adjust image container on mobile */
+    .col-6 .flex.justify-center.items-center {
+        margin: 1rem 0;
+    }
+
+    /* Adjust spacing between sections */
+    .row+.row {
+        margin-top: 1rem;
+    }
+
+    ul.list-disc {
+        padding-left: 1rem;
+    }
+}
