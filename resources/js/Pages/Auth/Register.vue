@@ -326,7 +326,7 @@ ismrorlarger .special_input {
         <div class=" w-full h-full bg-white text-black">
             <div class="md:px-18 lg:px-28 flex flex-col justify-center items-center w-full h-full"
                 :class="{ 'px-4 mb-4': !isMdOrLarger }">
-                <div class="w-full flex flex-col gap-4">
+                <div class="w-full flex flex-col gap-4" :class="{ 'pt-20' : form.hasTriedSubmit }" >
                     <img src="/images/simplify-logo-crop.png" alt="Logo" style="width: 220px; align-self: center;" />
                     <!-- First Step Code -->
                     <div v-if="current_step === 1" class="flex flex-col gap-3 ">
