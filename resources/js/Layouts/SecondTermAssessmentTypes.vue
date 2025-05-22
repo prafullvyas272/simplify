@@ -51,7 +51,7 @@
                                 type: type.link,
                             })
                                 ">
-                        {{ type.text }}
+                        {{ getSideBarMenuName(type) }}
                         </Link>
                     </div>
                 </li>
@@ -162,15 +162,25 @@ export default {
             this.isMdOrLarger = window.innerWidth >= 768;
             this.isSidebarOpen = window.innerWidth >= 768; // Desktop pe auto open
         },
+        getSideBarMenuName(type) {
+            const text = type?.text;
+            const isDynamicData = type?.isDynamicData;
+            if (isDynamicData && type?.childNameNeeded) {
+                return text.replace('[Child’s Name]', this.$attrs?.childName);
+            } else if (isDynamicData && type?.discStyleNeeded) {
+                return text.replace('[Disc Style]', 'SI');      //TODO: style should be dynamic and with full-form
+            } else {
+                return text;
+            }
+        }
     },
     updated() {
         console.log('updated______resize');
         window.addEventListener("resize", this.handleResize);
         this.checkScreenSize();
-        this.get_teens_active_type();
+        // this.get_teens_active_type();
     },
     mounted() {
-        console.log('mounted______resize');
         window.removeEventListener("resize", this.handleResize);
         this.checkScreenSize();
     },

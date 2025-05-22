@@ -25,7 +25,7 @@
             </div>
             <div class="col-6">
                 <div class="flex justify-center items-center">
-                    <img class="w-64 h-auto object-contain" :src="'/images/second-term/kids-disc-images/3.png'"
+                    <img class="w-96 h-auto object-contain" :src="'/images/second-term/kids-disc-images/3.svg'"
                         alt="" />
                 </div>
             </div>
@@ -33,7 +33,7 @@
 
         <div class="row mt-4 p-6">
             <div class="col-6 flex justify-center items-center">
-                <img class="w-64 h-auto object-contain" :src="'/images/second-term/kids-disc-images/4.png'" alt="" />
+                <img class="w-96 h-auto object-contain" :src="'/images/second-term/kids-disc-images/4.svg'" alt="" />
             </div>
             <div class="col-6">
                 <p class="mb-4">
@@ -54,7 +54,7 @@
                 continue to grow.
             </p>
             <div class="flex justify-center items-center">
-                <img class="w-90 h-auto object-contain" :src="'/images/second-term/kids-disc-images/5.png'" alt="" />
+                <img class="w-96 h-auto object-contain" :src="'/images/second-term/kids-disc-images/6.svg'" alt="" />
             </div>
         </div>
 

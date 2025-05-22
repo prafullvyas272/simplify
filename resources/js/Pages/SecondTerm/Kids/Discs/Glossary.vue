@@ -18,7 +18,7 @@
             <div class="w-full md:w-1/2 flex justify-center">
                 <img
                     class="w-240 max-h-[1800px] object-contain"
-                    :src="'/images/second-term/kids-disc-images/115.png'"
+                    :src="'/images/second-term/kids-disc-images/115.svg'"
                     alt=""
                 />
             </div>
@@ -49,13 +49,13 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 .chart {
     height: 600px;
 }
 
 .board-image {
-    background-image: url("/images/second-term/kids-disc-images/9.png");
+    background-image: url("/images/second-term/kids-disc-images/9.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -25,11 +25,14 @@ class SecondTermAssessmentController extends Controller
             //     return redirect()->route('thanks.you', ['id' => $childId]);
             // }
             $child = Child::whereId($childId)->first();
-            // $childName = $child ? $child['child_name'] : "";
-            // $style = $userReport['style'];
-            // $discScores = $userReport['disc_scores'];
+            $childName = $child ? $child['child_name'] : "";
+            $style = $userReport['style'] ?? 'SI';   //TODO: need to remove
+            $discScores = $userReport['disc_scores'] ?? '{"C":4,"D":7,"I":6,"S":3}';
             $propsData = [
                 'authUser' => $authUser,
+                'childName' => $childName,
+                'discStyle' => $style,
+                'discScores' => $discScores,
             ];
 
             return match ($type) {

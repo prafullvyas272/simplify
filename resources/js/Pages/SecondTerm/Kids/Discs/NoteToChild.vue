@@ -2,22 +2,22 @@
     <div class="flex flex-col justify-center items-center mt-4 px-4">
         <div class="w-full relative mb-10 text-center">
             <h1 class="text-3xl sm:text-5xl font-bold">
-                A Note to [Child’s Name]
+                A Note to {{ childName }}
             </h1>
         </div>
     </div>
     <div class="p-6 pt-0">
-        <div class="flex flex-wrap p-6">
-            <div class="w-full md:w-1/2 flex justify-center">
+        <div class="flex flex-wrap px-6">
+            <div class="w-full md:w-1/2 flex items-center">
                 <img
-                    class="w-full max-h-[400px] object-contain"
-                    :src="'/images/second-term/kids-disc-images/7.png'"
+                    class="w-96 object-contain"
+                    :src="'/images/second-term/kids-disc-images/7.svg'"
                     alt=""
                 />
             </div>
             <div class="w-full md:w-1/2 flex items-center">
                 <div class="space-y-4">
-                    <p>Hi [Child’s Name]!</p>
+                    <p>Hi {{ childName }}!</p>
                     <p>
                         This report is all about you - the way you think, the
                         way you do things, and the way you show up in the world.
@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-wrap p-6">
+        <div class="flex flex-wrap px-6">
             <div class="w-full md:w-1/2 flex items-center">
                 <div class="space-y-4">
                     <p class="">
@@ -53,7 +53,7 @@
             <div class="w-full md:w-1/2 flex justify-center">
                 <img
                     class="w-full max-h-[400px] object-contain"
-                    :src="'/images/second-term/kids-disc-images/8.png'"
+                    :src="'/images/second-term/kids-disc-images/8.svg'"
                     alt=""
                 />
             </div>
@@ -74,13 +74,13 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 .chart {
     height: 600px;
 }
 
 .board-image {
-    background-image: url("/images/second-term/kids-disc-images/9.png");
+    background-image: url("/images/second-term/kids-disc-images/10.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

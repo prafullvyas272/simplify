@@ -17,8 +17,8 @@
                 <div class="">
                     <div class="flex justify-center">
                         <img
-                            class="w-full object-contain chart"
-                            :src="'/images/second-term/kids-disc-images/6.png'"
+                            class="w-full object-contain"
+                            :src="'/images/second-term/kids-disc-images/5.svg'"
                             alt=""
                         />
                     </div>
