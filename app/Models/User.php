@@ -66,6 +66,7 @@ class User extends Authenticatable
         "is_invited_from_lesson_planner",
 
         'calendly_access_token',
+        'school_name',
     ];
 
     /**
