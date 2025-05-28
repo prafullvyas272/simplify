@@ -528,6 +528,7 @@ class ProfileController extends Controller
             'gender' => 'required',
             'child_type' => 'required',
             'style_type' => 'nullable',
+            'school_name' => 'nullable',
 
         ]);
 
@@ -548,7 +549,7 @@ class ProfileController extends Controller
             'key_interests' => $request->key_interests,
             'learning_goals' => $request->learning_goals,
             'style_type' => $request->style_type,
-
+            'school_name' => $request->school_name,
         ]);
 
         $parentDetail = simplifyParentDetail::where('user_id',Auth::user()->id)->first();
