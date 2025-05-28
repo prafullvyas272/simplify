@@ -90,12 +90,8 @@
                         </div>
                     </div>
 
-                    <!-- Additional Fields -->
-                    <div
-                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6"
-                    >
-
-                        <div v-if="user.country_id == 247">
+                    <div v-if="user.country_id == 247" class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 space-y-6">
+                        <div>
                             <label class="block text-sm font-semibold"
                                 >School Name</label
                             >
@@ -116,6 +112,26 @@
                                 </option>
                             </select>
                         </div>
+
+                        <p class="text-center font-bold">Or</p>
+
+                        <div>
+                            <input
+                                type="text"
+                                v-model="form.school_name"
+                                placeholder="Enter school name here"
+                                class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none"
+                                :class="{ 'input-error': errors.school_name }"
+                            />
+                        </div>
+                    </div>
+
+                    <!-- Additional Fields -->
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6"
+                    >
+
+
 
                         <div>
                             <label class="block text-sm font-semibold"
@@ -386,6 +402,7 @@ export default {
                 key_interests: [],
                 learning_goals: [],
                 style_type: "",
+                school_name: "",
             };
         },
 
