@@ -456,4 +456,48 @@ class PaymentController extends Controller
             ]
         );
     }
+
+    public function showSecondTermThankyouPage($id)
+    {
+        return Inertia::render('SecondTerm/ThankyouMessage', [
+            "childId" => $id,
+        ]);
+    }
+
+    public function showSecondTermNoteForParentsPage($id)
+    {
+        $childDetail = Child::where('id', $id)->first();
+        if (empty($childDetail)) {
+            return redirect()->route('homepage');
+        }
+        return Inertia::render('SecondTerm/NoteForParents', [
+            "childId" => $id,
+        ]);
+    }
+
+
+    public function showSecondTermReadyToDiscoverPage($id)
+    {
+        $childDetail = Child::where('id', $id)->first();
+        if (empty($childDetail)) {
+            return redirect()->route('homepage');
+        }
+        return Inertia::render('SecondTerm/ReadyToDiscover', [
+            "childId" => $id,
+            "childDetail" => $childDetail,
+        ]);
+    }
+
+    public function showSecondTermDiscAssessmentBefore($id)
+    {
+        $childDetail = Child::where('id', $id)->first();
+        // dd($childDetail);
+        if (empty($childDetail)) {
+            return redirect()->route('homepage');
+        }
+        return Inertia::render('SecondTerm/DiscAssessmentBefore', [
+            "childId" => $id,
+            "childDetail" => $childDetail,
+        ]);
+    }
 }

@@ -1,0 +1,123 @@
+const kidsDiscReportMenus = [
+    {
+        link:"welcome",
+        text:"Welcome",
+        title:"Welcome",
+        isDynamicData: false,
+    },
+    {
+        link:"disc-personality-framework",
+        text:" What is the DISC Personality Framework?",
+        title:" What is the DISC Personality Framework?",
+        isDynamicData: false,
+    },
+    {
+        link:"note-for-your-child",
+        text:"A Note to [Child’s Name]",
+        title:"A Note to [Child’s Name]",
+        isDynamicData: true,
+    },
+    {
+        link:"results",
+        text:"[Child’s Name]’s Results at a Glance",
+        title:"[Child’s Name]’s Results at a Glance",
+        isDynamicData: false,
+    },
+    {
+        link: "understanding-style",
+        text: "Understanding the Supportive-Influential (SI) Style",
+        title: "Understanding the Supportive-Influential (SI) Style",
+        isDynamicData: true,
+    },
+    {
+        link: "thinking-and-decisions",
+        text: "How They Think and Make Decisions",
+        title: "How They Think and Make Decisions",
+        isDynamicData: false,
+    },
+    {
+        link: "motivation",
+        text: "What Motivates Them Most",
+        title: "What Motivates Them Most",
+        isDynamicData: false,
+    },
+    {
+        link: "how-they-express-themselves",
+        text: "How They Express Themselves",
+        title: "How They Express Themselves",
+        isDynamicData: false,
+    },
+    {
+        link: "emotions-and-reactions",
+        text: "Understanding Their Emotions and Reactions",
+        title: "Understanding Their Emotions and Reactions",
+        isDynamicData: false,
+    },
+    {
+        link: "tackle-problems",
+        text: "How They Tackle Problems",
+        title: "How They Tackle Problems",
+        isDynamicData: false,
+    },
+    {
+        link: "independence-and-responsibility",
+        text: "Building Independence and Responsibility",
+        title: "Building Independence and Responsibility",
+        isDynamicData: false,
+    },
+    {
+        link: "energy-and-focus",
+        text: "Managing Their Energy and Focus",
+        title: "Managing Their Energy and Focus",
+        isDynamicData: false,
+    },
+    {
+        link: "set-and-stick-to-goals",
+        text: "Helping Them Set and Stick to Goals",
+        title: "Helping Them Set and Stick to Goals",
+        isDynamicData: false,
+    },
+    {
+        link: "working-and-playing",
+        text: "Working and Playing With Others",
+        title: "Working and Playing With Others",
+        isDynamicData: false,
+    },
+    {
+        link: "helping-at-home",
+        text: "Helping at Home – Everyday Tips",
+        title: "Helping at Home – Everyday Tips",
+        isDynamicData: false,
+    },
+    {
+        link: "supporting-them-in-classroom",
+        text: "Supporting Them in the Classroom",
+        title: "Supporting Them in the Classroom",
+        isDynamicData: false,
+    },
+    {
+        link: "fun-ways-for-building-skills",
+        text: "Fun Ways to Build Their Skills",
+        title: "Fun Ways to Build Their Skills",
+        isDynamicData: false,
+    },
+    {
+        link: "helpful-words",
+        text: "Helpful Words to Use (Encouragement & Guidance)",
+        title: "Helpful Words to Use (Encouragement & Guidance)",
+        isDynamicData: false,
+    },
+    {
+        link: "keep-an-eye",
+        text: "What to Keep an Eye On as They Grow",
+        title: "What to Keep an Eye On as They Grow",
+        isDynamicData: false,
+    },
+    {
+        link: "glossary",
+        text: "Glossary – Understanding the DISC Styles",
+        title: "Glossary – Understanding the DISC Styles",
+        isDynamicData: false,
+    }
+];
+export default kidsDiscReportMenus;

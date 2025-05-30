@@ -640,6 +640,26 @@ class ProfileController extends Controller
     }
 
 
+
+    public function showWelcomeUserPage()
+    {
+        $authUser = Auth::user();
+        $child = Child::whereUserId($authUser['id'])->first();
+        return Inertia::render('InvitedUser/WelcomeInvitedUser', [
+            'authUser' => Auth::user(),
+            'child' => $child,
+            'pakageId' => $child['child_type'] == 'teen' ? 2 : 1,    // 2 is for teen pakage and 1 is for kids pakage
+        ]);
+    }
+
+    public function showCompletedAssessmentPageToInvitedUSer($childId)
+    {
+        return Inertia::render('InvitedUser/AssessmentCompletedPage', [
+            'authUser' => Auth::user(),
+        ]);
+    }
+
+
     /**
      * Method to show add calendly page
      */
@@ -647,6 +667,7 @@ class ProfileController extends Controller
     {
         return Inertia::render('Calendly/AddCalendly');
     }
+
 
     /**
      * Method to update calendly_access_token for users
@@ -658,4 +679,29 @@ class ProfileController extends Controller
         return redirect()->back()->with('message', 'Calendly Access Token updated successfully.');
 
     }
+
+    public function showSecondTermCompletedAssessmentPage($id): Response|RedirectResponse
+    {
+        $childDetail = Child::where('id', $id)->where('payment_status','paid')->first();
+        if(empty($childDetail)){
+            return redirect()->route('homepage');
+        }
+        $countries=CountriesHelper::get_countries();
+        $languages=LanguageHelper::get_languages();
+        $industries=Industry::all();
+
+        return Inertia::render('SecondTerm/DiscAssessmentComplete', [
+            "user"=>Auth::user()->makeVisible(["data" , "country_id","birthday" ])->load([
+                "languages:id",
+                "industries:id",
+            ]),
+            "countries"=>$countries,
+            "languages"=>$languages,
+            "industries"=>$industries,
+            "childId" => $id,
+            "childDetail" => $childDetail,
+        ]);
+    }
+
+    
 }

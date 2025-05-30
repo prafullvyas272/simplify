@@ -31,56 +31,45 @@ class DiscAssessmentController extends Controller
     public function create($id)
     {
         $childDetail = Child::where('id', $id)->first();
+        $assessmentUrl = config('app.unify_kids_assessment_url');
+        $user = User::whereId($childDetail['user_id'])->first();
+        $isInvitedFromLessonPlanner = $user['is_invited_from_lesson_planner'];
         if(empty($childDetail)){
             return redirect()->route('homepage');
         }
         return Inertia::render('DiscAssessments/DiscAssessmentQuestions', [
             "childId" => $id,
             "childDetail" => $childDetail,
+            'assessmentUrl' => $assessmentUrl,
+            'isInvitedFromLessonPlanner' => $isInvitedFromLessonPlanner,
         ]);
 
         // return Inertia::render("DiscAssessments/DiscAssessmentQuestions");
     }
 
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(StoreAssessmentRequest $request)
-    {
-        //
-    }
 
     /**
-     * Display the specified resource.
+     * Show the form for taking second term disc assessment.
      */
-    public function show(Assessment $assessment)
+    public function showSecondTermAssessmentForm($id)
     {
-        //
+        $childDetail = Child::where('id', $id)->first();
+        if(empty($childDetail)){
+            return redirect()->route('homepage');
+        }
+        $assessmentApiUrl = config('app.assessment_api_url');
+        return Inertia::render('DiscAssessments/SecondTermDiscAssessmentQuestions', [
+            "childId" => $id,
+            "childDetail" => $childDetail,
+            'assessmentApiUrl' => $assessmentApiUrl,
+        ]);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(Assessment $assessment)
-    {
-        //
-    }
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(UpdateAssessmentRequest $request, Assessment $assessment)
-    {
-        //
-    }
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(Assessment $assessment)
-    {
-        //
-    }
+
+
+
 
     public function mine()
     {
