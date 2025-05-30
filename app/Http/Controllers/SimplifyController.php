@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\AdditionalMember;
 use App\Models\SimplifyChildDetail;
 use App\Models\simplifyParentDetail;
 use App\Models\User;
@@ -71,6 +72,10 @@ class SimplifyController extends Controller
             'date_of_birth' => 'required|date',
             'country_code' => 'required',
             'city' => 'required|string|min:2|max:255',
+            'additonal_member_first_name' =>  'required|string|min:2|max:255',
+            'additonal_member_last_name' => 'required|string|min:2|max:255',
+            'additonal_member_email' => 'required|email|min:2|max:255',
+            'additonal_member_phone' => 'required|string|max:15',
         ]);
 
         $data = [
@@ -87,6 +92,23 @@ class SimplifyController extends Controller
             'country_code' => $request->country_code,
             'city' => $request->city,
         ];
+
+        $authUser = Auth::user();
+
+        $additionalMemberData = [
+            'first_name' => $request->additonal_member_first_name ,
+            'last_name' =>  $request->additonal_member_last_name ,
+            'email' =>  $request->additonal_member_email ,
+            'phone' =>  $request->additonal_member_phone ,
+            'user_id' => $authUser['id'],
+        ];
+
+        if ($additionalMember = AdditionalMember::whereUserId($authUser['id'])->first()) {
+            $additionalMember->update($additionalMemberData);
+        } else {
+            AdditionalMember::create($additionalMemberData);
+        }
+
 
         $parentDetail->update($data);
 

@@ -59,51 +59,47 @@
 
 
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-4">
-                                <div class="flex flex-col">
-                                    <label class="block text-sm font-semibold min-h-[40px] flex items-center">Country of
-                                        Residence*</label>
-                                    <select v-model="form.country_id" @change="validateField('country_id')"
-                                        class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none"
-                                        :class="{ 'input-error': errors.country_id }">
-                                        <option value="" disabled>Select your country</option>
-                                        <option v-for="country in countries" :key="country.id" :value="country.id">
-                                            {{ country.name }}
-                                        </option>
-                                    </select>
-                                </div>
+                        <div class="flex flex-col">
+                            <label class="block text-sm font-semibold min-h-[40px] flex items-center">Country of
+                                Residence*</label>
+                            <select v-model="form.country_id" @change="validateField('country_id')"
+                                class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none"
+                                :class="{ 'input-error': errors.country_id }">
+                                <option value="" disabled>Select your country</option>
+                                <option v-for="country in countries" :key="country.id" :value="country.id">
+                                    {{ country.name }}
+                                </option>
+                            </select>
+                        </div>
 
 
-                                <!-- City/town -->
-                                <div class="flex flex-col">
-                                    <label
-                                        class="block text-sm font-semibold min-h-[40px] flex items-center">City/Town*</label>
-                                        <select v-model="form.city" @change="validateField('city')"
-                                        class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none"
-                                        :class="{ 'input-error': errors.city }">
-                                        <option value="" disabled>Select your city</option>
-                                        <option v-for="cityData in cities" :key="cityData"
-                                            :value="cityData">
-                                            {{ cityData }}
-                                        </option>
-                                    </select>
-                                </div>
+                        <!-- City/town -->
+                        <div class="flex flex-col">
+                            <label class="block text-sm font-semibold min-h-[40px] flex items-center">City/Town*</label>
+                            <select v-model="form.city" @change="validateField('city')"
+                                class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none"
+                                :class="{ 'input-error': errors.city }">
+                                <option value="" disabled>Select your city</option>
+                                <option v-for="cityData in cities" :key="cityData" :value="cityData">
+                                    {{ cityData }}
+                                </option>
+                            </select>
+                        </div>
 
-                                <!-- Timezone -->
-                                <div class="flex flex-col">
-                                    <label
-                                        class="block text-sm font-semibold min-h-[40px] flex items-center">Timezone*</label>
-                                    <select v-model="form.timezone_id" @change="validateField('timezone_id')"
-                                        class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none"
-                                        :class="{ 'input-error': errors.timezone_id }">
-                                        <option value="" disabled>Select your timezone</option>
-                                        <option v-for="timezone in filteredTimezones" :key="timezone.id"
-                                            :value="timezone.id">
-                                            {{ timezone.identifier }} ({{ timezone.offset }})
-                                        </option>
-                                    </select>
-                                </div>
+                        <!-- Timezone -->
+                        <div class="flex flex-col">
+                            <label class="block text-sm font-semibold min-h-[40px] flex items-center">Timezone*</label>
+                            <select v-model="form.timezone_id" @change="validateField('timezone_id')"
+                                class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none"
+                                :class="{ 'input-error': errors.timezone_id }">
+                                <option value="" disabled>Select your timezone</option>
+                                <option v-for="timezone in filteredTimezones" :key="timezone.id" :value="timezone.id">
+                                    {{ timezone.identifier }} ({{ timezone.offset }})
+                                </option>
+                            </select>
+                        </div>
 
-                            </div>
+                    </div>
 
                     <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                         <div>
@@ -146,7 +142,8 @@
                     </div>
                     <div>
                         <p>
-                           <b>Note:</b> Please make sure this number is the correct number you use for WhatsApp in order to use Simplify
+                            <b>Note:</b> Please make sure this number is the correct number you use for WhatsApp in
+                            order to use Simplify
                         </p>
                     </div>
 
@@ -192,6 +189,52 @@
                             class="h-1.5 w-full bg-gradient-to-r from-[#DDB7FF] via-[#FFD7F5] via-[#FFF8E3] to-[#FF83DF] flex flex-row">
                         </div>
                     </div>
+
+
+                    <!-- AdditionalMember Section -->
+
+                    <div class="">
+                        <!-- <h3 class="text-center text-xl font-bold text-[#1D355D] mb-4">
+              Want to Add Your Partner?
+            </h3> -->
+                        <h2 class="text-center text-3xl font-black text-[#1D355D] mb-4">
+                            Want to Add Additional Members?
+                        </h2>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold">First Name</label>
+                                <input v-model="form.additonal_member_first_name" type="text" max="25"
+                                    class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none" />
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold">Last Name</label>
+                                <input v-model="form.additonal_member_last_name" type="text" max="25"
+                                    class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none" />
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-semibold">Email</label>
+                                <input v-model="form.additonal_member_email" type="email" max="55"
+                                    class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none" />
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-semibold">Phone</label>
+                                <input v-model="form.additonal_member_phone" type="text"
+                                    class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none" />
+                            </div>
+                        </div>
+                        <p class="my-4">
+                            To make sure they receive invites and reminders from Simplify, just include their name in
+                            the WhatsApp message when you're adding an event — for example:
+                            “Add [Name] to Parents’ Evening on Tuesday at 4pm.”
+                            Alternatively, you can CC them in the email when emails.
+                        </p>
+                        <div
+                            class="h-1.5 w-full mt-4 bg-gradient-to-r from-[#DDB7FF] via-[#FFD7F5] via-[#FFF8E3] to-[#FF83DF] flex flex-row">
+                        </div>
+                    </div>
+
                 </div>
 
                 <!-- Navigation Buttons -->
@@ -235,7 +278,7 @@ export default {
         cities() {
             this.form.country_id;
             const countryData = this.countries.find((country) => country.id === this.form.country_id)
-            const cities =countriesCities[countryData.name];
+            const cities = countriesCities[countryData.name];
             return cities;
         }
     },
@@ -272,6 +315,7 @@ export default {
             type: Object,
             default: () => ({}), // Provide an empty object as the default value
         },
+        additonalMember: Object,
     },
     methods: {
         initializeForm() {
@@ -302,6 +346,11 @@ export default {
                 partner_email: this.parentDetail?.partner_email || "",
                 country_code: this.parentDetail?.country_code || "",
                 city: this.parentDetail?.city ?? "",
+                additonal_member_first_name:  this.additonalMember?.first_name ?? '',
+                additonal_member_last_name: this.additonalMember?.last_name ?? '',
+                additonal_member_email: this.additonalMember?.email ?? '',
+                additonal_member_phone: this.additonalMember?.phone ?? '',
+
             };
         },
 

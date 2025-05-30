@@ -30,6 +30,7 @@ class Child extends Model
         'disc_assessment_link',
         'learn_assessment_link',
         'age',
+        'school_name'
     ];
 
     public  function userReport()
