@@ -62,6 +62,7 @@ class User extends Authenticatable
         "data->professional_certificate",
         // "active_status",
         'calendly_access_token',
+        'school_name',
     ];
 
     /**

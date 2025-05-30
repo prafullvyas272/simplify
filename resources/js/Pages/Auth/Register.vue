@@ -62,6 +62,7 @@ const form = useForm({
     hasTriedSubmitStep3: false,
     hasTriedSubmitStep4: false,
     hasTriedSubmitStep5: false,
+    school_name: "",
 });
 
 const current_step = ref(1);
@@ -181,7 +182,7 @@ const validateForStep = () => {
 //Step 4
 const validateFiveStep = () => {
     form.hasTriedSubmitStep5 = true;
-    form.schoolValid = !!form.school_id;
+    form.schoolValid = (form.school_id != '') || (form.school_name != '');
     if (form.schoolValid) {
         current_step.value = 6; // Move to Step 6
     }
@@ -547,12 +548,13 @@ ismrorlarger .special_input {
                             </Dropdown>
 
                             <!-- Input field for "Other" school name -->
-                            <div v-if="form.school_id === 'other'" class="mt-3">
-                                <h3 class="mt-3 mb-3">Or enter the school name below:</h3>
-                                <TodaiInputBox id="other_school" type="text" placeholder="Enter the school name"
+                            <div>
+                                <h3 class="mt-3 mb-3 text-center">Or</h3>
+                                <TodaiInputBox id="school_name" type="text" style="font-size: 15px;"
                                     :style="{ width: isMdOrLarger ? '626px' : '378px' }"
-                                    :class="{ 'special_input mb-3': true, 'input-error': form.hasTriedSubmitStep5 && !form.other_school }"
-                                    v-model="form.other_school" required autofocus autocomplete="other_school" />
+                                    placeholder="Enter school name here"
+                                    :class="{ 'special_input mb-3': true, 'input-error': form.hasTriedSubmitStep5 && !form.school_name }"
+                                    v-model="form.school_name" autofocus autocomplete="school_name" />
                             </div>
 
                             <div>
