@@ -338,7 +338,8 @@ class ProfileController extends Controller
         $parentDetail = simplifyParentDetail::where('user_id',Auth::user()->id)->first();
         $timezones=Timezones::all(["name" , "identifier","offset","id"]);
         $countryCodes = Country::where('country_code', '!=' , null)->orderBy('name')->get(['name', 'id', 'country_code']);
-
+        $authUser = Auth::user();
+        $additonalMember = $authUser->additionalMember;
         // echo "<pre>";
         // print_r(Auth::user());
         // echo "</pre>";exit;
@@ -350,6 +351,7 @@ class ProfileController extends Controller
             "parentDetail" =>$parentDetail,
             "timezones" => $timezones,
             'countryCodes' => $countryCodes,
+            'additonalMember' => $additonalMember,
         ]);
     }
 
