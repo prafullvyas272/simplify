@@ -208,6 +208,7 @@ class User extends Authenticatable
     {
         return $this->hasOne(AdditionalMember::class);
     }
+
   
     public function childrens()
     {
@@ -223,4 +224,5 @@ class User extends Authenticatable
     {
         return $this->hasMany(UserReport::class)->where('term', AssessmentTerm::SECOND);
     }
+
 }

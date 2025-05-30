@@ -218,11 +218,7 @@
                                     class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none" />
                             </div>
 
-                            <div>
-                                <label class="block text-sm font-semibold">Phone</label>
-                                <input v-model="form.additonal_member_phone" type="text"
-                                    class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none" />
-                            </div>
+
                         </div>
                         <p class="my-4">
                             To make sure they receive invites and reminders from Simplify, just include their name in

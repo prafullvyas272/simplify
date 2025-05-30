@@ -72,10 +72,10 @@ class SimplifyController extends Controller
             'date_of_birth' => 'required|date',
             'country_code' => 'required',
             'city' => 'required|string|min:2|max:255',
-            'additonal_member_first_name' =>  'required|string|min:2|max:255',
-            'additonal_member_last_name' => 'required|string|min:2|max:255',
-            'additonal_member_email' => 'required|email|min:2|max:255',
-            'additonal_member_phone' => 'required|string|max:15',
+            'additonal_member_first_name' =>  'nullable|string|min:2|max:255',
+            'additonal_member_last_name' => 'nullable|string|min:2|max:255',
+            'additonal_member_email' => 'nullable|email|min:2|max:255',
+            'additonal_member_phone' => 'nullable|string|max:15',
         ]);
 
         $data = [
