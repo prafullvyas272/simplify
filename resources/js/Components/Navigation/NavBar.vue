@@ -6,7 +6,8 @@
                 <div class="pr-5 relative flex h-16 items-center justify-between">
 
                     <div class="logo-class flex shrink-0 items-center">
-                        <img data-v-3de05c74="" src="/images/simplify-images/simplify-latest.png" class="max-h-20" alt="" />
+                        <img data-v-3de05c74="" src="/images/simplify-images/simplify-latest.png" class="max-h-20"
+                            alt="" />
 
                     </div>
                     <div v-if="!isMdOrLarger">
@@ -22,7 +23,7 @@
                                     </DropdownMenuItem>
                                     <DropdownMenuItem>
                                         <Link :href="route('profile.child.addmore')">
-                                            Add Kid</Link>
+                                        Add Kid</Link>
                                     </DropdownMenuItem>
                                 </DropdownMenuContent>
                             </DropdownMenu>
@@ -42,53 +43,117 @@
 
                                     <DropdownMenuContent className="w-56">
                                         <DropdownMenuGroup>
-                                            <DropdownMenuSub v-for="children in childrens" :key="children.id">
+                                            <!-- First Term Report -->
+                                            <DropdownMenuSub>
                                                 <DropdownMenuSubTrigger>
-                                                    <UserPlus />
-                                                    <span>{{
-                                                        children.child_name
-                                                        }}</span>
+                                                    <span>First Term Report</span>
                                                 </DropdownMenuSubTrigger>
                                                 <DropdownMenuPortal>
                                                     <DropdownMenuSubContent>
-                                                        <DropdownMenuItem>
-                                                            <Mail />
-                                                            <a class="font-normal" v-if="
-                                                                children.child_type ==
-                                                                'kids'
-                                                            " :href="'/reports/assessments/introduction/' +
-                                                                    children.id
-                                                                    ">Disc Report</a>
-                                                            <a class="font-normal" v-if="
-                                                                children.child_type ==
-                                                                'teen'
-                                                            " :href="'/teens/reports/assessments/introduction/' +
-                                                                    children.id
-                                                                    ">Disc Report</a>
-                                                        </DropdownMenuItem>
-                                                        <DropdownMenuItem>
-                                                            <MessageSquare />
-                                                            <a class="font-normal" v-if="
-                                                                children.child_type ==
-                                                                'kids'
-                                                            " :href="'/kids/learning-style/reports/assessments/introduction/' +
-                                                                    children.id
-                                                                    ">Learning Style
-                                                                Report</a>
-                                                            <a class="font-normal" v-if="
-                                                                children.child_type ==
-                                                                'teen'
-                                                            " :href="'/teens/learning-style/reports/assessments/introduction/' +
-                                                                    children.id
-                                                                    ">Learning Style
-                                                                Report</a>
-                                                        </DropdownMenuItem>
+                                                        <DropdownMenuSub v-for="children in childrens"
+                                                            :key="children.id">
+                                                            <DropdownMenuSubTrigger>
+                                                                <UserPlus />
+                                                                <span>{{ children.child_name }}</span>
+                                                            </DropdownMenuSubTrigger>
+                                                            <DropdownMenuPortal>
+                                                                <DropdownMenuSubContent>
+                                                                    <DropdownMenuItem>
+                                                                        <Mail />
+                                                                        <a class="font-normal" v-if="
+                                                                            children.child_type ==
+                                                                            'kids'
+                                                                        " :href="'/reports/assessments/introduction/' +
+                                                                            children.id
+                                                                            ">Disc Report</a>
+                                                                        <a class="font-normal" v-if="
+                                                                            children.child_type ==
+                                                                            'teen'
+                                                                        " :href="'/teens/reports/assessments/introduction/' +
+                                                                            children.id
+                                                                            ">Disc Report</a>
+                                                                    </DropdownMenuItem>
+                                                                    <DropdownMenuItem>
+                                                                        <MessageSquare />
+                                                                        <a class="font-normal" v-if="
+                                                                            children.child_type ==
+                                                                            'kids'
+                                                                        " :href="'/kids/learning-style/reports/assessments/introduction/' +
+                                                                            children.id
+                                                                            ">Learning Style
+                                                                            Report</a>
+                                                                        <a class="font-normal" v-if="
+                                                                            children.child_type ==
+                                                                            'teen'
+                                                                        " :href="'/teens/learning-style/reports/assessments/introduction/' +
+                                                                            children.id
+                                                                            ">Learning Style
+                                                                            Report</a>
+                                                                    </DropdownMenuItem>
+                                                                </DropdownMenuSubContent>
+                                                            </DropdownMenuPortal>
+                                                        </DropdownMenuSub>
+                                                    </DropdownMenuSubContent>
+                                                </DropdownMenuPortal>
+                                            </DropdownMenuSub>
+
+                                            <!-- Second Term Report -->
+                                            <DropdownMenuSub>
+                                                <DropdownMenuSubTrigger>
+                                                    <span>Second Term Report</span>
+                                                </DropdownMenuSubTrigger>
+                                                <DropdownMenuPortal>
+                                                    <DropdownMenuSubContent>
+                                                        <DropdownMenuSub v-for="children in childrens"
+                                                            :key="children.id">
+                                                            <DropdownMenuSubTrigger>
+                                                                <UserPlus />
+                                                                <span>{{ children.child_name }}</span>
+                                                            </DropdownMenuSubTrigger>
+                                                            <DropdownMenuPortal>
+                                                                <DropdownMenuSubContent>
+                                                                    <DropdownMenuItem>
+                                                                        <Mail />
+                                                                        <a class="font-normal" v-if="
+                                                                            children.child_type ==
+                                                                            'kids'
+                                                                        " :href="'/second-term/reports/assessments/introduction/' +
+                                                                            children.id
+                                                                            ">Disc Report</a>
+                                                                        <a class="font-normal" v-if="
+                                                                            children.child_type ==
+                                                                            'teen'
+                                                                        " :href="'/second-term/teens/reports/assessments/introduction/' +
+                                                                            children.id
+                                                                            ">Disc Report</a>
+                                                                    </DropdownMenuItem>
+                                                                    <DropdownMenuItem>
+                                                                        <MessageSquare />
+                                                                        <a class="font-normal" v-if="
+                                                                            children.child_type ==
+                                                                            'kids'
+                                                                        " :href="'/second-term/kids/learning-style/reports/assessments/introduction/' +
+                                                                            children.id
+                                                                            ">Learning Style
+                                                                            Report</a>
+                                                                        <a class="font-normal" v-if="
+                                                                            children.child_type ==
+                                                                            'teen'
+                                                                        " :href="'/second-term/teens/learning-style/reports/assessments/introduction/' +
+                                                                            children.id
+                                                                            ">Learning Style
+                                                                            Report</a>
+                                                                    </DropdownMenuItem>
+                                                                </DropdownMenuSubContent>
+                                                            </DropdownMenuPortal>
+                                                        </DropdownMenuSub>
                                                     </DropdownMenuSubContent>
                                                 </DropdownMenuPortal>
                                             </DropdownMenuSub>
                                         </DropdownMenuGroup>
                                     </DropdownMenuContent>
                                 </DropdownMenu>
+
                             </a>
                             <a v-if="hasActiveSubscription && accessData?.ask_ai === '1'" href="#"
                                 class="rounded-md font-bold px-1 py-2 text-sm font-medium text-gray-700 hover:text-blue">
@@ -104,7 +169,7 @@
                                 <Link
                                     class="rounded-md font-bold px-1 py-2 text-sm font-medium text-gray-700 hover:text-blue"
                                     :href="route('add.simplify')">
-                                    Get Simplify
+                                Get Simplify
                                 </Link>
                             </a>
 
@@ -120,13 +185,14 @@
                                         </DropdownMenuItem>
                                         <DropdownMenuItem>
                                             <Link :href="route('profile.child.addmore')">
-                                                Add Kid</Link>
+                                            Add Kid</Link>
                                         </DropdownMenuItem>
                                     </DropdownMenuContent>
                                 </DropdownMenu>
                             </a>
 
-                            <a v-if="hasActiveSubscription && accessData?.my_report !== '1' && accessData?.simplify === '1'" :href="route('profile.child.addmore')"
+                            <a v-if="hasActiveSubscription && accessData?.my_report !== '1' && accessData?.simplify === '1'"
+                                :href="route('profile.child.addmore')"
                                 class="rounded-md font-bold px-1 py-2 text-sm font-medium text-gray-700 hover:text-blue">
                                 Take Assesment
                             </a>
@@ -178,9 +244,10 @@
                                                         </Link>
                                                     </DropdownMenuItem>
 
-                                                    <DropdownMenuItem v-if="!isMdOrLarger && hasActiveSubscription && accessData?.simplify == 0">
+                                                    <DropdownMenuItem
+                                                        v-if="!isMdOrLarger && hasActiveSubscription && accessData?.simplify == 0">
                                                         <Link class="text-gray-800" :href="route('add.simplify')">
-                                                            Get Simplify
+                                                        Get Simplify
                                                         </Link>
                                                     </DropdownMenuItem>
 
@@ -200,7 +267,7 @@
                                                                         <UserPlus />
                                                                         <span>{{
                                                                             children.child_name
-                                                                            }}</span>
+                                                                        }}</span>
                                                                     </DropdownMenuSubTrigger>
                                                                     <DropdownMenuPortal>
                                                                         <DropdownMenuSubContent>
@@ -210,15 +277,15 @@
                                                                                     children.child_type ==
                                                                                     'kids'
                                                                                 " :href="'/reports/assessments/introduction/' +
-                                                                                        children.id
-                                                                                        ">Disc
+                                                                                    children.id
+                                                                                    ">Disc
                                                                                     Report</a>
                                                                                 <a class="font-normal" v-if="
                                                                                     children.child_type ==
                                                                                     'teen'
                                                                                 " :href="'/teens/reports/assessments/introduction/' +
-                                                                                        children.id
-                                                                                        ">Disc
+                                                                                    children.id
+                                                                                    ">Disc
                                                                                     Report</a>
                                                                             </DropdownMenuItem>
                                                                             <DropdownMenuItem>
@@ -227,16 +294,16 @@
                                                                                     children.child_type ==
                                                                                     'kids'
                                                                                 " :href="'/kids/learning-style/reports/assessments/introduction/' +
-                                                                                        children.id
-                                                                                        ">Learning
+                                                                                    children.id
+                                                                                    ">Learning
                                                                                     Style
                                                                                     Report</a>
                                                                                 <a class="font-normal" v-if="
                                                                                     children.child_type ==
                                                                                     'teen'
                                                                                 " :href="'/teens/learning-style/reports/assessments/introduction/' +
-                                                                                        children.id
-                                                                                        ">Learning
+                                                                                    children.id
+                                                                                    ">Learning
                                                                                     Style
                                                                                     Report</a>
                                                                             </DropdownMenuItem>
