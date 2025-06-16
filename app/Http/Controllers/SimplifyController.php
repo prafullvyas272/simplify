@@ -91,6 +91,7 @@ class SimplifyController extends Controller
 
     public function update(Request $request, $id)
     {
+
         try {
             $parentDetail = simplifyParentDetail::findOrFail($id);
 
@@ -147,6 +148,7 @@ class SimplifyController extends Controller
             $parentDetail->update($data);
 
             DB::commit();
+
 
             return response()->json([
                 'message' => 'Parent detail updated successfully!',
