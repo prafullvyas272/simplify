@@ -176,6 +176,7 @@ class SimplifyController extends Controller
             'user_school_name' => 'nullable',
         ]);
 
+        $schoolName = $request->input('school_name') ?? $request->input('user_school_name');
         // update school name for user
         $authUser = Auth::user();
         $authUser->update(['school_name' => $request->input('user_school_name')]);
@@ -188,7 +189,7 @@ class SimplifyController extends Controller
             'child_last_name' => $request->child_last_name,
             'relationship_to_child' => $request->relationship_to_child,
             'date_of_birth' => $request->date_of_birth,
-            'school_name'=>$request->school_name,
+            'school_name'=> $schoolName,
             'other_school' => $request->other_school,
             'grade' => $request->grade,
             'gender' => $request->gender,

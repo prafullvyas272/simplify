@@ -112,6 +112,7 @@ class RegisteredUserController extends Controller
             'birth_date'=>$request->dob,
             'gender'=>$request->gender,
             'child_type'=>$request->child_type,
+            'school_name' => $request->school_name,
         ]);
         //Enter blank data for User Access data
         $accessDetail = [
