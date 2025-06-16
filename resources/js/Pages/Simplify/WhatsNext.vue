@@ -46,7 +46,7 @@
         </div>
         <h3 class="text-base font-semibold">Want your partner included?</h3>
         <p class="">
-            When forwarding tasks, simply copy your partner in the email to include them in the event or reminder.
+            If you’d like your partner or other registered members to get the invite too, just mention their name when messaging Simplify on WhatsApp, or forward the email and copy them in – that way, they’ll be sent an invite too!
         </p>
       </div>
 
