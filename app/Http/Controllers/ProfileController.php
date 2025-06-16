@@ -601,8 +601,8 @@ class ProfileController extends Controller
             'date_of_birth'=> 'required',
             'gender' => 'required',
             'child_type' => 'required',
-            'style_type' => 'nullable|string'
-
+            'style_type' => 'nullable|string',
+            'school_name' => 'nullable|string',
         ]);
 
         $data = [
@@ -617,6 +617,7 @@ class ProfileController extends Controller
             'key_interests' => $request->key_interests,
             'learning_goals' => $request->learning_goals,
             'style_type' => $request->style_type,
+            'school_name' => $request->school_name,
         ];
 
         $childDetail->update($data);

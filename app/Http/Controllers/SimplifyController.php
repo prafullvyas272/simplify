@@ -20,103 +20,148 @@ class SimplifyController extends Controller
 {
     public function storeParentDetail(Request $request)
     {
-        $request->validate([
-            'first_name' => 'required|string|max:255',
-            'last_name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255',
-            'country_id' => 'required',
-            'timezone_id'=> 'required',
-            'phone_number' => 'required|numeric',
-            'date_of_birth'=> 'required',
-            'country_code' => 'required',
-            'city' => 'required|string|min:2|max:255',
+        try {
+            $authUser = Auth::user();
 
-        ]);
+            $request->validate([
+                'first_name' => 'required|string|max:255',
+                'last_name' => 'required|string|max:255',
+                'email' => 'required|string|email|max:255',
+                'country_id' => 'required',
+                'timezone_id'=> 'required',
+                'phone_number' => 'required|numeric',
+                'date_of_birth'=> 'required',
+                'country_code' => 'required',
+                'city' => 'required|string|min:2|max:255',
+                'additonal_member_first_name' =>  'nullable|string|min:2|max:255',
+                'additonal_member_last_name' => 'nullable|string|min:2|max:255',
+                'additonal_member_email' => 'nullable|email|min:2|max:255',
+                'additonal_member_phone' => 'nullable|string|max:15',
+            ]);
 
-        $phoneNumber = $request->input('country_code') . $request->input('phone_number');
+            $phoneNumber = $request->input('country_code') . $request->input('phone_number');
 
-        $user = simplifyParentDetail::create([
-            'user_id' => Auth::user()->id,
-            'first_name' => $request->first_name,
-            'last_name' => $request->last_name,
-            'email' => $request->email,
-            'country_id'=>$request->country_id,
-            'timezone_id' => $request->timezone_id,
-            'phone_number' => $phoneNumber,
-            'date_of_birth' => $request->date_of_birth,
-            'partner_first_name' => $request->partner_first_name,
-            'partner_last_name' => $request->partner_last_name,
-            'partner_email'=>$request->partner_email,
-            'country_code' => $request->country_code,
-            'city' => $request->city,
-        ]);
+            DB::beginTransaction();
 
-        //return Inertia::location(route('simplify.activate.FamilyPersonalization'));
-        return response()->json([
-            'message' => 'Parent details saved successfully!',
-            'redirect_url' => route('simplify.activate.FamilyPersonalization'),
-        ], 201);
+            $user = simplifyParentDetail::create([
+                'user_id' => Auth::user()->id,
+                'first_name' => $request->first_name,
+                'last_name' => $request->last_name,
+                'email' => $request->email,
+                'country_id'=>$request->country_id,
+                'timezone_id' => $request->timezone_id,
+                'phone_number' => $phoneNumber,
+                'date_of_birth' => $request->date_of_birth,
+                'partner_first_name' => $request->partner_first_name,
+                'partner_last_name' => $request->partner_last_name,
+                'partner_email'=>$request->partner_email,
+                'country_code' => $request->country_code,
+                'city' => $request->city,
+            ]);
+
+            $additionalMemberData = [
+                'first_name' => $request->additonal_member_first_name ,
+                'last_name' =>  $request->additonal_member_last_name ,
+                'email' =>  $request->additonal_member_email ,
+                'phone' =>  $request->additonal_member_phone ,
+                'user_id' => $authUser['id'],
+            ];
+
+            if ($additionalMember = AdditionalMember::whereUserId($authUser['id'])->first()) {
+                $additionalMember->update($additionalMemberData);
+            } else {
+                AdditionalMember::create($additionalMemberData);
+            }
+
+            DB::commit();
+
+            //return Inertia::location(route('simplify.activate.FamilyPersonalization'));
+            return response()->json([
+                'message' => 'Parent details saved successfully!',
+                'redirect_url' => route('simplify.activate.FamilyPersonalization'),
+            ], 201);
+        } catch (\Throwable $e) {
+            Log::error($e);
+            return response()->json([
+                'message' => 'Something went wrong!',
+                'status' => false,
+            ], 500);
+        }
     }
 
     public function update(Request $request, $id)
     {
-        $parentDetail = simplifyParentDetail::findOrFail($id);
 
-        $validatedData = $request->validate([
-            'first_name' => 'required|string|max:255',
-            'last_name' => 'required|string|max:255',
-            'email' => 'required|email|unique:simplify_parent_details,email,' . $id,
-            'country_id' => 'required|integer',
-            'timezone_id' => 'required|integer',
-            'phone_number' => 'required|string|max:15',
-            'date_of_birth' => 'required|date',
-            'country_code' => 'required',
-            'city' => 'required|string|min:2|max:255',
-            'additonal_member_first_name' =>  'nullable|string|min:2|max:255',
-            'additonal_member_last_name' => 'nullable|string|min:2|max:255',
-            'additonal_member_email' => 'nullable|email|min:2|max:255',
-            'additonal_member_phone' => 'nullable|string|max:15',
-        ]);
+        try {
+            $parentDetail = simplifyParentDetail::findOrFail($id);
 
-        $data = [
-            'first_name' => $request->first_name,
-            'last_name' => $request->last_name,
-            'email' => $request->email,
-            'country_id'=>$request->country_id,
-            'timezone_id' => $request->timezone_id,
-            'phone_number' => $request->phone_number,
-            'date_of_birth' => $request->date_of_birth,
-            'partner_first_name' => $request->partner_first_name,
-            'partner_last_name' => $request->partner_last_name,
-            'partner_email'=>$request->partner_email,
-            'country_code' => $request->country_code,
-            'city' => $request->city,
-        ];
+            $authUser = Auth::user();
 
-        $authUser = Auth::user();
+            $validatedData = $request->validate([
+                'first_name' => 'required|string|max:255',
+                'last_name' => 'required|string|max:255',
+                'email' => 'required|email|unique:simplify_parent_details,email,' . $id,
+                'country_id' => 'required|integer',
+                'timezone_id' => 'required|integer',
+                'phone_number' => 'required|string|max:15',
+                'date_of_birth' => 'required|date',
+                'country_code' => 'required',
+                'city' => 'required|string|min:2|max:255',
+                'additonal_member_first_name' =>  'nullable|string|min:2|max:255',
+                'additonal_member_last_name' => 'nullable|string|min:2|max:255',
+                'additonal_member_email' => 'nullable|email|min:2|max:255',
+                'additonal_member_phone' => 'nullable|string|max:15',
+            ]);
 
-        $additionalMemberData = [
-            'first_name' => $request->additonal_member_first_name ,
-            'last_name' =>  $request->additonal_member_last_name ,
-            'email' =>  $request->additonal_member_email ,
-            'phone' =>  $request->additonal_member_phone ,
-            'user_id' => $authUser['id'],
-        ];
+            $data = [
+                'first_name' => $request->first_name,
+                'last_name' => $request->last_name,
+                'email' => $request->email,
+                'country_id'=>$request->country_id,
+                'timezone_id' => $request->timezone_id,
+                'phone_number' => $request->phone_number,
+                'date_of_birth' => $request->date_of_birth,
+                'partner_first_name' => $request->partner_first_name,
+                'partner_last_name' => $request->partner_last_name,
+                'partner_email'=>$request->partner_email,
+                'country_code' => $request->country_code,
+                'city' => $request->city,
+            ];
 
-        if ($additionalMember = AdditionalMember::whereUserId($authUser['id'])->first()) {
-            $additionalMember->update($additionalMemberData);
-        } else {
-            AdditionalMember::create($additionalMemberData);
+            $additionalMemberData = [
+                'first_name' => $request->additonal_member_first_name ,
+                'last_name' =>  $request->additonal_member_last_name ,
+                'email' =>  $request->additonal_member_email ,
+                'phone' =>  $request->additonal_member_phone ,
+                'user_id' => $authUser['id'],
+            ];
+
+            DB::beginTransaction();
+
+            if ($additionalMember = AdditionalMember::whereUserId($authUser['id'])->first()) {
+                $additionalMember->update($additionalMemberData);
+            } else {
+                AdditionalMember::create($additionalMemberData);
+            }
+
+
+            $parentDetail->update($data);
+
+            DB::commit();
+
+
+            return response()->json([
+                'message' => 'Parent detail updated successfully!',
+                'data' => $parentDetail,
+                'redirect_url' => route('simplify.activate.FamilyPersonalization'),
+            ]);
+        } catch (\Throwable $e) {
+            Log::error($e);
+            return response()->json([
+                'message' => 'Something went wrong!',
+                'status' => false,
+            ], 500);
         }
-
-
-        $parentDetail->update($data);
-
-        return response()->json([
-            'message' => 'Parent detail updated successfully!',
-            'data' => $parentDetail,
-            'redirect_url' => route('simplify.activate.FamilyPersonalization'),
-        ]);
     }
 
     public function storeChildDetail(Request $request)
@@ -128,7 +173,12 @@ class SimplifyController extends Controller
             'date_of_birth'=> 'required',
             'school_name' => '',
             'gender' => 'required',
+            'user_school_name' => 'nullable',
         ]);
+
+        // update school name for user
+        $authUser = Auth::user();
+        $authUser->update(['school_name' => $request->input('user_school_name')]);
 
         $parentDetail = simplifyParentDetail::where('user_id',Auth::user()->id)->first();
         $user = SimplifyChildDetail::create([
@@ -176,9 +226,14 @@ class SimplifyController extends Controller
             'child_last_name' => 'required|string|max:255',
             'relationship_to_child' => 'required',
             'date_of_birth'=> 'required',
-            'school_name' => 'required',
+            'school_name' => 'required_if:user_school_name,=',
             'gender' => 'required',
+            'user_school_name' => 'nullable',
         ]);
+
+        // update school name for user
+        $authUser = Auth::user();
+        $authUser->update(['school_name' => $request->input('user_school_name')]);
 
         $data = [
             'child_first_name' => $request->child_first_name,
