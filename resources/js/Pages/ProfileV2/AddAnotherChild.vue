@@ -402,7 +402,7 @@ export default {
                 key_interests: [],
                 learning_goals: [],
                 style_type: "",
-                school_name: "",
+                school_name: this?.user?.school_name,
             };
         },
 

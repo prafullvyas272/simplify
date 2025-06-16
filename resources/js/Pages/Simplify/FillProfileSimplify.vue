@@ -223,7 +223,7 @@
                             To make sure they receive invites and reminders from Simplify, just include their name in
                             the WhatsApp message when you're adding an event — for example:
                             “Add [Name] to Parents’ Evening on Tuesday at 4pm.”
-                            Alternatively, you can CC them in the email when emails.
+                            Alternatively you can cc them in emails when emailing Simplify.
                         </p>
                         <div
                             class="h-1.5 w-full mt-4 bg-gradient-to-r from-[#DDB7FF] via-[#FFD7F5] via-[#FFF8E3] to-[#FF83DF] flex flex-row">
