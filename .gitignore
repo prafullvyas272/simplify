@@ -7,10 +7,7 @@
 /storage/*.key
 /vendor
 /bootstrap
-.env
 .env.backup
-.env.production
-.env.local
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
@@ -25,4 +22,4 @@ bootstrap/cache/*.php
 bootstrap/cache/config.php
 bootstrap/cache/config.php
 bootstrap/cache/config.php
-.env.local
+config.bat

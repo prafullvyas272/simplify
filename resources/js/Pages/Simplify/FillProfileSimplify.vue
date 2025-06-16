@@ -141,7 +141,7 @@
                         </div>
                     </div>
                     <div>
-                        <p>
+                        <p class="text-sm">
                             <b>Note:</b> Please make sure this number is the correct number you use for WhatsApp in
                             order to use Simplify
                         </p>
@@ -219,7 +219,7 @@
                             </div>
 
                         </div>
-                        <p class="my-4">
+                        <p class="my-4 text-sm">
                             To make sure they receive invites and reminders from Simplify, just include their name in
                             the WhatsApp message when you're adding an event — for example:
                             “Add [Name] to Parents’ Evening on Tuesday at 4pm.”
