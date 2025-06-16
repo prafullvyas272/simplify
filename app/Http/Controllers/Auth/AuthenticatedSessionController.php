@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\LoginRequest;
 use App\Models\Child;
+use App\Models\Subscription;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -47,6 +48,10 @@ class AuthenticatedSessionController extends Controller
         $children = Child::where('user_id', $user->id)->latest()->first();
         $isPaymentPendingForAnyChild = Child::whereUserId($user->id)->wherePaymentStatus(null)->first();
 
+        $hasSimplifySubscription = Subscription::whereUserId($user['id'])->wherePakageId(3)->first(); //check for simplify subscription
+        if ($hasSimplifySubscription) {
+            return redirect()->intended(route('profile.report', absolute: false));
+        }
         if (!$isPaymentPendingForAnyChild && $children) {
             $userReport = UserReport::whereChildId($children['id'])->first();
 
