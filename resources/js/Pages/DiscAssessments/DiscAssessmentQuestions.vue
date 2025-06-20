@@ -179,6 +179,7 @@ export default {
             type: Object,
             default: () => ({}), // Provide an empty object as the default value
         },
+        assessmentApiUrl: String,
     },
     data() {
         return {
@@ -297,8 +298,10 @@ export default {
                             learn: response.data.learn,
                         };
                         // Post the data to the API
+                        let apiUrl = this.assessmentApiUrl + 'result'
+
                         axios
-                            .post("https://todai.blueskythinkingtesting.com/unify-kids/api/assessment/result", payload)
+                            .post(apiUrl, payload)
                             .then((response) => {
                                 // console.log(response);
                                 // this.submitting = false;
@@ -385,7 +388,7 @@ export default {
                 userType = 'teens';
             }
 
-            var getQuestionUrlEndPoint = `https://todai.blueskythinkingtesting.com/unify-kids/api/assessment/disc?type=${userType}`;
+            var getQuestionUrlEndPoint = this.assessmentApiUrl + `disc?type=${userType}`;
 
             axios
                 .get(getQuestionUrlEndPoint)

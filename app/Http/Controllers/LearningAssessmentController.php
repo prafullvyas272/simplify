@@ -41,6 +41,22 @@ class LearningAssessmentController extends Controller
         // return Inertia::render("LearningAssessments/LearningAssessmentQuestions");
     }
 
+     /**
+     * Show the form for taking second term disc assessment.
+     */
+    public function showSecondTermAssessmentForm($id)
+    {
+        $childDetail = Child::where('id', $id)->first();
+        if(empty($childDetail)){
+            return redirect()->route('homepage');
+        }
+        $assessmentApiUrl = config('app.assessment_api_url');
+        return Inertia::render('LearningAssessments/SecondTermLearningAssessmentQuestions', [
+            "childId" => $id,
+            "childDetail" => $childDetail,
+            'assessmentApiUrl' => $assessmentApiUrl,
+        ]);
+    }
     /**
      * Store a newly created resource in storage.
      */

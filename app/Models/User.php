@@ -4,6 +4,7 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use App\Casts\Money;
+use App\Enums\AssessmentTerm;
 use App\Enums\CurrentExpEnum;
 use App\Enums\GenderEnum;
 use App\Enums\UserCurrentStatusEnum;
@@ -199,8 +200,30 @@ class User extends Authenticatable
         return $this->hasMany(Note::class);
     }
 
+
+    public function childrens()
+    {
+        return $this->hasMany(Child::class, 'user_id');
+    }
+
+    public function secondTermAssessment()
+    {
+        return $this->hasOne(Assessment::class)->where('term', AssessmentTerm::SECOND);
+    }
+
+    public function secondTermUserReports()
+    {
+        return $this->hasMany(UserReport::class)->where('term', AssessmentTerm::SECOND);
+    }
+
+    public function assessmentInvites()
+    {
+        return $this->hasMany(AssessmentInvite::class);
+    }
+  
     public function additionalMember()
     {
         return $this->hasOne(AdditionalMember::class);
+
     }
 }
