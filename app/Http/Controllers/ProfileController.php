@@ -648,6 +648,25 @@ class ProfileController extends Controller
     {
         return Inertia::render('Calendly/AddCalendly');
     }
+    
+    public function showWelcomeUserPage()
+    {
+        $authUser = Auth::user();
+        $child = Child::whereUserId($authUser['id'])->first();
+        return Inertia::render('InvitedUser/WelcomeInvitedUser', [
+            'authUser' => Auth::user(),
+            'child' => $child,
+            'pakageId' => $child['child_type'] == 'teen' ? 2 : 1,    // 2 is for teen pakage and 1 is for kids pakage
+        ]);
+    }
+
+    public function showCompletedAssessmentPageToInvitedUSer($childId)
+    {
+        return Inertia::render('InvitedUser/AssessmentCompletedPage', [
+            'authUser' => Auth::user(),
+        ]);
+    }
+
 
     /**
      * Method to update calendly_access_token for users

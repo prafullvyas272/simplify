@@ -31,6 +31,9 @@ class DiscAssessmentController extends Controller
     public function create($id)
     {
         $childDetail = Child::where('id', $id)->first();
+        $assessmentUrl = config('app.unify_kids_assessment_url');
+        $user = User::whereId($childDetail['user_id'])->first();
+        $isInvitedFromLessonPlanner = $user['is_invited_from_lesson_planner'];
         if(empty($childDetail)){
             return redirect()->route('homepage');
         }
@@ -39,7 +42,12 @@ class DiscAssessmentController extends Controller
         return Inertia::render('DiscAssessments/DiscAssessmentQuestions', [
             "childId" => $id,
             "childDetail" => $childDetail,
+
+            'assessmentUrl' => $assessmentUrl,
+            'isInvitedFromLessonPlanner' => $isInvitedFromLessonPlanner,
+
             'assessmentApiUrl' => $assessmentApiUrl,
+
         ]);
 
         // return Inertia::render("DiscAssessments/DiscAssessmentQuestions");

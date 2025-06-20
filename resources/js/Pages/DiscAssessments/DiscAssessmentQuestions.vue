@@ -179,7 +179,12 @@ export default {
             type: Object,
             default: () => ({}), // Provide an empty object as the default value
         },
+
+        assessmentUrl: String,
+        isInvitedFromLessonPlanner: Boolean,
+
         assessmentApiUrl: String,
+
     },
     data() {
         return {
@@ -298,6 +303,7 @@ export default {
                             learn: response.data.learn,
                         };
                         // Post the data to the API
+
                         let apiUrl = this.assessmentApiUrl + 'result'
 
                         axios
@@ -318,7 +324,14 @@ export default {
                                             learn_scores: response.data.data.learn_scores.learn_scores ?? null,
 
                                         }).then(response => {
-                                            window.location.href = `/welcome/${this.childDetail.id}`;
+                                            console.log(response);
+                                            this.submitting = false;
+                                            if (this.isInvitedFromLessonPlanner) {
+                                                window.location.href = `/welcome-user-assessment-completed/${this.childDetail.id}`;
+                                            } else {
+                                                window.location.href = `/welcome/${this.childDetail.id}`;
+                                            }
+
                                     })
                                 }
                             })
@@ -388,7 +401,9 @@ export default {
                 userType = 'teens';
             }
 
+
             var getQuestionUrlEndPoint = this.assessmentApiUrl + `disc?type=${userType}`;
+
 
             axios
                 .get(getQuestionUrlEndPoint)
