@@ -157,7 +157,7 @@ export default {
                         `Remind them that good decisions don’t always make everyone happy`,
                     ],
                     supportPointBottomHeading: [
-                        `With the right support, [Child’s Name] can grow into a thoughtful and confident decision-maker - someone who balances care for others with belief in their own voice.`
+                        `With the right support, ` + this.childName + ` can grow into a thoughtful and confident decision-maker - someone who balances care for others with belief in their own voice.`
                     ],
                 }
             }

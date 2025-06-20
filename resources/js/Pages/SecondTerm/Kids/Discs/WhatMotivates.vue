@@ -123,13 +123,13 @@ export default {
                         `Feeling seen and supported by adults and peers`,
                     ],
                     motivationPointsBottomHeadings: [
-                        `[Child’s Name] is likely to feel most energised when they know they’re valued and included. They
+                        this.childName + ` is likely to feel most energised when they know they’re valued and included. They
                         respond well to kind words, soft encouragement, and a chance to contribute in low-pressure
                         situations.`
                     ],
                     finalBottomHeadings: [
                         `The key is to balance their need for security with encouragement to try new things and express
-                        themselves. When [Child’s Name] feels cared for and gently challenged, motivation tends to grow
+                        themselves. When ` + this.childName + ` feels cared for and gently challenged, motivation tends to grow
                         naturally.`
                     ],
                 }

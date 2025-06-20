@@ -69,7 +69,7 @@
         <div class="row p-6">
             <div class="col-12">
                 <h4 class="px-2 mb-4 font-bold text-blue-800">
-                    Ways teachers and parents can work together to support [Child’s Name]:
+                    Ways teachers and parents can work together to support {{ childName }}:
                 </h4>
             </div>
             <div class="row">
@@ -122,7 +122,7 @@ export default {
                 SI: {
                     topHeadings: [
                         `In school, children with an SI style are often kind, steady, and well-liked by their peers. They tend to follow routines, help others, and keep the atmosphere calm and friendly. They are more likely to work quietly and cooperatively than to compete or push for attention. Teachers often describe them as reliable and warm, especially when they feel emotionally secure in the classroom.`,
-                        `{{ chlidName }} might be the child who checks on a friend, gently encourages others, or keeps group activities running smoothly. However, they may avoid speaking up when they're unsure, and they might hold back ideas if the group is loud or the task feels unfamiliar.`
+                        this.childName +  ` might be the child who checks on a friend, gently encourages others, or keeps group activities running smoothly. However, they may avoid speaking up when they're unsure, and they might hold back ideas if the group is loud or the task feels unfamiliar.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     teacherMightNotices: [
