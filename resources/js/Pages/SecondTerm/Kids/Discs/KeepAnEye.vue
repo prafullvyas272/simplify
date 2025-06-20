@@ -99,7 +99,7 @@ export default {
                 SI: {
                     topHeadings: [
                         `Children with an SI style are naturally kind, thoughtful, and cooperative. They often bring steadiness and warmth to the people around them, helping to create calm, friendly environments both at home and at school. These are strengths that set them apart.`,
-                        `As [Child’s Name] grows, it’s important to continue supporting their emotional security while gently encouraging more confidence, independence, and assertiveness. They don’t need to change who they are - just learn that their voice, opinions, and ideas are just as important as their kindness.`
+                        `As ` + this.childName + ` grows, it’s important to continue supporting their emotional security while gently encouraging more confidence, independence, and assertiveness. They don’t need to change who they are - just learn that their voice, opinions, and ideas are just as important as their kindness.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     keepAnEyeTips: [
@@ -125,7 +125,7 @@ export default {
                         },
                     ],
                     bottomHeading: [
-                        `With support, [Child’s Name] can grow into someone who stays grounded in kindness and empathy - while building confidence, independence, and the ability to speak up and take action when it matters.`,
+                        `With support, `+ this.childName +` can grow into someone who stays grounded in kindness and empathy - while building confidence, independence, and the ability to speak up and take action when it matters.`,
                     ],
 
                 }
