@@ -179,8 +179,12 @@ export default {
             type: Object,
             default: () => ({}), // Provide an empty object as the default value
         },
+
         assessmentUrl: String,
         isInvitedFromLessonPlanner: Boolean,
+
+        assessmentApiUrl: String,
+
     },
     data() {
         return {
@@ -299,9 +303,11 @@ export default {
                             learn: response.data.learn,
                         };
                         // Post the data to the API
-                        const apiUrl = this.assessmentUrl + 'assessment/result';
+
+                        let apiUrl = this.assessmentApiUrl + 'result'
+
                         axios
-                            .post(apiUrl, payload)  // todo: SHOULD NOT BE HARDCODED
+                            .post(apiUrl, payload)
                             .then((response) => {
                                 // console.log(response);
                                 // this.submitting = false;
@@ -395,7 +401,9 @@ export default {
                 userType = 'teens';
             }
 
-            var getQuestionUrlEndPoint = `${this.assessmentUrl}/assessment/disc?type=${userType}`;
+
+            var getQuestionUrlEndPoint = this.assessmentApiUrl + `disc?type=${userType}`;
+
 
             axios
                 .get(getQuestionUrlEndPoint)

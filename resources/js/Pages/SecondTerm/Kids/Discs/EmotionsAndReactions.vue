@@ -1,0 +1,176 @@
+<template>
+    <div class="flex flex-col justify-center items-center mt-4 px-4">
+        <div class="w-full relative mb-10 text-center">
+            <h1 class="text-3xl sm:text-5xl font-bold">Understanding Their Emotions and Reactions</h1>
+        </div>
+    </div>
+
+    <div class="p-6 pt-0">
+        <div class="row p-6">
+            <div class="col-12">
+                <div class="flex justify-center items-center">
+                    <img class="w-120 h-auto object-contain" :src="'/images/second-term/kids-disc-images/36.svg'"
+                        alt="" />
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="my-4" v-for="(topHeading, index) in reportData[discStyle]?.topHeadings" :key="index">
+                    <span v-html="topHeading"></span>
+                </p>
+            </div>
+
+        </div>
+        <div class="row p-6">
+            <div class="col-12">
+                <h4 class="mb-4 font-bold text-blue-800">
+                    You might notice:
+                </h4>
+            </div>
+            <div class="row my-1" v-for="(noticePoint, index) in reportData[discStyle]?.noticePoints">
+                <div class="col-1">
+                    <div class="flex justify-center items-center">
+                        <img class="ball" :src="'/images/second-term/kids-disc-images/37.png'" alt="" />
+                    </div>
+                </div>
+                <div class="col-9 flex items-center">
+                    <p class="font-bold">
+                        {{ noticePoint }}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row p-6">
+            <div class="col-12">
+                <div class="flex justify-center items-center">
+                    <img class="w-96 h-auto object-contain" :src="'/images/second-term/kids-disc-images/39.svg'"
+                        alt="" />
+                </div>
+            </div>
+            <div class="col-12 flex items-center">
+                <p class="mb-4"
+                    v-for="(noticePointBottomHeading, index) in reportData[discStyle]?.noticePointBottomHeadings">
+                    {{ noticePointBottomHeading }}
+                </p>
+
+            </div>
+            <p class="mb-4 text-blue-400 font-bold">
+                Helping {{ childName }} understand and name emotions is an important part of their growth. You can
+                support this by:
+            </p>
+        </div>
+
+        <div class="row p-6">
+            <div class="col-12">
+                <div class="row p-6">
+                    <div class="col-6 yellow-cloud"
+                        v-for="(supportPoint, index) in reportData[discStyle]?.supportPoints" :key="index">
+                        <div class="relative w-full h-[400px] flex items-center justify-center text-white board-image">
+                            <div class="text-black px-4 py-2 rounded">
+                                <p class="mb-4 font-bold text-center px-20 my-20">
+                                    {{ supportPoint }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="relative  flex items-center justify-center text-white pink-board-image">
+                <div class="text-black py-2 rounded px-20">
+                    <p class="my-4 font-bold px-20"
+                        v-for="(supportPointBottomHeading, index) in reportData[discStyle]?.supportPointBottomHeadings"
+                        :key="index">
+                        <span v-html="supportPointBottomHeading"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</template>
+
+<script>
+import SecondTermAssessmentTypes from "@/Layouts/SecondTermAssessmentTypes.vue";
+import "../../../../../css/reports.css";
+
+export default {
+    name: 'EmotionsAndReactions',
+    layout: SecondTermAssessmentTypes,
+    props: {
+        childName: String,
+        discStyle: String,
+    },
+    data() {
+        return {
+            reportData: {
+                SI: {
+                    topHeadings: [
+                        `Children with an SI style often experience emotions deeply and are very aware of how others are
+                        feeling too. They care a lot about keeping the atmosphere light and positive, and they’re often
+                        the first to comfort a friend or notice when someone seems upset. When they feel calm and
+                        connected, their emotions are steady and open.`,
+
+                        `However, they may keep their own feelings to themselves if they think it will cause tension.
+                        They might pretend to be okay just to keep the peace, or feel quietly upset if they feel left
+                        out, ignored, or criticised.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Responding gently when others are upset`,
+                        `Becoming quieter or withdrawn when something feels off`,
+                        `Worrying about how others are feeling or reacting`,
+                        `Avoiding emotional conflict, even if they’re struggling inside`,
+                        `Needing time and reassurance before sharing how they really feel`
+
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children benefit from support that helps them express their emotions openly and confidently. They don’t need to change how they feel - just feel safe enough to share and understand their reactions more clearly.`
+                    ],
+                    supportPoints: [
+                        `Asking calm questions like, “Was something bothering you just now?”`,
+                        `Letting them know it’s okay to feel upset or unsure`,
+                        `Creating quiet space to talk after a difficult moment`,
+                        `Modelling emotional honesty by sharing how you feel too`
+
+                    ],
+                    supportPointBottomHeadings: [
+                        `With the right support, ` + this.childName + ` can learn to manage emotions in a way that’s healthy and respectful - staying true to their kind nature while also feeling understood and supported.`
+                    ],
+                }
+            }
+        };
+
+    },
+    methods: {
+        getHelpingIdeasImagePath(index) {
+            return '/images/second-term/kids-disc-images/' + this.reportData[this.discStyle]?.helpFullIdeas[index].img;
+        },
+        getTopHeadingImagePath(index) {
+            return '/images/second-term/kids-disc-images/' + this.reportData[this.discStyle]?.topHeadingImages[index];
+        },
+    },
+};
+</script>
+
+
+<style scoped>
+.ball {
+    height: 58px;
+}
+
+.board-image {
+    background-image: url("/images/second-term/kids-disc-images/41.svg");
+    background-size: 930px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pink-board-image {
+    background-image: url("/images/second-term/kids-disc-images/42.svg");
+    background-size: 1030px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+</style>

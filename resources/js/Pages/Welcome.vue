@@ -20,11 +20,20 @@
                       <p>Thank you for taking the time to complete this assessment—<strong>you did great!</strong></p>
                       <h2>Keep being awesome! </h2>
                       <!-- <a href="" class="commen_btn m-auto">Finish</a> -->
-                      <div class="buttons-profile">
+                       <!-- For showing in first term -->
+                      <div v-if="!isSecondTermAssessment" class="buttons-profile">
                         <!-- <a :href="route('profile.download_report')" class="commen_btn m-auto">Finish</a> -->
                         <Link v-if="this.childDetail.child_type == 'teen'" class="commen_btn m-auto" :href="route('assessments.teensDiscStyle', {type: 'introduction', user: this.childDetail.id})">Finish</Link>
 
                         <Link v-if="this.childDetail.child_type == 'kids'" class="commen_btn m-auto" :href="route('assessments.single', {type: 'introduction', user: this.childDetail.id})">Finish</Link>
+                      </div>
+
+                      <!-- For showing in second term -->
+                      <div v-if="isSecondTermAssessment" class="buttons-profile">
+                        <!-- <a :href="route('profile.download_report')" class="commen_btn m-auto">Finish</a> -->
+                        <!-- <Link v-if="this.childDetail.child_type == 'teen'" class="commen_btn m-auto" :href="route('assessments.teensDiscStyle', {type: 'introduction', user: this.childDetail.id})">Finish</Link> -->
+
+                        <Link v-if="this.childDetail.child_type == 'kids'" class="commen_btn m-auto" :href="route('secondTerm.showKidsDiscStyleReport', {type: 'welcome', user: this.childDetail.id})">Finish</Link>
                       </div>
 
                       <!-- <Link class="commen_btn m-auto" :href="route('profile.download_report')">Finish</Link> -->
@@ -52,6 +61,7 @@
     },
     data() {
       return {
+        isSecondTermAssessment: this.$page.url.includes('second-term'),
         questions: [
           {
             question: "How do you approach problem-solving?",
