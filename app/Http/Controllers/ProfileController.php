@@ -338,7 +338,8 @@ class ProfileController extends Controller
         $parentDetail = simplifyParentDetail::where('user_id',Auth::user()->id)->first();
         $timezones=Timezones::all(["name" , "identifier","offset","id"]);
         $countryCodes = Country::where('country_code', '!=' , null)->orderBy('name')->get(['name', 'id', 'country_code']);
-
+        $authUser = Auth::user();
+        $additonalMember = $authUser->additionalMember;
         // echo "<pre>";
         // print_r(Auth::user());
         // echo "</pre>";exit;
@@ -350,6 +351,7 @@ class ProfileController extends Controller
             "parentDetail" =>$parentDetail,
             "timezones" => $timezones,
             'countryCodes' => $countryCodes,
+            'additonalMember' => $additonalMember,
         ]);
     }
 
@@ -528,6 +530,7 @@ class ProfileController extends Controller
             'gender' => 'required',
             'child_type' => 'required',
             'style_type' => 'nullable',
+            'school_name' => 'nullable',
 
         ]);
 
@@ -548,7 +551,7 @@ class ProfileController extends Controller
             'key_interests' => $request->key_interests,
             'learning_goals' => $request->learning_goals,
             'style_type' => $request->style_type,
-
+            'school_name' => $request->school_name,
         ]);
 
         $parentDetail = simplifyParentDetail::where('user_id',Auth::user()->id)->first();
@@ -598,8 +601,8 @@ class ProfileController extends Controller
             'date_of_birth'=> 'required',
             'gender' => 'required',
             'child_type' => 'required',
-            'style_type' => 'nullable|string'
-
+            'style_type' => 'nullable|string',
+            'school_name' => 'nullable|string',
         ]);
 
         $data = [
@@ -614,6 +617,7 @@ class ProfileController extends Controller
             'key_interests' => $request->key_interests,
             'learning_goals' => $request->learning_goals,
             'style_type' => $request->style_type,
+            'school_name' => $request->school_name,
         ];
 
         $childDetail->update($data);

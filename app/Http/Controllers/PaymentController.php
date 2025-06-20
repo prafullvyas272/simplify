@@ -64,7 +64,7 @@ class PaymentController extends Controller
         // dd($getUsers, $giveSimplify);
         $getChild = Child::where('id', $childId)->first();
 
-        $checkoutMode = ($pakageDetail->slug == "simplify-one-time" || $pakageDetail->slug == "kids-assessments" || $pakageDetail->slug == "teen-assessments") ? 'subscription' : 'payment';
+        $checkoutMode = ($pakageDetail->slug == "simplify-one-time" || $pakageDetail->slug == "kids-assessments" || $pakageDetail->slug == "teen-assessments" || $pakageDetail->slug == "simplify-yearly") ? 'subscription' : 'payment';
 
 
         return $getUsers->checkout(

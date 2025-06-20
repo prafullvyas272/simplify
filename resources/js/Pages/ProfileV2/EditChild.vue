@@ -66,6 +66,13 @@
                             </select>
                         </div>
 
+                        <div v-if="user.country_id == 247">
+                            <label class="block text-sm font-semibold">School Name</label>
+                            <input type="text" v-model="form.school_name"
+                                class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none"
+                                :class="{ 'input-error': errors.school_name }" />
+                        </div>
+
                         <div>
                             <label class="block text-sm font-semibold">Grade</label>
                             <input type="text" v-model="form.grade"
@@ -249,6 +256,7 @@ export default {
                     : [],
                 style_type: this.childDetail.style_type,
                 gender: this.childDetail?.gender || '',
+                school_name: this.childDetail?.school_name,
                 //gender : (this.childDetail?.gender || this.user?.gender || '').toLowerCase() === 'm' ? 'male' : (this.childDetail?.gender || this.user?.gender || '').toLowerCase() === 'f' ? 'female' : '',
             };
         },

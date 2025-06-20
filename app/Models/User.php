@@ -63,6 +63,7 @@ class User extends Authenticatable
         "data->professional_certificate",
         // "active_status",
         'calendly_access_token',
+        'school_name',
     ];
 
     /**
@@ -199,6 +200,7 @@ class User extends Authenticatable
         return $this->hasMany(Note::class);
     }
 
+
     public function childrens()
     {
         return $this->hasMany(Child::class, 'user_id');
@@ -217,5 +219,11 @@ class User extends Authenticatable
     public function assessmentInvites()
     {
         return $this->hasMany(AssessmentInvite::class);
+    }
+  
+    public function additionalMember()
+    {
+        return $this->hasOne(AdditionalMember::class);
+
     }
 }

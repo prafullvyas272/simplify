@@ -72,6 +72,7 @@ class RegisteredUserController extends Controller
             'email' => 'required|string|email|max:255|unique:'.User::class,
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
             'role_id'=>["integer" , "numeric" , "min:2" , "max:3"],
+            'school_name' => ['nullable', 'min:3', 'max:255'],
         ]);
 
 
@@ -97,7 +98,8 @@ class RegisteredUserController extends Controller
             'country_id'=>$request->country_id,
             'data'=>[
                 "current_status"=>$request->current_status
-            ]
+            ],
+            'school_name' => $request->school_name,
         ]);
 
 
@@ -110,6 +112,7 @@ class RegisteredUserController extends Controller
             'birth_date'=>$request->dob,
             'gender'=>$request->gender,
             'child_type'=>$request->child_type,
+            'school_name' => $request->school_name,
         ]);
         //Enter blank data for User Access data
         $accessDetail = [

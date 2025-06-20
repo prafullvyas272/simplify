@@ -81,13 +81,14 @@
         </option>
       </select>
     </div>
-    <div v-else>
+    <div  v-if="user.country_id == 247">
       <label class="block text-sm font-semibold">School Name</label>
       <input
         type="text"
         class="mt-2 w-full border border-gray-300 rounded-lg px-4 py-2 shadow-sm focus:ring-2 focus:ring-[#FC5C7D] focus:outline-none"
-        v-model="form.school_name"
-        :class="{'input-error': errors.other_school}"
+        v-model="form.user_school_name"
+        placeholder="Enter school name here"
+        :class="{'input-error': errors.user_school_name}"
       />
     </div>
     <div>
@@ -281,6 +282,7 @@
           : [],
         gender: this.childDetail?.gender || this.child?.gender || '',
         style_type: this.childDetail?.style_type || this.child?.style_type || '',
+        user_school_name: this.user?.school_name,
 
         //gender : (this.childDetail?.gender || this.user?.gender || '').toLowerCase() === 'm' ? 'male' : (this.childDetail?.gender || this.user?.gender || '').toLowerCase() === 'f' ? 'female' : '',
       };
@@ -344,7 +346,7 @@ validateField(field) {
       break;
 
     case "school_name":
-      if (!this.form.school_name) {
+      if (!this.form.school_name && this.form.user_school_name == '') {
         this.errors.school_name = "Please select a school name.";
       }
       break;
