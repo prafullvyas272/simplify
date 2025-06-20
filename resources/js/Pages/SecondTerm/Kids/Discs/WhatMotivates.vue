@@ -1,0 +1,195 @@
+<template>
+    <div class="flex flex-col justify-center items-center mt-4 px-4">
+        <div class="w-full relative mb-10 text-center">
+            <h1 class="text-3xl sm:text-5xl font-bold">What Motivates Them Most</h1>
+        </div>
+    </div>
+
+    <div>
+        <div class="p-6 pt-0">
+            <div class="row p-6">
+                <div class="col-6">
+                    <p class="mb-4" v-for="(topHeading, index) in reportData[discStyle]?.topHeadings" :key="index">
+                        <span v-html="topHeading"></span>
+                    </p>
+                </div>
+                <div class="col-6">
+                    <div class="flex justify-center items-center">
+                        <img class="w-120 h-auto object-contain" :src="'/images/second-term/kids-disc-images/21.svg'"
+                            alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="row p-6">
+                <div class="col-6">
+                    <h4 class="mb-4 font-bold text-blue-800">
+                        Here are a few things that tend to motivate an SI-style child:
+                    </h4>
+                    <ul class="list-disc space-y-3">
+                        <li v-for="(motivationPoint, index) in reportData[discStyle]?.motivationPoints?.slice(0, 3)">
+                            {{ motivationPoint }}
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <div class="flex justify-center items-center">
+                        <img class="w-96 h-auto object-contain" :src="'/images/second-term/kids-disc-images/24.svg'"
+                            alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="row p-6">
+                <div class="col-6">
+                    <div class="flex justify-center items-center">
+                        <img class="w-96 h-auto object-contain" :src="'/images/second-term/kids-disc-images/23.svg'"
+                            alt="" />
+                    </div>
+                </div>
+                <div class="col-6 flex items-center">
+                    <ul class="list-disc space-y-3">
+                        <li v-for="(motivationPoint, index) in reportData[discStyle]?.motivationPoints?.slice(3, reportData[discStyle]?.motivationPoints?.length)">
+                            {{ motivationPoint }}
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-6 flex items-center">
+                    <p class="mb-4"
+                        v-for="(motivationPointsBottomHeading, index) in reportData[discStyle]?.motivationPointsBottomHeadings"
+                        :key="index">
+                        <span v-html="motivationPointsBottomHeading"></span>
+                    </p>
+                </div>
+                <div class="col-6">
+                    <div class="flex justify-center items-center">
+                        <img class="w-96 h-auto object-contain" :src="'/images/second-term/kids-disc-images/25.svg'"
+                            alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="row p-6">
+                <div class="col-12">
+                    <p class="mb-4 font-bold" v-for="(finalBottomHeading, index) in reportData[discStyle]?.finalBottomHeadings"
+                        :key="index">
+                        <span v-html="finalBottomHeading"></span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</template>
+
+<script>
+import SecondTermAssessmentTypes from "@/Layouts/SecondTermAssessmentTypes.vue";
+import "../../../../../css/reports.css";
+
+export default {
+    name: 'WhatMotivates',
+    layout: SecondTermAssessmentTypes,
+    props: {
+        childName: String,
+        discStyle: String,
+    },
+    data() {
+        return {
+            reportData: {
+                SI: {
+                    topHeadings: [
+                        `Children with an <b>SI style</b> are motivated by connection, encouragement, and feeling part of
+                        something.`,
+
+                        `They enjoy working and playing with others in ways that feel safe, familiar, and positive. They
+                        are
+                        more likely to feel energised when the environment is warm and inclusive - and when people are
+                        kind to one another.`,
+
+                        ` They’re less driven by competition or attention, and more by the desire to be accepted, liked,
+                        and
+                        helpful. When they feel emotionally safe and appreciated, they’re often consistent, cheerful,
+                        and
+                        willing to try.`,
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+                        `Being part of a calm, friendly group or activity`,
+                        `Receiving encouragement for their kindness and effort`,
+                        `Doing tasks where they can help others or work as a team`,
+                        `Knowing their ideas are welcomed without pressure`,
+                        `Playing in familiar settings with people they trust`,
+                        `Feeling seen and supported by adults and peers`,
+                    ],
+                    motivationPointsBottomHeadings: [
+                        `[Child’s Name] is likely to feel most energised when they know they’re valued and included. They
+                        respond well to kind words, soft encouragement, and a chance to contribute in low-pressure
+                        situations.`
+                    ],
+                    finalBottomHeadings: [
+                        `The key is to balance their need for security with encouragement to try new things and express
+                        themselves. When [Child’s Name] feels cared for and gently challenged, motivation tends to grow
+                        naturally.`
+                    ],
+                }
+            }
+        };
+
+    },
+    methods: {
+        getHelpingIdeasImagePath(index) {
+            return '/images/second-term/kids-disc-images/' + this.reportData[this.discStyle]?.helpFullIdeas[index].img;
+        },
+        getTopHeadingImagePath(index) {
+            return '/images/second-term/kids-disc-images/' + this.reportData[this.discStyle]?.topHeadingImages[index];
+        },
+    },
+};
+</script>
+
+
+<style>
+.box-img {
+    height: 400px;
+    /* or whatever works for you */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.board-image {
+    background-image: url("/images/second-term/kids-disc-images/22.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.board-image-2 {
+    background-image: url("/images/second-term/kids-disc-images/95.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-img-1 {
+    background-image: url("/images/second-term/kids-disc-images/150.png");
+}
+
+.box-img-2 {
+    background-image: url("/images/second-term/kids-disc-images/151.png");
+}
+
+.box-img-3 {
+    background-image: url("/images/second-term/kids-disc-images/152.png");
+}
+
+.box-img-4 {
+    background-image: url("/images/second-term/kids-disc-images/153.png");
+}
+
+.box-img-5 {
+    background-image: url("/images/second-term/kids-disc-images/154.png");
+}
+</style>

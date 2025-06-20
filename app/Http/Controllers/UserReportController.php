@@ -9,6 +9,7 @@ use App\Models\ChildAnswers;
 use App\Models\Payment;
 use Illuminate\Http\Request;
 use App\Models\UserReport;
+use App\Traits\AssessmentTrait;
 use Illuminate\Support\Facades\Auth;
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Http;
@@ -16,6 +17,9 @@ use Illuminate\Support\Facades\Log;
 
 class UserReportController extends Controller
 {
+
+    use AssessmentTrait;
+
     public function store(Request $request)
     {
 
@@ -43,6 +47,7 @@ class UserReportController extends Controller
                     'learn_style' => $request->input('learn_style'),
                     'disc_scores' => json_encode($request->input('disc_scores')),
                     'learn_scores' => json_encode($request->input('learn_scores')),
+                    'term' => $request->has('term') ? $request->input('term') : 1,
                 ]);
             }
 
@@ -57,6 +62,7 @@ class UserReportController extends Controller
                     'learn_style' => $request->input('learn_style'),
                     'disc_scores' => json_encode($request->input('disc_scores')),
                     'learn_scores' => json_encode($request->input('learn_scores')),
+                    'term' => $request->has('term') ? $request->input('term') : 1,
                 ]);
             }
             Child::whereId($request->child_id)->update([
@@ -65,11 +71,16 @@ class UserReportController extends Controller
             //send emal to user
             $this->sendEmail($user_id, $request->child_id);
 
+
             $authUser = Auth::user();
             if ($authUser['is_invited_from_lesson_planner']) {
                 $webhookController = new WebhookController();
                 $webhookController->updateLearningStyleDataInLessonPlanner($authUser['email'], $userReport);
             }
+
+            //update assessment invite status
+            $this->updateAssessmentStatusByTerm($request, $request->child_id);
+
 
             return response()->json(['message' => 'Reports created successfully.'], 201);
         } catch (\Throwable $exception) {

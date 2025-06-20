@@ -24,6 +24,7 @@ use Illuminate\Support\Facades\Route;
 use Laravel\Cashier\Cashier;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\PricingController;
+use App\Http\Controllers\SecondTermAssessmentController;
 
 require __DIR__.'/auth.php';
 
@@ -91,6 +92,26 @@ Route::middleware(["auth"])->group(function (){
 
     Route::get("/information/create" , [RegisteredUserController::class , "create_information"])->name("users.create_information");
     Route::inertia("processing" , "AssessmentWait")->name("assessments.wait");
+
+    // Second term routes
+    Route::prefix('second-term')->group(function () {
+        Route::get('/thank-you-message/{id}',[PaymentController::class , "showSecondTermThankyouPage"])->name('showSecondTermThankyouPage');
+        Route::get("/note-for-parents/{id}" ,[PaymentController::class, 'showSecondTermNoteForParentsPage'])->name("showSecondTermNoteForParentsPage");
+        Route::get("/ready-to-discover/{id}" , [PaymentController::class, 'showSecondTermReadyToDiscoverPage'])->name("showSecondTermReadyToDiscoverPage");
+        Route::get("/disc-assessments/create/{id}" , [DiscAssessmentController::class , "showSecondTermAssessmentForm"])->name("disc.showSecondTermAssessmentForm");
+        Route::get("/learning-assessments/create/{id}" , [LearningAssessmentController::class , "showSecondTermAssessmentForm"])->name("learning.showSecondTermAssessmentForm");
+        Route::get('/completed-disc-assessment/{id}', [ProfileController::class, 'showSecondTermCompletedAssessmentPage'])->name('showCompletedAssessmentPage');
+        Route::get('/disc/assessments/{id}', [PaymentController::class, 'showSecondTermDiscAssessmentBefore'])->name('showSecondTermDiscAssessmentBefore');
+        Route::get('/welcome/{id}', [ProfileController::class, 'welcome'])->name('showWelcomePageForSecondTerm');
+
+
+        Route::get("reports/assessments/{type}/{user}" , [SecondTermAssessmentController::class , "showKidsDiscStyleReport"])->name("secondTerm.showKidsDiscStyleReport");
+        // Route::get("kids/learning-style/reports/assessments/{type}/{user}" , [AssessmentController::class , "kidsLearningStyle"])->name("assessments.kidsLearningStyle");
+        // Route::get("teens/reports/assessments/{type}/{user}" , [AssessmentController::class , "teensDiscStyle"])->name("assessments.teensDiscStyle");
+        // Route::get("teens/learning-style/reports/assessments/{type}/{user}" , [AssessmentController::class , "teensLearningStyle"])->name("assessments.teensLearningStyle");
+    });
+
+
     //assessments
     // Route::get("/assessments/pay", function (){
     //     $payment= \App\Models\Payment::create([
