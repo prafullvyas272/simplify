@@ -183,6 +183,32 @@ export default {
                         `With calm encouragement, `+ this.childName +` can learn to express themselves with quiet confidence - showing that thoughtful voices can be powerful too.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive style are often more reserved in how they communicate. They may not speak up right away, especially in new or loud environments. Instead, they tend to express themselves through quiet actions, thoughtful comments, or by being a steady presence for others.`,
+                        `They are often good listeners and may wait for others to speak before sharing their own thoughts. They might not interrupt, even when they have something important to say. Because they often want to avoid conflict, they may keep their opinions to themselves to keep the peace.`
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+                        `Speaks gently and calmly`,
+                        `Takes time to respond, especially in groups`,
+                        `Chooses words carefully and avoids upsetting others`,
+                        `May stay quiet when feeling unsure`,
+                        `Expresses care through actions more than words`
+                    ],
+                    noticePointBottomHeadings: [
+                        `Because these children don’t always raise their voices or push their ideas forward, it’s important to create space for them to speak. When they do choose to share, their words are often thoughtful and kind.`
+                    ],
+                    encouragePoints: [
+                        `Giving them time to think before answering questions`,
+                        `Asking open-ended questions that show genuine interest`,
+                        `Letting them speak in smaller, quieter settings`,
+                        `Helping them understand that their opinions matter too`
+                    ],
+                    encouragePointBottomHeadings: [
+                        `With gentle support, `+this.childName+` can feel more confident expressing themselves in different situations - not by changing who they are, but by trusting that their voice is just as important as anyone else’s.`
+                    ],
+                },
             },
         };
     },

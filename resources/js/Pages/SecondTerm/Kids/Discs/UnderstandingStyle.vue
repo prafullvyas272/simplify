@@ -122,7 +122,25 @@ export default {
                         `These children do best when given clear expectations, calm encouragement, and time to think. They may need gentle support in expressing their ideas, managing change, and accepting that getting something wrong is part of learning.`,
                         `With steady guidance, `+ this.childName +` can grow into someone who is quietly confident, dependable, and thoughtful - bringing care and precision to everything they do.`
                     ],
-                }
+                },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive style are often gentle, caring, and easy to be around. They like to feel safe, included, and connected to others. These children tend to enjoy steady routines, familiar people, and calm environments where they know what to expect.`,
+                        `They may not seek the spotlight, but they usually notice how others are feeling and will offer help or kindness without being asked. They may take time to warm up in new situations, but once settled, they’re reliable and thoughtful. Their quiet nature can sometimes be mistaken for shyness, but often they are simply reflective and content with a steady pace.`,
+                    ],
+                    commonTraits: [
+                        `Kind and considerate towards others`,
+                        `Prefers routines, predictability, and a steady pace`,
+                        `Avoids conflict or loud, high-energy situations`,
+                        `Works well in groups but may not want to lead`,
+                        `Finds comfort in familiar settings and relationships`,
+                        `May keep their own feelings to themselves`,
+                    ],
+                    bottomHeadings: [
+                        `These children do best when they feel safe, valued, and not rushed. They may need more time to adjust to change, but they are dependable, loyal, and quietly confident once they feel settled.`,
+                        `With support and encouragement, `+ this.childName +` can grow into a calm, reliable, and kind individual who brings steadiness and care to the people and places around them.`
+                    ],
+                },
             }
         };
 

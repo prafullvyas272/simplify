@@ -154,6 +154,28 @@ export default {
                         `The key is to help them feel safe while also encouraging small steps outside of their comfort zone. When ` + this.childName + ` feels secure and supported, motivation builds steadily.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive (S) style are often driven by stability and connection. They like to feel safe, included, and valued for who they are. `,
+                        `They may not always speak up or seek attention, but they care deeply about being part of the group and making a positive difference`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+                        `Feeling appreciated and trusted by adults and peers`,
+                        `Having a clear, familiar routine they can rely on`,
+                        `Being asked to help or contribute in a kind, respectful way`,
+                        `Knowing what to expect before something begins`,
+                        `Working alongside others without pressure or competition`,
+                        `Feeling part of a peaceful, friendly environment`,
+                    ],
+                    motivationPointsBottomHeadings: [
+                        this.childName+` is likely to feel most motivated when they are part of something steady and supportive. Sudden changes, loud settings, or rushed demands may cause them to pull back or feel unsure.`
+                    ],
+                    finalBottomHeadings: [
+                        `You’ll often find that `+this.childName+` shows quiet dedication when things feel calm and consistent - whether they’re helping a friend, following through on a responsibility, or being a reliable presence in a group.`,
+                        `The key is to support their steady nature while gently building confidence and independence. When `+this.childName+` feels secure and encouraged, motivation tends to come naturally.`,
+                    ],
+                },
             }
         };
 

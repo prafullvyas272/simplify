@@ -165,6 +165,32 @@ export default {
                         `With this kind of support, `+ this.childName +` can build emotional awareness and confidence - learning that they can share how they feel, even if they’re used to staying quiet.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive style often feel things deeply but may not always show it outwardly. They tend to keep their emotions to themselves, especially if they think it might upset someone else or cause conflict. Instead of reacting quickly, they might hold things in, stay quiet, or withdraw when something feels uncomfortable.`,
+                        `These children are usually very aware of the emotions around them. They can pick up on tension or changes in mood, and they may try to keep the peace by being extra helpful or agreeable. While this sensitivity can be a strength, it also means their own feelings can get overlooked - even by themselves.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Hiding their feelings to avoid upsetting others`,
+                        `Becoming quiet or withdrawn when something is wrong`,
+                        `Feeling nervous in tense or uncertain situations`,
+                        `Trying to smooth over disagreements or keep everyone happy`,
+                        `Needing reassurance but not always asking for it`
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children don’t usually show big emotional reactions on the surface. But just because they stay calm doesn’t mean they aren’t feeling something strongly inside. Helping `+this.childName+` understand and talk about their emotions gives them the tools to cope more confidently.`
+                    ],
+                    supportPoints: [
+                        `Giving them words to describe what they’re feeling, like “It sounds like you felt left out” or “That seems frustrating”`,
+                        `Showing that it's okay to feel disappointed, sad, or confused, and that slowing down to talk about it is useful`,
+                        `Encouraging a short pause before reacting, especially when something feels unfair or unexpected`,
+                        `Modelling how to talk about feelings and check in on others too`
+                    ],
+                    supportPointBottomHeadings: [
+                        `S-style children are often seen as quiet or easy-going, but they need just as much emotional support as any other child. With encouragement and space to reflect, `+this.childName+` can learn to manage big feelings in a way that builds both strength and empathy.`
+                    ],
+                },
             }
         };
 

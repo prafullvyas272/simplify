@@ -186,6 +186,32 @@ export default {
                         `With support, `+ this.childName + ` can grow into someone who makes considered, confident decisions - balancing care and clarity with growing self-assurance.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive style tend to think carefully and quietly before making decisions. They usually prefer to observe what’s happening around them and take their time before speaking or acting. These children are more likely to go with what feels safe, familiar, or kind - rather than rushing into something new or bold.`,
+                        `They may avoid making quick choices if they feel unsure or if there’s a chance someone might get upset. Instead, they prefer gentle encouragement and time to think things through without pressure.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Taking longer to decide, especially in new situations`,
+                        `Wanting to know what others think before sharing their view`,
+                        `Choosing options that feel calm, fair, or familiar`,
+                        `Avoiding decisions that could lead to conflict or upset`,
+                        `Sometimes saying yes just to keep others happy`,
+                    ],
+                    noticePointBottomHeading: [
+                        `This careful approach helps them feel more secure, but they may need help learning how to speak up for themselves or take the lead when needed. Giving them time, space, and reassurance helps them feel more confident in their choices.`
+                    ],
+                    supportPoints: [
+                        `Ask questions like “What do you think would work best?” or “What feels right to you?”`,
+                        `Give them time to think before answering`,
+                        `Reassure them that it’s okay to say no or disagree politely`,
+                        `Let them practice making small, low-pressure choices each day`
+                    ],
+                    supportPointBottomHeading: [
+                        `With support, [Child’s Name] can learn to trust their own voice and make decisions with quiet confidence. Their natural care and thoughtfulness can grow into a real strength as they learn to balance kindness with assertiveness.`
+                    ],
+                },
             }
         };
 

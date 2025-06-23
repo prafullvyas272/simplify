@@ -80,8 +80,8 @@
                 </div>
             </div>
             <div class="row">
-                <p class="my-4">
-                    <span v-html="reportData[discStyle]?.guidingPhraseBottomHeading[0]"></span>
+                <p class="my-4" v-for="(guidingPhraseBottomHeading, index) in reportData[discStyle]?.guidingPhraseBottomHeading" :key="index">
+                    <span v-html="guidingPhraseBottomHeading"></span>
                 </p>
             </div>
         </div>
@@ -161,6 +161,33 @@ export default {
                     ],
                     guidingPhraseBottomHeading: [
                         `With this kind of steady encouragement and calm guidance, `+ this.childName + ` can build quiet confidence - learning to trust their instincts, speak up when needed, and take on more without losing their natural care.`
+                    ],
+                },
+                S: {
+                    topHeadings: [
+                        `The words we use with children matter. For a child with a Supportive style, gentle, warm, and reassuring language works best. These children are often tuned in to how others feel and want to keep the peace. They respond well to calm encouragement that shows appreciation for their effort and kindness.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+                        `I noticed how kind you were today.`,
+                        `You really helped make things go smoothly.`,
+                        `You stayed calm and kept trying - well done.`,
+                        `I saw that you included your friend. That was thoughtful.`,
+                        `You didn’t rush - you took your time and did it well.`,
+                    ],
+                    encouragingPhraseBottomHeading: [
+                        `These phrases work best when they’re linked to real moments. Try to highlight not just the action, but the steady qualities behind it - like patience, thoughtfulness, or quiet leadership.`
+                    ],
+                    guidingPhrases: [
+                        `It’s okay to say what you need.`,
+                        `You can speak up - your ideas matter.`,
+                        `Let’s take a moment to talk it through.`,
+                        `How did that feel for you?`,
+                        `You don’t have to do it alone - it’s okay to ask for help.`,
+                    ],
+                    guidingPhraseBottomHeading: [
+                        `It’s important not to push them too quickly or overlook their quiet needs. These children thrive when they feel safe and supported, so kind and consistent language goes a long way.`,
+                        `Over time, this kind of language builds not just confidence, but self-awareness - helping `+this.childName+` learn how to use their calm, kind nature to grow in strength and independence.`
                     ],
                 },
             }

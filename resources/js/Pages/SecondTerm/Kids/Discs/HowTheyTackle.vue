@@ -185,6 +185,35 @@ export default {
                         `<b>With gentle support, `+ this.childName + ` can learn to approach challenges with quiet confidence - solving problems carefully and calmly, with growing independence.</b>`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a <b>Supportive style</b> tend to approach problems carefully and patiently. They like to think things through and may wait to see what others do before taking action. Rather than rushing to solve something on their own, they often prefer to ask for help or find a solution that works for everyone.`,
+                        `They are not usually drawn to bold or risky approaches. Instead, they look for calm, steady ways to fix a problem, and they want to feel certain before making a decision. If the situation feels tense or uncertain, they may freeze or avoid it altogether.`
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+                        `Waiting before starting, especially in unfamiliar tasks`,
+                        `Looking to others for reassurance or confirmation`,
+                        `Feeling overwhelmed by pressure or fast decisions`,
+                        `Trying to avoid conflict rather than solve it directly`,
+                        `Taking a steady, step-by-step approach when comfortable`,
+                    ],
+                    middleHeading: 'Because S-style children value peace and cooperation, they may need support in becoming more confident when challenges arise. They benefit from encouragement to take small steps, even if they aren’t completely sure of the outcome.',
+                    supportPoints: [
+                        `Ask gentle questions like “What’s the first thing you could try?” or “Is there someone you could ask for help?”`,
+                        `Break problems into smaller, clear parts`,
+                        `Encourage reflection after they’ve worked through something`,
+                        `Praise their efforts, especially when they show independence`,
+                        `Help them understand that it’s okay to make mistakes and try again`
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+                        `It’s important to let S-style children keep their calm and caring nature. They don’t need to become loud or forceful problem-solvers, but they do benefit from learning when to step forward, speak up, and take the lead in their own quiet way.`,
+                        `With this balance, `+this.childName+` can grow into someone who solves problems not only with care, but with quiet confidence and consideration for others.`
+                    ],
+                },
             }
         };
 

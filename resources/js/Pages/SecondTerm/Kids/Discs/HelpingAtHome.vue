@@ -196,6 +196,49 @@ export default {
                         `When `+ this.childName +` feels supported and clear on what to do, they’re often one of the most quietly dependable helpers at home - steady, responsible, and thoughtful in how they contribute.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive style often enjoy being part of family routines. They like knowing what to expect and being included in calm, meaningful ways. `+this.childName+` may not ask to take the lead, but they are likely to help out quietly and consistently when given the chance.`,
+                        `They may avoid loud or messy jobs, but they often feel proud when someone notices their effort. Encouragement and gentle support help them feel trusted and valued at home.`
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+                        {
+                            'img': '82.svg',
+                            'title': 'Give clear roles',
+                            'description': 'Offer regular tasks that they can do independently. They’re more likely to take responsibility when the expectation is clear and the routine stays the same.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Check in with how they feel',
+                            'description': 'They may not speak up if something feels unfair or difficult. Make space to talk about how things are going and show that their feelings matter.',
+                        },
+                        {
+                            'img': '84.svg',
+                            'title': 'Use calm reminders',
+                            'description': 'If they forget something or need help staying on track, guide them gently. A quiet reminder works better than pressure or sudden changes.',
+                        },
+                        {
+                            'img': '85.svg',
+                            'title': 'Give reassurance',
+                            'description': 'Let them know it’s okay to ask for help or say no. Reassurance helps them feel more confident making decisions on their own.',
+                        },
+                        {
+                            'img': '82.svg',
+                            'title': 'Praise steady effort',
+                            'description': 'Notice and name the quiet ways they contribute, such as sticking to routines, showing kindness, or finishing a task without being asked.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Let them plan something small',
+                            'description': 'Give them a chance to take ownership over something simple, like choosing a meal or organising a space. It helps build confidence in their ability to lead in small but meaningful ways.',
+                        }
+                    ],
+                    bottomHeadings: [
+                        `Helping at home doesn’t always need to be about chores or checklists. With patience and steady encouragement, `+this.childName+` can grow into someone who takes quiet pride in helping others and contributing to the family.`
+                    ],
+                },
             }
         };
 

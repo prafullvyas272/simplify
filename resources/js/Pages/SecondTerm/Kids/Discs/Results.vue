@@ -74,7 +74,13 @@ export default {
                         `The scores show a combination of two styles - <b>Supportive (S)</b> and <b>Cautious (C)</b> - which together make up an SC style. This means `+ this.childName +` is likely to be thoughtful, steady, and detail-focused. Children with this blend tend to enjoy structure and predictability, prefer a calm environment, and may take their time to think things through before acting.`,
                         `This result is a helpful guide to how `+ this.childName +` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+ this.childName +` at home and at school.`
                     ],
-                }
+                },
+                S: {
+                    bottomHeadings: [
+                        `The highest score shows that `+this.childName+` has a <b>Supportive (S) style</b>. This means `+this.childName+` is likely to be calm, kind, and dependable. Children with this style often enjoy helping others, prefer steady routines, and like to feel safe and appreciated in their surroundings.`,
+                        `This result is a helpful guide to how `+this.childName+` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+this.childName+` at home and at school.`
+                    ],
+                },
             },
             parsedDiscScores: this.discScores
                 ? this.discScores

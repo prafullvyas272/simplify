@@ -153,6 +153,34 @@ export default {
                         `With support, `+ this.childName +` can build strong habits around goal-setting - learning that progress is about showing up and growing steadily, not racing to the finish.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive style may not always set bold goals, but they are often committed once they feel secure and clear about what needs to be done. They are more likely to focus on tasks that support others or help keep things running smoothly. While they may not rush ahead with excitement, they are usually reliable once they begin.`
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+                        `Waiting for someone else to suggest a goal`,
+                        `Wanting to know what’s expected before starting`,
+                        `Sticking with something once it feels familiar`,
+                        `Avoiding goals that feel too big or uncertain`,
+                        `Wanting reassurance that they’re doing it right`,
+                    ],
+                    middleHeading: `These children often prefer smaller, realistic goals and steady progress. They may need encouragement to believe that they can aim higher or try something outside their comfort zone. The key is to help them set goals that feel manageable but still offer a sense of growth. `,
+                    supportPoints: [
+                        `Break bigger goals into clear, gentle steps`,
+                        `Use visual trackers or checklists to show progress`,
+                        `Ask questions like “What would you like to get better at this week?”`,
+                        `Encourage them to try small new things, even if they feel unsure`,
+                        `Celebrate consistency, not just achievement`
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+                        `Letting them choose some of their own goals also builds ownership. For example, ask, “Is there something new you’d like to work on?” or “What made you feel proud this week?”`,
+                        `With the right support, `+this.childName+` can learn how to stick with a goal from beginning to end. Their steady, thoughtful nature means they’re often more consistent than they realise - and this can grow into a quiet, lasting confidence.`
+                    ],
+                },
             }
         };
 

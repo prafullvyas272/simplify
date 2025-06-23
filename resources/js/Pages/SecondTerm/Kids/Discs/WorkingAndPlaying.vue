@@ -158,6 +158,34 @@ export default {
                         `With encouragement, `+ this.childName+` can become a reliable and thoughtful team member - someone who contributes calmly and brings a steady, respectful presence to any group.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive style are often kind and dependable teammates. They usually enjoy being part of a group, especially when things feel calm and friendly. They may not want to take the lead, but they often make the group stronger by helping others and keeping the peace.`,
+                        `These children may avoid conflict, even if something is unfair. They might go along with others to keep things running smoothly, rather than speaking up. While this helps them get along with lots of people, they may need support in setting boundaries or sharing their own ideas.`
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+                        `Choosing quiet or kind friends`,
+                        `Avoiding arguments or stepping back from loud groups`,
+                        `Being happy to help but hesitant to lead`,
+                        `Saying yes even when they’re unsure`,
+                        `Keeping feelings to themselves to avoid conflict`
+                    ],
+                    middleHeading: `These children are often thoughtful and considerate, but they may struggle when group dynamics become tense or competitive. Helping `+this.childName+` feel confident in their role and voice is an important part of their social development.`,
+                    supportPoints: [
+                        `Talk about how everyone’s role matters in a team`,
+                        `Encourage them to speak up if something feels unfair or uncomfortable`,
+                        `Praise quiet leadership, like kindness, fairness, and helping behind the scenes`,
+                        `Use role-play to practice standing up for themselves in a gentle way`,
+                        `Check in after group activities and ask, “How did that feel for you?”`
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+                        `With encouragement, `+this.childName+` can become someone others look up to for being steady, respectful, and fair. They may not always be loud, but their presence can have a strong and positive influence on any group.`
+                    ],
+                },
             }
         };
 

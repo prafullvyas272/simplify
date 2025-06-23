@@ -160,6 +160,38 @@ export default {
                         `With support, `+ this.childName + ` can grow into someone who’s not only kind and careful - but also quietly confident, resilient, and ready to take on new challenges in their own calm and thoughtful way.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive style often stand out for their kindness, patience, and gentle nature. These qualities help them build strong relationships and bring calm to group settings. They often put others first and quietly support the people around them.`,
+                        `As `+this.childName+` grows, it’s helpful to guide some of these natural strengths so they continue to develop in a balanced and confident way. The aim isn’t to change who they are, but to make sure they feel empowered to speak up and take up space when they need to.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+                        {
+                            title: 'Following along too easily',
+                            description: 'They may say yes to things just to keep others happy, even if they feel unsure or disagree. Helping ' + this.childName + ' practice speaking up and sharing their opinion builds their confidence to use their voice.',
+                            img: '102.svg',
+                        },
+                        {
+                            title: 'Avoiding conflict',
+                            description: 'They may stay quiet during disagreements or go along with something they don’t like. Support them in learning that respectful disagreement is okay, and that they can set boundaries in a kind way.',
+                            img: '103.svg',
+                        },
+                        {
+                            title: 'Holding back in new situations',
+                            description: 'They may hesitate to try something new or take the lead. With gentle encouragement and reassurance, they can learn to take small steps outside their comfort zone.',
+                            img: '104.svg',
+                        },
+                        {
+                            title: 'Keeping emotions inside',
+                            description: 'They may not always show when they’re upset, frustrated, or unsure. Make time to check in and help them name their feelings so they don’t bottle them up.',
+                            img: '101.svg',
+                        },
+                    ],
+                    bottomHeading: [
+                        `Over time, with support and encouragement, `+this.childName+` can grow into someone who stays true to their steady and kind nature - but also knows how to speak up, take initiative, and feel proud of who they are.`
+                    ],
+                },
             }
         };
 

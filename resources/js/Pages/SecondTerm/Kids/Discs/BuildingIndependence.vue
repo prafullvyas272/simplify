@@ -64,8 +64,7 @@
                 <div v-for="(supportPoint, index) in reportData[discStyle]?.supportPoints" :key="index" class="row">
                     <div class="row p-6">
                         <div class="col-9 offset-2 flex items-center">
-                            <p class="font-bold">
-                                {{ supportPoint }}
+                            <p v-html="supportPoint" class="font-bold">
                             </p>
                         </div>
                         <div class="col-12">
@@ -156,6 +155,37 @@ export default {
                     ],
                     bottomHeadings: [
                         `With time and support, `+ this.childName +` can grow into someone who is quietly dependable - taking responsibility with care, and learning to trust their own ability without constant reassurance.`
+                    ],
+                },
+                S: {
+                    topHeadings: [
+                        `Children with a <b>Supportive style</b> often like to help and be part of a team. They may quietly take on small tasks or support others without being asked. However, they may wait for instructions or avoid taking the lead, especially if they’re unsure or don’t want to make a mistake.`,
+                        `These children may hesitate to do things independently if they fear getting it wrong or letting someone down. They are more likely to say yes to keep the peace, rather than speak up about their own preferences. Helping them feel trusted and capable goes a long way in building confidence and ownership.`
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+                        `Waiting for someone to tell them what to do`,
+                        `Helping others more than asking for help themselves`,
+                        `Agreeing to things just to be polite`,
+                        `Being unsure when plans change or decisions are unclear`,
+                        `Completing tasks well once they feel confident`,
+                    ],
+                    middleHeading: `This sense of cooperation is worth encouraging, but it’s important to guide them towards speaking up and taking initiative. Without support, they may become overly reliant on others or avoid responsibility altogether to avoid pressure or conflict.`,
+                    supportPoints: [
+                        `<h5><b>Give meaningful tasks.</b></h5> <h6>Let them take care of something small but consistent, like feeding a pet or choosing which book to read before bed. Make sure it feels like something they can succeed at.</h6>`,
+
+                        `<h5><b>Allow natural consequences.</b></h5> <h6>If they forget to complete a task, support them in understanding what happened and how to fix it.</h6>`,
+
+                        `<h5><b>Talk through outcomes.</b></h5> <h6>Ask, “How did that go?” or “What would you change next time?”</h6>`,
+
+                        `<h5><b>Use praise for follow-through, not just helpfulness.</b></h5> <h6>S-style children often support others. Make sure they’re also recognised when they complete something independently.</h6>`,
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+                        `Over time, helping `+this.childName+` take small steps on their own builds trust and self-belief. Not just someone who quietly helps, but someone who feels confident in their ability to lead and follow through.`
+
                     ],
                 },
             }

@@ -148,6 +148,41 @@ export default {
                         `These kinds of activities help `+ this.childName + ` grow gently into their strengths - showing that reliability, care, and quiet thoughtfulness are powerful qualities too.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive style enjoy quiet, thoughtful activities that make them feel safe and included. They often respond well to one-on-one time, creative play, or simple tasks with a clear purpose. These kinds of activities can help build confidence, communication, and independence in ways that feel natural and comfortable for them.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    playFulWays: [
+                        {
+                            title: 'Role-play a change',
+                            description: 'Practice something small that’s about to change, like meeting a new teacher or starting a club. This helps them feel prepared and more confident.'
+                        },
+                        {
+                            title: 'Story time reflection',
+                            description: 'Read a short story together and ask, “How do you think that character felt?” or “What would you do in that situation?” This helps them connect feelings with actions.'
+                        },
+                        {
+                            title: 'Helper for the day',
+                            description: 'Let them take charge of a small responsibility, like handing out napkins or setting the table. Being trusted with a role helps build independence.'
+                        },
+                        {
+                            title: 'Confidence jar',
+                            description: 'Write down small moments they were brave or kind during the week and pop them in a jar. Read them together at the end of the week.'
+                        },
+                        {
+                            title: '“Your turn to choose”',
+                            description: 'Let them make a small decision, like what snack to have or what game to play. Practising choice builds decision-making without pressure.'
+                        },
+                        {
+                            title: 'Compliment chain',
+                            description: 'At dinner or before bed, take turns saying something kind about each other. This encourages self-expression and shows the value of quiet voices.'
+                        }
+                    ],
+                    bottomHeadings: [
+                        `These activities do not need to be loud or complex. Just a few minutes of calm, focused time each day can help `+this.childName+` feel seen, supported, and proud of who they are becoming.`
+                    ],
+                },
             }
         };
 

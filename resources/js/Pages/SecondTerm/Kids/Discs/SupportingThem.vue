@@ -169,6 +169,32 @@ export default {
                         `When supported with kindness and clarity, SC-style children often become quietly confident learners - focused, dependable, and able to bring care and consistency to everything they do.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `In school, children with a Supportive style are often seen as kind, calm, and reliable. They enjoy routines and like to know what is expected. They are usually happy to follow the rules, help out quietly, and avoid drawing attention to themselves. These traits help them feel settled and allow others to feel comfortable around them too.`,
+                        this.childName + ` might be the child who sits in the same spot each day, follows the class rules without fuss, and helps a friend without being asked. They may not raise their hand often or speak up in large groups, but they are often fully engaged in quieter ways.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+                        `Willingness to follow routines and expectations`,
+                        `Gentle or quiet nature, especially in group settings`,
+                        `Strong sense of responsibility once they feel settled`,
+                        `Reluctance to try new things or take risks without reassurance`,
+                        `Difficulty speaking up or asking for help in busy classrooms`,
+                    ],
+                    boardImageText: `To support this style in the classroom, calm environments and consistent expectations work best. These children benefit from encouragement that builds confidence and routines that give them a sense of security.`,
+                    teacherParentSupportPoints: [
+                        `Create quiet moments for them to share thoughts, such as small group check-ins or pair discussions`,
+                        `Let them help with class routines or responsibilities to build quiet leadership`,
+                        `Offer praise for effort, not just participation or boldness`,
+                        `Encourage them to try something new in a low-pressure way`,
+                        `Make sure they know it’s okay to ask for help or say what they need`,
+                        `Keep home–school communication open so that subtle patterns aren’t missed`
+                    ],
+                    bottomHeadings: [
+                        `When supported well, S-style children often become dependable learners and loyal friends. With gentle guidance, `+this.childName+` can build confidence in their own pace and style, bringing calm strength and kindness into the classroom.`
+                    ],
+                },
             }
         };
 

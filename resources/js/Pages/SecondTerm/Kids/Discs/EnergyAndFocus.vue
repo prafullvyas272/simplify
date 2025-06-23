@@ -204,6 +204,47 @@ export default {
                         `With the right environment and calm encouragement, `+ this.childName +` can learn to manage their focus steadily - without losing their natural care and attention to detail.`
                     ],
                 },
+                S: {
+                    topHeadings: [
+                        `Children with a Supportive style are often calm and steady in their energy. They may not rush into things or seek out fast-paced activities. Instead, they prefer a gentle pace and may take time to settle into new tasks. This thoughtful rhythm can be helpful in many situations, but it may also mean they need a bit more encouragement to get going or to stay alert during longer tasks.`,
+                        this.childName+` is likely to focus best in quiet, structured environments where expectations are clear and pressure is low. If things feel too rushed, noisy, or unpredictable, they might become overwhelmed or shut down.`,
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+                        `Taking longer to start a new task`,
+                        `Sticking with tasks once they feel comfortable`,
+                        `Becoming distracted if the environment feels unsettled`,
+                        `Needing extra reminders to stay focused during longer work`,
+                        `Avoiding activities that feel too intense or chaotic`,
+                    ],
+                    middleHeading: `These behaviours are not signs of laziness or inattention. Most S-style children genuinely want to do well. They simply work best when they feel secure, supported, and unhurried. Gentle prompts and patient encouragement can help them stay focused while still feeling at ease.`,
+                    supportPoints: [
+                        `Offer quiet spaces and minimise distractions where possible`,
+                        `Break work into smaller parts and give time to settle in`,
+                        `Use calm, clear reminders like “You’re doing well, just keep going a bit longer”`,
+                        `Give positive feedback when they stay focused or finish something`,
+                        `Avoid rushing them - instead, guide them with steady encouragement`,
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+                        `What’s helping you stay focused today?`,
+                        `Would a short break help before we finish this?`,
+                        `What’s the next step you want to take?`
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+                        `With the right support, `+this.childName+` can learn to manage their attention while staying true to their natural pace. Over time, this helps them become both consistent and confident in how they approach tasks.`
+                    ],
+                },
             }
         }
     },
