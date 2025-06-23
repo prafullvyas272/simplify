@@ -141,6 +141,24 @@ export default {
                         `With support and encouragement, `+ this.childName +` can grow into a calm, reliable, and kind individual who brings steadiness and care to the people and places around them.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style are often warm, expressive, and easy to be around. They enjoy connecting with others and tend to be kind, helpful, and talkative. These children like to feel included and to make others feel the same way. They often bring a cheerful presence to group settings and enjoy making friends, sharing ideas, or supporting their classmates.`,
+                        `They may go along with what others want to avoid conflict or upsetting anyone. Because they care so much about being liked, they might say yes when they don’t want to or hold back their own ideas if they feel unsure. At the same time, they often lift others up and create a sense of harmony in social situations.`,
+                    ],
+                    commonTraits: [
+                        `Enjoying group settings, teamwork, and conversation`,
+                        `Being thoughtful and gentle with others`,
+                        `Wanting to feel liked, included, and appreciated`,
+                        `Speaking up in friendly settings, but more reserved in unfamiliar ones`,
+                        `Avoiding conflict or strong disagreement`,
+                        `Enjoying fun, social activities more than structured or solitary ones`,
+                    ],
+                    bottomHeadings: [
+                        `These children do best when they feel secure and supported. They may need help learning to speak up for themselves, manage worry about what others think, and stay focused when a task feels slow or unexciting.`,
+                        `With encouragement, `+this.childName+` can become someone who builds strong, caring connections - while also learning to speak with confidence and act with quiet strength.`,
+                    ],
+                },
             }
         };
 

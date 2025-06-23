@@ -209,6 +209,32 @@ export default {
                         `With gentle support, `+this.childName+` can feel more confident expressing themselves in different situations - not by changing who they are, but by trusting that their voice is just as important as anyone else’s.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style are usually warm, friendly, and easy to talk to. They tend to express themselves in a gentle, cheerful way and often enjoy chatting with others - especially when they feel comfortable and accepted. They are often good at sensing how others are feeling and may use kind words or light humour to keep things positive.`,
+                        `They may avoid expressing disagreement or strong opinions, especially if they’re worried it might upset someone. If they feel unsure, they might stay quiet or agree with others even when they have something different to say.`
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+                        `Friendly and caring when speaking`,
+                        `Enjoys talking in small groups or one-on-one`,
+                        `May hold back thoughts to avoid disagreement`,
+                        `Often speaks with warmth or light humour`,
+                        `Wants others to feel comfortable in the conversation`
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children benefit from learning that their voice matters - even when their opinion is different. They don’t need to speak louder or change who they are, but they may need support in learning to speak up with confidence and clarity.`
+                    ],
+                    encouragePoints: [
+                        `Asking open-ended questions and giving them time to respond`,
+                        `Praising them when they express their opinion honestly`,
+                        `Helping them see that disagreement doesn’t mean conflict`,
+                        `Letting them practice speaking up in safe, low-pressure situations`
+                    ],
+                    encouragePointBottomHeadings: [
+                        `With support, `+this.childName+` can learn to use their natural warmth and empathy to communicate clearly - becoming someone who speaks up with kindness and confidence.`
+                    ],
+                },
             },
         };
     },

@@ -214,6 +214,35 @@ export default {
                         `With this balance, `+this.childName+` can grow into someone who solves problems not only with care, but with quiet confidence and consideration for others.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an <b>IS style</b> tend to approach problems gently and thoughtfully. They are more likely to talk through the issue with others, look for cooperation, and avoid making anyone feel upset. <br><br>They may not be the first to jump in with a bold solution, but they’re often very aware of how the outcome will affect others.`,
+                        `They may become overwhelmed or hesitant when a task feels unfamiliar or high-pressure. Because they care so much about getting along with others, they might avoid tackling problems that could lead to conflict or disappointment - even when they have a good idea.`
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+                        `Wanting to talk about the problem before acting`,
+                        `Avoiding high-stress or competitive problem-solving tasks`,
+                        `Looking for solutions that make everyone feel included`,
+                        `Becoming anxious or uncertain with unclear expectations`,
+                        `Holding back ideas unless encouraged`,
+                    ],
+                    middleHeading: 'Because they want to please others and avoid mistakes, they may need help building confidence in their ideas. Supporting their ability to take small risks helps them grow into more independent, steady problem-solvers.',
+                    supportPoints: [
+                        `Ask, “What do you think might work here?” to help them start thinking for themselves`,
+                        `Break tasks into small, manageable parts with clear steps`,
+                        `Let them talk through their ideas before acting`,
+                        `Encourage trial and error as part of learning`,
+                        `Praise them when they speak up or take initiative, even in small ways`
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+                        `They don’t need to become louder or more forceful - their gentle, inclusive nature is a strength. But they do benefit from learning how to move forward even when the situation feels unfamiliar or imperfect.`,
+                        `With support, `+this.childName+` can grow into a thoughtful, kind problem-solver - someone who tackles challenges with care, clarity, and quiet determination.`
+                    ],
+                },
             }
         };
 

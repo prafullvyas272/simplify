@@ -186,6 +186,34 @@ export default {
                         `With encouragement, `+this.childName+` can become someone others look up to for being steady, respectful, and fair. They may not always be loud, but their presence can have a strong and positive influence on any group.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style are naturally friendly and thoughtful in group settings. They enjoy being part of a team, helping others, and creating a positive, inclusive atmosphere. They may not push to lead, but they often play an important role in keeping everyone connected and at ease. They’re more likely to encourage than to compete - and they usually want everyone to get along.`,
+                        `At times, they may go along with what others want even if they disagree. They may avoid speaking up in group decisions or become upset if there’s tension or unfairness. While they enjoy collaboration, they benefit from learning how to set gentle boundaries and share their own ideas more confidently.`
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+                        `Supporting others and offering help during group activities`,
+                        `Avoiding conflict or stepping back when the group is loud or competitive`,
+                        `Feeling happiest when the group is calm and inclusive`,
+                        `Being hesitant to lead, even when they have a good idea`,
+                        `Needing encouragement to assert themselves or speak up`,
+                    ],
+                    middleHeading: `These children thrive in group settings where kindness, encouragement, and cooperation are valued. They benefit from guidance in building quiet confidence and sharing their voice - even when the atmosphere is busy or fast-moving.`,
+                    supportPoints: [
+                        `Praise their kindness and teamwork, not just their results`,
+                        `Encourage them to express their opinions, even in small ways`,
+                        `Offer chances to lead a group in a gentle or supportive role`,
+                        `Reflect together: “What made the group work well today?”`,
+                        `Talk about how everyone’s voice adds value - including theirs`
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+                        `With the right support, `+this.childName+` can become someone who brings warmth and harmony to group settings - and who learns to lead in their own calm, thoughtful way.`
+                    ],
+                },
             }
         };
 

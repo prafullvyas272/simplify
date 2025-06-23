@@ -192,6 +192,38 @@ export default {
                         `Over time, with support and encouragement, `+this.childName+` can grow into someone who stays true to their steady and kind nature - but also knows how to speak up, take initiative, and feel proud of who they are.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style often shine through their kindness, warmth, and natural ability to connect with others. They tend to be gentle, encouraging, and eager to include everyone - often making those around them feel safe and supported.`,
+                        `As `+this.childName+` grows, it’s helpful to nurture their quiet strengths while also encouraging confidence, independence, and assertiveness. They don’t need to change who they are - but learning to speak up, set boundaries, and trust themselves will help them grow with balance.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+                        {
+                            title: 'Saying yes too often',
+                            description: 'They may go along with others to avoid conflict or disappointment. Help them recognise when it’s okay to say no and to honour their own needs.',
+                            img: '101.svg',
+                        },
+                        {
+                            title: 'Needing frequent reassurance',
+                            description: 'They might seek praise to feel secure. Support their confidence by helping them recognise their own progress - even without outside approval.',
+                            img: '102.svg',
+                        },
+                        {
+                            title: 'Avoiding leadership or decision-making',
+                            description: 'They may prefer to follow others, even when they have good ideas. Give them chances to lead in low-pressure situations to build self-belief.',
+                            img: '103.svg',
+                        },
+                        {
+                            title: 'Holding in emotions',
+                            description: 'They may hide how they feel to protect others. Encourage open conversations and remind them that sharing feelings is both helpful and healthy.',
+                            img: '101.svg',
+                        },
+                    ],
+                    bottomHeading: [
+                        `With support, `+this.childName+` can grow into someone who blends kindness with quiet strength - someone who builds trust with others, while trusting themselves too.`
+                    ],
+                },
             }
         };
 

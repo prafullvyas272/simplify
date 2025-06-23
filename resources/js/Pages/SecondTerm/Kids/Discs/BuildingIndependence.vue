@@ -188,6 +188,33 @@ export default {
 
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an <b>IS style</b> often enjoy helping and being involved - especially when it feels appreciated and supportive. They are usually reliable when others are depending on them, and they often go out of their way to make sure everyone feels okay. However, they may hesitate to take charge or act independently if they’re unsure of what to do or worried about making a mistake.`,
+                        `They may need encouragement to take ownership without constant reassurance. Because they value connection so much, they might agree to things just to keep the peace - even if they don’t feel ready or comfortable.`
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+                        `Helping out eagerly when others are around`,
+                        `Following through better with praise and encouragement`,
+                        `Avoiding tasks that feel too unfamiliar or high-pressure`,
+                        `Wanting reassurance that they’re doing things “right”`,
+                        `Preferring teamwork over solo responsibility`,
+                    ],
+                    middleHeading: `This thoughtful, kind nature is a real strength. Still, it’s helpful to support their ability to make decisions, complete tasks independently, and take pride in what they’ve done on their own - even without someone watching.`,
+                    supportPoints: [
+                        `<h5><b>Give meaningful tasks.</b></h5> <h6>Start with manageable jobs they can complete on their own, then praise the result.</h6>`,
+                        `<h5><b>Allow natural consequences.</b></h5> <h6>If something is forgotten, talk it through gently rather than stepping in right away.</h6>`,
+                        `<h5><b>Talk through outcomes.</b></h5> <h6>Ask, “How did that feel?” or “What might you do differently next time?”</h6>`,
+                        `<h5><b>Use praise for quiet effort.</b></h5> <h6>These children may not ask for attention, but they benefit from being seen and acknowledged for doing their best.</h6>`,
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+                        `Over time, helping `+this.childName+` grow in confidence and self-reliance helps them become someone who shows kindness with strength - and who trusts themselves to get things done.`
+                    ],
+                },
             }
         };
 

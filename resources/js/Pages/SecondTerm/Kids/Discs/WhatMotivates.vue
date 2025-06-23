@@ -176,6 +176,27 @@ export default {
                         `The key is to support their steady nature while gently building confidence and independence. When `+this.childName+` feels secure and encouraged, motivation tends to come naturally.`,
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style are motivated by connection, kindness, and feeling included. They enjoy being part of a group, helping others, and making people smile. <br><br> They are more driven by relationships than competition, and they often feel happiest when everyone around them is getting along.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+                        `Being part of a team or close group`,
+                        `Receiving praise for being kind, helpful, or thoughtful`,
+                        `Doing tasks where they can work with others`,
+                        `Feeling liked and included by both adults and peers`,
+                        `Knowing that their efforts have made someone else feel good`,
+                        `Having routines or activities that feel familiar and low-pressure`,
+                    ],
+                    motivationPointsBottomHeadings: [
+                        `These children are more likely to engage when the activity feels friendly and encouraging. They may not respond well to pressure or high-stakes challenges, but they do well when they feel appreciated and supported.`
+                    ],
+                    finalBottomHeadings: [
+                        this.childName+` is likely to feel most energised when they’re surrounded by warmth and encouragement. They enjoy light, positive environments where people are kind to each other and where their efforts are recognised - especially when they’ve helped someone else.`,
+                        `The key is to support their natural empathy while also encouraging independence. When `+this.childName+` feels accepted and valued, motivation tends to come naturally.`
+                    ],
+                },
             }
         };
 

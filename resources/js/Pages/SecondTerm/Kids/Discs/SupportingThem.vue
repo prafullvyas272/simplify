@@ -195,6 +195,31 @@ export default {
                         `When supported well, S-style children often become dependable learners and loyal friends. With gentle guidance, `+this.childName+` can build confidence in their own pace and style, bringing calm strength and kindness into the classroom.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `In school, children with an IS style are often kind, sociable, and well-liked by classmates. They’re usually the ones who help others, include people in group activities, and maintain a peaceful atmosphere. They may not be the loudest voice in the room, but they’re often emotionally aware and eager to please both teachers and peers.`,
+                        this.childName+` might be the child who offers to help, checks in on a friend, or quietly follows instructions with care. They are more likely to thrive in a warm, encouraging environment where expectations are clear, and they feel emotionally safe. When something feels tense or rushed, they may retreat or become unsure.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+                        `Thoughtful and supportive interactions with others`,
+                        `A preference for group work that feels calm and inclusive`,
+                        `Avoidance of conflict or public correction`,
+                        `Hesitance to speak up in louder or more competitive settings`,
+                        `A strong desire for reassurance or praise`,
+                    ],
+                    boardImageText: `These children benefit from consistent encouragement and clear, kind guidance. They may need reminders that their voice matters and that it’s okay to share their ideas, even when they’re different from the group.`,
+                    teacherParentSupportPoints: [
+                        `Offer low-pressure opportunities to share thoughts or lead activities`,
+                        `Use positive reinforcement for participation and quiet effort`,
+                        `Create structured group work where roles are shared fairly`,
+                        `Encourage emotional reflection: “How did that activity feel?”`,
+                        `Keep home–school communication open to support confidence and classroom participation`
+                    ],
+                    bottomHeadings: [
+                        `When supported well, IS-style children often become valued contributors in class - balancing empathy with quiet leadership and showing that kindness is a strength in any learning environment.`
+                    ],
+                },
             }
         };
 

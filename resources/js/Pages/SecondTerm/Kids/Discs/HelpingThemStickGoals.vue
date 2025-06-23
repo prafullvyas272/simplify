@@ -181,6 +181,34 @@ export default {
                         `With the right support, `+this.childName+` can learn how to stick with a goal from beginning to end. Their steady, thoughtful nature means they’re often more consistent than they realise - and this can grow into a quiet, lasting confidence.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style are usually happy to work towards goals - especially when the goals feel encouraging, manageable, and supported by others. They tend to be more focused on contributing and being part of something than on winning or standing out. While they may not be the first to set bold targets, they enjoy feeling proud of their progress when the path feels clear and positive.`,
+                        `They may need help setting goals independently, staying motivated without constant reassurance, or pushing through moments of uncertainty. They sometimes put others’ needs ahead of their own, which can get in the way of finishing what they’ve started.`
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+                        `Setting gentle, realistic goals rather than big challenges`,
+                        `Sticking with a task when others are depending on them`,
+                        `Avoiding goals that feel too competitive or pressured`,
+                        `Drifting off if progress is slow or unclear`,
+                        `Responding well to check-ins and encouragement`,
+                    ],
+                    middleHeading: `These children do best when goals are broken into achievable steps and paired with regular support. Gentle praise and a sense of teamwork often help them stay focused and proud of what they’ve done. `,
+                    supportPoints: [
+                        `Set small, positive goals with short-term checkpoints`,
+                        `Use visuals like stickers, charts, or a daily tracker`,
+                        `Ask, “What do you want to feel proud of this week?”`,
+                        `Celebrate effort and care, not just completion`,
+                        `Reflect together with questions like, “What made this easier?” or “What would you change next time?”`
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+                        `When they feel supported, `+this.childName+` is more likely to stay committed and grow in confidence. Over time, they’ll learn to set goals not just to please others - but because they believe in what they’re doing.`
+                    ],
+                },
             }
         };
 

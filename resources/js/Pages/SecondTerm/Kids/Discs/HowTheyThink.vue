@@ -209,7 +209,34 @@ export default {
                         `Let them practice making small, low-pressure choices each day`
                     ],
                     supportPointBottomHeading: [
-                        `With support, [Child’s Name] can learn to trust their own voice and make decisions with quiet confidence. Their natural care and thoughtfulness can grow into a real strength as they learn to balance kindness with assertiveness.`
+                        `With support, `+this.childName+` can learn to trust their own voice and make decisions with quiet confidence. Their natural care and thoughtfulness can grow into a real strength as they learn to balance kindness with assertiveness.`
+                    ],
+                },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style tend to think through how others might feel before making decisions. They are more likely to choose what keeps the peace, includes others, or feels kind - rather than acting quickly or taking risks. They may hesitate to decide if they feel uncertain, or if they’re worried about upsetting someone.`,
+                        `These children prefer talking things through in a relaxed, friendly way. They may not enjoy being rushed, and they might change their mind if someone else disagrees. While they don’t usually want to lead, they do want to be part of the group and often go along with what others suggest.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Taking longer to decide, especially in group settings`,
+                        `Asking what others think before choosing`,
+                        `Worrying about making the “wrong” choice`,
+                        `Choosing what feels friendly or fair over what’s bold or different`,
+                        `Wanting to feel reassured before acting`,
+                    ],
+                    noticePointBottomHeading: [
+                        `These children benefit from learning how to trust their own ideas and speak up confidently. They don’t need to become louder or more forceful - but they do benefit from knowing that their opinions matter and that it’s okay to stand by their decisions.`
+                    ],
+                    supportPoints: [
+                        `Ask, “What do you think is best?” before offering help`,
+                        `Reassure them that it’s okay to get things wrong sometimes`,
+                        `Praise decisions made independently, even small ones`,
+                        `Help them think through both the kind and the clear choice`,
+                        `Remind them that saying no or having a different view is still respectful`
+                    ],
+                    supportPointBottomHeading: [
+                        `With gentle support, `+this.childName+` can become someone who considers others - while also building the courage to decide for themselves with confidence and care.`
                     ],
                 },
             }

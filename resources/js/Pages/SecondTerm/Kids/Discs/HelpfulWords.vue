@@ -190,6 +190,33 @@ export default {
                         `Over time, this kind of language builds not just confidence, but self-awareness - helping `+this.childName+` learn how to use their calm, kind nature to grow in strength and independence.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `The words we use with children matter. For a child with an IS style, warm, gentle, and encouraging language works best. They respond well to kind praise, especially when it recognises their thoughtfulness, helpfulness, or quiet effort. Because they often care deeply about how others feel, they benefit from reassurance and gentle reminders that it’s okay to speak up and put themselves forward.`,
+                        `They may hold back to avoid making mistakes or causing upset - so supportive, confidence-building language helps them grow.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+                        `You really made a difference by being kind today.`,
+                        `I noticed how thoughtful you were - that really helped.`,
+                        `You were brave to share your idea.`,
+                        `You worked quietly and carefully - that’s something to be proud of.`,
+                        `People feel good around you - and that’s a real strength.`,
+                    ],
+                    encouragingPhraseBottomHeading: [
+                        `These phrases work best when linked to genuine moments. This helps build a stronger sense of self and quiet confidence.`
+                    ],
+                    guidingPhrases: [
+                        `It’s okay to say what you really think - even if it’s different.`,
+                        `You don’t need to say yes just to keep others happy.`,
+                        `You can try - it doesn’t have to be perfect.`,
+                        `What would you like to do this time?`,
+                        `Let’s practice speaking up together.`,
+                    ],
+                    guidingPhraseBottomHeading: [
+                        `With encouragement and calm support, `+ this.childName +` can learn to express themselves more clearly and confidently - while still staying true to their naturally caring and inclusive nature.`
+                    ],
+                },
             }
         };
 

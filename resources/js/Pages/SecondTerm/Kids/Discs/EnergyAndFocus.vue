@@ -245,6 +245,47 @@ export default {
                         `With the right support, `+this.childName+` can learn to manage their attention while staying true to their natural pace. Over time, this helps them become both consistent and confident in how they approach tasks.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style are usually calm, steady, and socially engaged. They tend to stay focused when the environment feels friendly, familiar, and low-pressure. They may not be the most energetic in the room, but they often stay on task quietly - especially when they know someone is counting on them.`,
+                        `Distractions can come from social interactions or emotional shifts. If someone around them is upset, or if they’re feeling uncertain themselves, it may affect their ability to stay present. They may also drift off during long or repetitive tasks, especially if they aren’t sure of the purpose.`
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+                        `Focusing well when others are nearby or involved`,
+                        `Becoming distracted by emotions or changes in routine`,
+                        `Struggling to re-engage after being interrupted`,
+                        `Needing encouragement to stay with less engaging tasks`,
+                        `Responding best to praise, warmth, and routine`,
+                    ],
+                    middleHeading: `These behaviours aren’t signs of laziness - they reflect a need for emotional security and encouragement. When they feel calm and supported, they are often quietly consistent and dependable.`,
+                    supportPoints: [
+                        `Create routines that feel familiar and structured`,
+                        `Offer gentle reminders or soft prompts without pressure`,
+                        `Let them talk briefly before settling into a task`,
+                        `Break longer jobs into smaller steps with visible progress`,
+                        `Use encouragement to highlight focus and follow-through`,
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+                        `What helped you stay focused today?`,
+                        `Was there a moment you felt distracted?`,
+                        `What made this task easier to stick with?`
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+                        `With the right emotional support and structure, `+this.childName+` can build strong focus habits - staying calm and steady even when things change around them.`
+                    ],
+                },
             }
         }
     },

@@ -239,6 +239,49 @@ export default {
                         `Helping at home doesn’t always need to be about chores or checklists. With patience and steady encouragement, `+this.childName+` can grow into someone who takes quiet pride in helping others and contributing to the family.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style often enjoy being helpful, especially when they feel appreciated for it. They’re likely to respond well to tasks that feel kind, social, or part of a routine. `+this.childName+` may not ask to take the lead at home, but they’re usually reliable when asked gently and given time to complete things at their own pace.`,
+                        `They may avoid tasks that feel too hard or unfamiliar without clear encouragement. They’re also more likely to help when the tone is positive and they feel part of the process, not just told what to do.`
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+                        {
+                            'img': '82.svg',
+                            'title': 'Involve them in planning',
+                            'description': 'Let them help decide how or when a task is done. They enjoy feeling part of the process rather than being assigned a job.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Use warm encouragement',
+                            'description': 'A kind tone and simple praise like “Thanks for doing that - it really helped” can go a long way.',
+                        },
+                        {
+                            'img': '84.svg',
+                            'title': 'Keep tasks light and clear',
+                            'description': 'Break up chores into manageable parts so they don’t feel overwhelming.',
+                        },
+                        {
+                            'img': '85.svg',
+                            'title': 'Invite teamwork',
+                            'description': 'Ask them to help with someone else or do a task together - they often enjoy shared effort.',
+                        },
+                        {
+                            'img': '82.svg',
+                            'title': 'Reinforce their value',
+                            'description': 'Let them know their help matters and makes others feel good. Emotional motivation is powerful for this style.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Build quiet confidence',
+                            'description': 'Give them gentle opportunities to take the lead on small routines - like being in charge of setting the table or organising their space.',
+                        }
+                    ],
+                    bottomHeadings: [
+                        `When `+this.childName+` feels included, appreciated, and supported, they’re often one of the most reliable and thoughtful helpers at home - with a natural desire to contribute in ways that feel caring and meaningful.`
+                    ],
+                },
             }
         };
 

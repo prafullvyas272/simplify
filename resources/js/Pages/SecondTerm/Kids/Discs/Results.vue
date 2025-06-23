@@ -81,6 +81,13 @@ export default {
                         `This result is a helpful guide to how `+this.childName+` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+this.childName+` at home and at school.`
                     ],
                 },
+                IS: {
+                    bottomHeadings: [
+                        `The scores show a combination of two styles - <b>Influential (I) and Supportive (S)</b> - which together make up an <b>IS style</b>. This means `+this.childName+` is likely to be warm, friendly, and eager to connect with others. Children with this blend tend to enjoy teamwork, like to be liked, and often put effort into making others feel included and happy.`,
+                        `This result is a helpful guide to how `+this.childName+` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+this.childName+` at home and at school.`
+
+                    ],
+                },
             },
             parsedDiscScores: this.discScores
                 ? this.discScores

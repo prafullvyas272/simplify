@@ -191,6 +191,33 @@ export default {
                         `S-style children are often seen as quiet or easy-going, but they need just as much emotional support as any other child. With encouragement and space to reflect, `+this.childName+` can learn to manage big feelings in a way that builds both strength and empathy.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style often feel emotions deeply and care a lot about how others are feeling too. They’re sensitive to tone, expression, and whether someone seems upset or pleased - and they may adjust their behaviour to keep others happy. When they feel safe and supported, their emotions are warm and open. But when they feel uncertain or left out, they may become quiet, withdrawn, or worried.`,
+                        `They may not always talk about what’s bothering them, especially if they think it might upset someone. Instead, they might go along with things or try to fix the situation through kindness, even if they feel uncomfortable inside.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Reacting strongly to feeling left out or unappreciated`,
+                        `Showing concern when others are upset`,
+                        `Holding in their own feelings to avoid causing upset`,
+                        `Becoming quiet or withdrawn when anxious`,
+                        `Looking for reassurance through affection or praise`
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children benefit from learning that it’s okay to express their own feelings, even when they’re difficult. Helping them feel safe to open up supports both their emotional growth and their confidence.`
+                    ],
+                    supportPoints: [
+                        `Asking gentle questions like, “What were you feeling just then?”`,
+                        `Letting them know it’s okay to feel sad, annoyed, or confused`,
+                        `Reassuring them that sharing feelings won’t upset others - it helps`,
+                        `Showing how to manage emotions without hiding them`
+                    ],
+                    supportPointBottomHeadings: [
+                        `With consistent support, `+this.childName+` can learn to express their feelings in a way that’s both caring and clear - helping them feel understood and connected.`
+
+                    ],
+                },
             }
         };
 

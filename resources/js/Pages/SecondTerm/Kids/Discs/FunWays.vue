@@ -183,6 +183,42 @@ export default {
                         `These activities do not need to be loud or complex. Just a few minutes of calm, focused time each day can help `+this.childName+` feel seen, supported, and proud of who they are becoming.`
                     ],
                 },
+                IS: {
+                    topHeadings: [
+                        `Children with an IS style often enjoy calm, social activities that make space for conversation, connection, and creativity. They’re likely to prefer games that are inclusive over ones that are competitive, and they tend to enjoy group-based play where kindness and cooperation matter.`,
+                        `These types of activities can be used to gently stretch their confidence, independence, and decision-making - all while still making space for what they enjoy most.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    playFulWays: [
+                        {
+                            title: 'Create a kindness chart',
+                            description: 'Each time they do something helpful or encouraging, let them add to it. Reflect at the end of the week on the impact of their kindness.'
+                        },
+                        {
+                            title: 'Take turns being “in charge”',
+                            description: 'Play games where they lead a family activity, snack choice, or part of the routine - helping them build comfort with decision-making.'
+                        },
+                        {
+                            title: 'Co-create a story',
+                            description: 'Take turns writing or saying lines to build a story together. This promotes creativity, communication, and confidence in sharing ideas.'
+                        },
+                        {
+                            title: 'Set up a helper mission',
+                            description: 'Give them a secret job for the day - like noticing someone who might need help - and reflect on how it went together afterwards.'
+                        },
+                        {
+                            title: 'Plan a playdate or small event',
+                            description: 'Let them decide who to invite, what to do, or how to organise something simple. This builds gentle independence with a social focus.'
+                        },
+                        {
+                            title: 'Role-play problem solving',
+                            description: 'Act out small social challenges (e.g. “What if a friend doesn’t want to play your game?”) and talk through ways to respond with confidence.'
+                        }
+                    ],
+                    bottomHeadings: [
+                        `These activities help `+this.childName+` build resilience and self-assurance while continuing to nurture the warmth and connection they naturally bring to the world around them.`
+                    ],
+                },
             }
         };
 
