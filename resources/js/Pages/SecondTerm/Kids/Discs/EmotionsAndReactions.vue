@@ -138,7 +138,33 @@ export default {
                     supportPointBottomHeadings: [
                         `With the right support, ` + this.childName + ` can learn to manage emotions in a way that’s healthy and respectful - staying true to their kind nature while also feeling understood and supported.`
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style often keep their emotions to themselves. They may feel things deeply but prefer to process those feelings quietly. They are more likely to stay calm on the outside, even when something is bothering them - and they may avoid sharing emotions if they’re unsure how others will react.`,
+                        `They tend to become uneasy with sudden changes, raised voices, or situations that feel unpredictable. Instead of reacting outwardly, they may withdraw, become very quiet, or focus on doing things ‘just right’ as a way to feel secure.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Seeming calm, even when something is upsetting them`,
+                        `Becoming quieter when the environment feels tense`,
+                        `Avoiding conversations about how they feel`,
+                        `Reacting strongly to changes in plans or routines`,
+                        `Needing time and reassurance to feel settled again`
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children benefit from having a safe space to talk, and from gentle questions that help them name and understand their feelings. With regular check-ins and emotional support, they’re more likely to open up in their own time.`
+                    ],
+                    supportPoints: [
+                        `Checking in calmly with questions like, “How did that feel for you?”`,
+                        `Letting them know that it’s okay to feel unsure, upset, or worried`,
+                        `Creating quiet moments to talk one-on-one`,
+                        `Modelling calm emotional expression and showing that it’s normal`
+                    ],
+                    supportPointBottomHeadings: [
+                        `With this kind of support, `+ this.childName +` can build emotional awareness and confidence - learning that they can share how they feel, even if they’re used to staying quiet.`
+                    ],
+                },
             }
         };
 

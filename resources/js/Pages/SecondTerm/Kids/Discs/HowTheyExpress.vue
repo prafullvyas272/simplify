@@ -157,6 +157,32 @@ export default {
                         `With the right support, ` + this.childName + ` can learn to communicate clearly and kindly - building confidence in their voice while continuing to care for those around them.`
                     ],
                 },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style are usually soft-spoken and thoughtful in how they communicate. They tend to think before speaking and are unlikely to interrupt or push to be heard. They often express themselves best in quiet settings or one-on-one conversations, especially when they feel safe and prepared.`,
+                        `They may avoid speaking up in group situations or when they’re unsure of their answer. If they feel they haven’t done something correctly, they might become more reserved or hesitant to try again.`,
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+                        `Speaks gently and prefers to listen before contributing`,
+                        `Takes time to think before responding`,
+                        `Avoids interrupting or talking over others`,
+                        `Shares more in familiar, quiet environments`,
+                        `Becomes quiet if worried about being wrong or criticised`
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children benefit from being reminded that their voice matters - even when they aren’t sure. They don’t need to speak louder or more often, but they do benefit from safe opportunities to practice expressing themselves.`,
+                    ],
+                    encouragePoints: [
+                        `Giving them extra time to think before answering`,
+                        `Asking for their thoughts in low-pressure situations`,
+                        `Praising them for contributing, even if it’s just a small step`,
+                        `Letting them rehearse or prepare before group discussions`
+                    ],
+                    encouragePointBottomHeadings: [
+                        `With calm encouragement, `+ this.childName +` can learn to express themselves with quiet confidence - showing that thoughtful voices can be powerful too.`
+                    ],
+                },
             },
         };
     },

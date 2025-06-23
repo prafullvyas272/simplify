@@ -159,7 +159,33 @@ export default {
                     supportPointBottomHeading: [
                         `With the right support, ` + this.childName + ` can grow into a thoughtful and confident decision-maker - someone who balances care for others with belief in their own voice.`
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style tend to think things through carefully before making decisions. They like to weigh up the options, understand the details, and make sure they’re doing the right thing. They are unlikely to act quickly or take risks unless they feel confident in the outcome.`,
+                        `They prefer routines and clear expectations, so unexpected decisions or open-ended tasks can make them feel uneasy. If they’re unsure, they may wait, ask for help, or look for more information rather than decide straight away.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Taking longer to respond when asked to choose`,
+                        `Asking for more information or clarification`,
+                        `Avoiding choices that feel uncertain or unfamiliar`,
+                        `Wanting to stick with familiar routines or safe options`,
+                        `Being very focused on making the “right” decision`,
+                    ],
+                    noticePointBottomHeading: [
+                        `These children benefit from support that builds trust in their own thinking. They don’t need to be pushed to act fast - but learning that it’s okay to try, even without being sure, helps them build confidence.`
+                    ],
+                    supportPoints: [
+                        `Give extra time to think things through`,
+                        `Ask, “What’s one small step you could take now?”`,
+                        `Reassure them that mistakes are part of learning`,
+                        `Talk through options out loud, helping them sort their thoughts`,
+                    ],
+                    supportPointBottomHeading: [
+                        `With support, `+ this.childName + ` can grow into someone who makes considered, confident decisions - balancing care and clarity with growing self-assurance.`
+                    ],
+                },
             }
         };
 

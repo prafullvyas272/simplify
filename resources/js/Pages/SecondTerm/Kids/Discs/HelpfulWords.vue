@@ -135,7 +135,34 @@ export default {
                     guidingPhraseBottomHeading: [
                         `With kind, steady guidance, ` + this.childName + ` can grow into someone who leads with care, speaks with confidence, and supports others without losing sight of themselves.`
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style respond well to gentle, thoughtful communication. They’re unlikely to ask for praise, but they appreciate being noticed - especially when their quiet effort is recognised. They also benefit from calm guidance that gives them permission to try, even if they’re not completely sure.`,
+                        `The right words can help `+ this.childName +` feel more confident in their abilities and more willing to step out of their comfort zone - without losing the steady nature that helps them thrive.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+                        `You were so careful and focused - I noticed that.`,
+                        `You took your time and got it just right.`,
+                        `You stuck with it even when it wasn’t easy - that shows real effort.`,
+                        `I can always count on you to do things thoughtfully.`,
+                        `You didn’t rush, and that made a big difference.`,
+                    ],
+                    encouragingPhraseBottomHeading: [
+                        `These phrases are especially helpful when connected to specific actions - reinforcing that their steady, quiet work has value.`
+                    ],
+                    guidingPhrases: [
+                        `It’s okay to try, even if you’re not sure yet.`,
+                        `You don’t need to get it perfect - just give it a go.`,
+                        `Let’s break this into steps and do one at a time.`,
+                        `You can say no kindly if something doesn’t feel right.`,
+                        `Your ideas matter, even if they’re different from others.`,
+                    ],
+                    guidingPhraseBottomHeading: [
+                        `With this kind of steady encouragement and calm guidance, `+ this.childName + ` can build quiet confidence - learning to trust their instincts, speak up when needed, and take on more without losing their natural care.`
+                    ],
+                },
             }
         };
 

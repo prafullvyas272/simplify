@@ -124,7 +124,35 @@ export default {
                         `They may lose momentum if they don't feel encouraged or if the task becomes confusing or emotionally unsettled. They can also struggle to stay focused on longer-term goals without regular check-ins or gentle reminders.`,
                         `Over time, with support and structure, ` + this.childName + ` can learn that reaching a goal isn't about speed or being the loudest - it's about taking one steady, confident step at a time.`
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style are naturally steady and committed when they feel secure in what they’re doing. They often prefer smaller, manageable goals that follow a clear process. They are less likely to set bold or ambitious targets on their own, but they tend to stick with tasks quietly and patiently - especially when they know what’s expected.`
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+                        `Setting gentle, realistic goals with clear steps`,
+                        `Wanting support before starting something new`,
+                        `Needing more time to feel confident in their ability`,
+                        `Becoming stuck if unsure about how to begin`,
+                        `Working best with encouragement and clear milestones`,
+                    ],
+                    middleHeading: `These children benefit from clear plans and quiet check-ins. Encouraging progress over perfection - and helping them reflect on what’s going well - can make a big difference in how they approach longer tasks. `,
+                    supportPoints: [
+                        `Set small, achievable goals with a clear path`,
+                        `Use visual aids or charts to show progress`,
+                        `Ask, “What’s one step you can take today?”`,
+                        `Celebrate effort and improvement, not just final results`,
+                        `Reflect often with prompts like, “What helped you keep going?” or “What would you try next time?”`
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+                        `They may be reluctant to set goals that feel too unfamiliar or risky, and they can lose momentum if they aren’t sure how to begin. They may also spend too long perfecting something rather than progressing through it.`,
+                        `With support, `+ this.childName +` can build strong habits around goal-setting - learning that progress is about showing up and growing steadily, not racing to the finish.`
+                    ],
+                },
             }
         };
 

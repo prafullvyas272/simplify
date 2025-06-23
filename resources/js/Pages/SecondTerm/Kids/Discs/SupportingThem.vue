@@ -143,7 +143,32 @@ export default {
                     bottomHeadings: [
                         `When supported well, SI-style children often become the dependable glue of the classroom - encouraging others, contributing steadily, and helping to build a culture of respect and kindness.`
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `In school, children with an SC style are often quiet, respectful, and reliable. They usually enjoy structured lessons, clear expectations, and a calm learning environment. They may not draw attention to themselves, but they’re likely to follow the rules and complete their work carefully and thoroughly.`,
+                        this.childName + ` might not be the first to raise their hand, but they’re often paying close attention and trying hard to do things the right way. If the classroom becomes noisy, unpredictable, or emotionally tense, they may withdraw or lose focus. They may also hesitate to ask for help, even if they’re unsure.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+                        `A preference for quiet, steady work over loud or fast-paced tasks`,
+                        `Needing extra time to warm up to new activities or people`,
+                        `Avoiding situations where they might be wrong or embarrassed`,
+                        `Responding best to calm, structured routines`,
+                        `Being thoughtful and consistent, but not always confident`,
+                    ],
+                    boardImageText: `These children thrive in classrooms where clear expectations are paired with calm encouragement. They benefit from having time to prepare, safe ways to contribute, and a sense that their effort is seen and appreciated.`,
+                    teacherParentSupportPoints: [
+                        `Give advance notice about changes in schedule or expectations`,
+                        `Use structured group work with defined roles`,
+                        `Offer praise privately or in one-on-one settings`,
+                        `Encourage participation in smaller groups or pairs before whole-class tasks`,
+                        `Keep communication open about how they’re coping with class routines and tasks`
+                    ],
+                    bottomHeadings: [
+                        `When supported with kindness and clarity, SC-style children often become quietly confident learners - focused, dependable, and able to bring care and consistency to everything they do.`
+                    ],
+                },
             }
         };
 

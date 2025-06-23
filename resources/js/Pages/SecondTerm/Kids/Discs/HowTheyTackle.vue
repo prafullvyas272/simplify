@@ -155,7 +155,36 @@ export default {
                         `They don’t need to become forceful - their calm and caring approach is a strength. But with gentle support, they can learn to face challenges with more confidence and clarity.`,
                         `<b> With guidance, ` + this.childName + ` can grow into someone who solves problems with empathy, patience, and growing independence. </b>`,
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an <b>SC style</b> tend to approach problems carefully and patiently. They often want to understand the rules, gather all the information, and think before acting. They prefer working in calm, quiet environments where they have time to figure things out without pressure. If a task feels rushed or uncertain, they may freeze or wait rather than jump into action.`,
+                        `They are unlikely to push through confusion on their own - instead, they might pause, overthink, or avoid the problem altogether if it feels overwhelming or emotionally uncomfortable.`
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+                        `Wanting clear steps before getting started`,
+                        `Asking for extra time or reassurance`,
+                        `Avoiding messy or unfamiliar challenges`,
+                        `Becoming hesitant when the problem isn’t well-defined`,
+                        `Focusing on accuracy more than speed`,
+                    ],
+                    middleHeading: 'Because they want to do things correctly and avoid mistakes, they may benefit from support that builds confidence in trial and error. Practising problem-solving in low-pressure settings can help them become more comfortable with uncertainty and setbacks.',
+                    supportPoints: [
+                        `Break problems into smaller, manageable steps`,
+                        `Ask, “What do you already know that can help you here?”`,
+                        `Reassure them that mistakes are part of the process`,
+                        `Encourage trying, even without full certainty`,
+                        `Celebrate effort and progress, not just correct answers`
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+                        `They don’t need to become faster or more forceful - their steady approach is a real strength. But with encouragement, they can learn to be more flexible and resilient in the face of everyday challenges.`,
+                        `<b>With gentle support, `+ this.childName + ` can learn to approach challenges with quiet confidence - solving problems carefully and calmly, with growing independence.</b>`
+                    ],
+                },
             }
         };
 

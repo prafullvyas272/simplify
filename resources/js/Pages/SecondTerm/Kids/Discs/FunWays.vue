@@ -111,7 +111,43 @@ export default {
                     bottomHeadings: [
                         `These activities support ` + this.childName + ` in using their natural warmth and care to grow into someone who is not only kind - but confident, dependable, and quietly capable.`
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style are most comfortable in calm, familiar environments. They prefer activities that are predictable and quietly rewarding. While they may not seek the spotlight, they often enjoy thoughtful, well-organised tasks - especially ones they can do at their own pace.`,
+                        `The right activities can help stretch their confidence, independence, and communication without adding stress. Keeping the tone light and pressure-free allows them to try new things while still feeling secure.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    playFulWays: [
+                        {
+                            title: 'Build a quiet project together',
+                            description: 'Puzzles, sorting games, or simple crafts help them focus while building patience and problem-solving skills.'
+                        },
+                        {
+                            title: 'Role-play calm choices',
+                            description: 'Act out situations like asking for help or saying no kindly. It builds emotional confidence and gentle assertiveness.'
+                        },
+                        {
+                            title: 'Create a home routine chart',
+                            description: 'Let them take the lead in building a checklist for morning or evening routines - this builds ownership and structure.'
+                        },
+                        {
+                            title: 'Design a “safe space” corner',
+                            description: 'Let them choose items for a calm, cosy area where they can read, draw, or take a quiet break.'
+                        },
+                        {
+                            title: 'Do a how-to activity',
+                            description: 'Let them explain how to bake, organise, or complete a familiar task. Teaching others helps build quiet confidence and communication.'
+                        },
+                        {
+                            title: 'Track steady progress',
+                            description: 'Use a simple weekly chart to track effort in a chosen area (e.g. tidying their room or remembering their bag). Keep it visual, low-pressure, and consistent.'
+                        },
+                    ],
+                    bottomHeadings: [
+                        `These kinds of activities help `+ this.childName + ` grow gently into their strengths - showing that reliability, care, and quiet thoughtfulness are powerful qualities too.`
+                    ],
+                },
             }
         };
 

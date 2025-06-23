@@ -127,8 +127,39 @@ export default {
                     bottomHeading: [
                         `With support, `+ this.childName +` can grow into someone who stays grounded in kindness and empathy - while building confidence, independence, and the ability to speak up and take action when it matters.`,
                     ],
-
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style are steady, thoughtful, and dependable. They bring calm to those around them and often work carefully behind the scenes to make sure things run smoothly. These quiet strengths can sometimes be overlooked - but they matter greatly.`,
+                        `As `+ this.childName + ` grows, it’s helpful to nurture their reliability while gently encouraging more confidence, independence, and flexibility. They don’t need to change who they are - just develop the courage to try, speak up, and feel secure even when things aren’t perfect.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+                        {
+                            title: 'Avoiding new or uncertain tasks',
+                            description: 'They may stick only to what’s familiar. Encourage gentle exploration of new experiences without pressure.',
+                            img: '101.svg',
+                        },
+                        {
+                            title: 'Needing everything to be “just right”',
+                            description: 'They may become overly focused on perfection. Remind them that small mistakes are part of learning.',
+                            img: '102.svg',
+                        },
+                        {
+                            title: 'Staying silent instead of speaking up',
+                            description: 'They may not say when something is wrong or unfair. Support them in practising calm, respectful self-expression.',
+                            img: '103.svg',
+                        },
+                        {
+                            title: 'Seeking reassurance too often',
+                            description: 'They may rely on praise to feel secure. Help them notice and celebrate their own progress internally.',
+                            img: '101.svg',
+                        },
+                    ],
+                    bottomHeading: [
+                        `With support, `+ this.childName + ` can grow into someone who’s not only kind and careful - but also quietly confident, resilient, and ready to take on new challenges in their own calm and thoughtful way.`
+                    ],
+                },
             }
         };
 

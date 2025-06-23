@@ -129,7 +129,35 @@ export default {
                     bottomHeadings: [
                         `With support,` + this.childName + `can grow into someone who brings harmony and care into every group - while also learning to stand up, speak out, and contribute with gentle strength.`
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style are often gentle, dependable, and respectful in group settings. They prefer calm, structured play and usually enjoy being with a small, familiar group rather than large or noisy ones. They don’t often push for attention and may quietly help things run smoothly without needing to be in charge.`,
+                        `They are less likely to speak up when something feels unfair or chaotic, and they may step back if the environment becomes too loud or unpredictable. While they are thoughtful and cooperative, they can be overlooked if more vocal children dominate the group.`
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+                        `Playing well with others when the group is calm and inclusive`,
+                        `Being quietly helpful and kind to their peers`,
+                        `Struggling to speak up if they’re treated unfairly`,
+                        `Avoiding fast-paced or competitive games`,
+                        `Feeling most comfortable with familiar friends or routines`
+                    ],
+                    middleHeading: `These children benefit from group settings where everyone is given space to contribute and where clear rules are in place. Encouraging them to share their ideas and take gentle leadership roles helps build confidence in social situations. `,
+                    supportPoints: [
+                        `Assign rotating responsibilities in group tasks so everyone has a turn`,
+                        `Encourage them to express how they feel in a group: “Was that game fair for you?”`,
+                        `Praise acts of kindness and quiet teamwork`,
+                        `Let them practice speaking up in smaller groups before joining larger ones`,
+                        `Remind them that their voice matters, even if others are louder`
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+                        `With encouragement, `+ this.childName+` can become a reliable and thoughtful team member - someone who contributes calmly and brings a steady, respectful presence to any group.`
+                    ],
+                },
             }
         };
 

@@ -130,7 +130,34 @@ export default {
                     bottomHeadings: [
                         `With time and steady support, `+ this.childName +` can grow into someone who acts with quiet confidence - taking responsibility not for attention, but because they feel secure and capable.`
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an <b>SC style</b> are often dependable and conscientious. They want to do things properly and may take pride in getting tasks right, following instructions, and helping in quiet, steady ways. They are more likely to wait for guidance than to jump in - especially if they feel uncertain or worried about making a mistake.`,
+                        `They may not ask for independence, but they often respond well to it when it’s introduced gently and with clear expectations. They can become overly reliant on reassurance, particularly if they’re afraid of getting something wrong.`
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+                        `Wanting clear direction before starting a task`,
+                        `Completing familiar tasks well, but hesitating with new ones`,
+                        `Checking in frequently to see if they’ve done it “right”`,
+                        `Avoiding taking initiative if the outcome isn’t clear`,
+                        `Being responsible in small, routine ways but needing support to take ownership`,
+                    ],
+                    middleHeading: `This careful, steady nature is a real strength. To build independence, they benefit from consistent routines, gentle encouragement, and space to try things without fear of being wrong.`,
+                    supportPoints: [
+                        `Give clear, structured tasks. Start with simple responsibilities they can manage independently.`,
+                        `Reassure without over-correcting. Let them know their effort is trusted, even if the result isn’t perfect.`,
+                        `Praise follow-through and attention to detail. Recognise what they naturally do well.`,
+                        `Encourage decision-making. Ask, “What do you think is the best next step?”`
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+                        `With time and support, `+ this.childName +` can grow into someone who is quietly dependable - taking responsibility with care, and learning to trust their own ability without constant reassurance.`
+                    ],
+                },
             }
         };
 

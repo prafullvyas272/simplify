@@ -147,7 +147,55 @@ export default {
                     bottomHeadings: [
                         `When ` + this.childName + ` feels respected and supported at home, they often become one of the most reliable and thoughtful members of the household - helping with genuine care and steady effort.`
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style are often happy to help at home - especially when they understand exactly what’s expected and have time to complete it without pressure. They prefer tasks that follow a routine, and they may take pride in doing things properly. They might not seek out responsibility on their own, but they’re usually dependable once it’s given to them clearly.`,
+                        `They may feel anxious if a job is rushed or unclear, and they can become overwhelmed by too many instructions at once. They benefit from being trusted to take their time and do things in a calm, consistent way.`
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+                        {
+                            'img': '82.svg',
+                            'title': 'Invite them into shared routines',
+                            'description': 'They enjoy helping when it feels like a team effort. Let them take part in routines like setting the table, tidying up together, or feeding a pet.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Use visual reminders or checklists',
+                            'description': 'A simple chart or routine list helps them know what to expect - and builds independence.',
+                        },
+                        {
+                            'img': '84.svg',
+                            'title': 'Let them finish things at their own pace',
+                            'description': 'Avoid rushing them. A calm tone and extra time can make a big difference.',
+                        },
+                        {
+                            'img': '85.svg',
+                            'title': 'Give clear, structured instructions',
+                            'description': 'They do best when tasks are explained step-by-step, with nothing left vague or open-ended.',
+                        },
+                        {
+                            'img': '82.svg',
+                            'title': 'Assign gentle routines',
+                            'description': 'Consistent responsibilities like folding laundry, organising books, or feeding a pet help them feel useful and capable.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Offer private encouragement',
+                            'description': 'They may not want attention for their effort, but they still value quiet recognition.',
+                        },
+                        {
+                            'img': '84.svg',
+                            'title': 'Build confidence with “safe” decisions',
+                            'description': 'Let them choose between two tasks or decide how to organise their space - it helps them practice decision-making in a low-pressure way.',
+                        },
+                    ],
+                    bottomHeadings: [
+                        `When `+ this.childName +` feels supported and clear on what to do, they’re often one of the most quietly dependable helpers at home - steady, responsible, and thoughtful in how they contribute.`
+                    ],
+                },
             }
         };
 

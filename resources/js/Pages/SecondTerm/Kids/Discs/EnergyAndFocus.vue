@@ -162,7 +162,48 @@ export default {
                     bottomHeadings: [
                         `With the right support, ` + this.childName + ` can learn to manage their focus in a way that feels calm, steady, and fully their own - even when things around them shift.`,
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style tend to be calm and focused when the environment is structured and familiar. They’re usually able to concentrate well on tasks that are clear, predictable, and quiet. They don’t often seek stimulation or excitement - instead, they prefer a steady pace and minimal distractions.`,
+                        `If something feels overwhelming, emotionally tense, or unclear, they may become withdrawn, distracted, or overly focused on small details. They may also struggle to re-engage if their rhythm is disrupted or if they feel unsure about how to continue.`,
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+                        `Focusing well on quiet, structured tasks`,
+                        `Working best when given clear steps and enough time`,
+                        `Losing focus when they feel uncertain or under pressure`,
+                        `Needing reassurance or support to restart after distraction`,
+                        `Becoming fixated on getting small details just right`,
+                    ],
+                    middleHeading: `These children don’t usually need to be pushed harder - they need to feel calm and confident in what they’re doing. Encouraging small breaks, gentle resets, and time to prepare can help maintain focus without adding pressure.`,
+                    supportPoints: [
+                        `Create consistent routines with minimal surprises`,
+                        `Use visual aids or checklists to support task flow`,
+                        `Give them time to plan or preview what’s coming next`,
+                        `Allow short breaks when concentration dips`,
+                        `Let them know that progress, not perfection, is the goal`,
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+                        "`What helped you stay focused today?`",
+                        "`What part felt tricky to keep going with?`",
+                        "`Would it help to take a break or try a different way?`",
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+                        `With the right environment and calm encouragement, `+ this.childName +` can learn to manage their focus steadily - without losing their natural care and attention to detail.`
+                    ],
+                },
             }
         }
     },

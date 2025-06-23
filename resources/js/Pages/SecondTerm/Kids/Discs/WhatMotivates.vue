@@ -132,7 +132,28 @@ export default {
                         themselves. When ` + this.childName + ` feels cared for and gently challenged, motivation tends to grow
                         naturally.`
                     ],
-                }
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style are motivated by calm environments, clear expectations, and a sense of routine. They feel more comfortable when they know what to expect, and they often take quiet pride in doing things properly. They are less motivated by rewards or praise in front of others and more by personal satisfaction in a job done well.`,
+                        `They’re also encouraged by kindness and consistency. If they feel rushed or uncertain, motivation may drop - but when they’re supported patiently and given time to adjust, they’re often steady and dependable.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+                        `Having clear, step-by-step instructions`,
+                        `Knowing what’s expected and having time to prepare`,
+                        `Being trusted to work quietly and independently`,
+                        `Gentle encouragement without pressure`,
+                        `Getting things “right” or feeling well-prepared`,
+                        `Familiar people and familiar routines`,
+                    ],
+                    motivationPointsBottomHeadings: [
+                        this.childName + ` is likely to feel most energised when the environment feels calm and predictable. They are not driven by competition or attention, but by a desire to feel competent, prepared, and at ease.`,
+                    ],
+                    finalBottomHeadings: [
+                        `The key is to help them feel safe while also encouraging small steps outside of their comfort zone. When ` + this.childName + ` feels secure and supported, motivation builds steadily.`
+                    ],
+                },
             }
         };
 

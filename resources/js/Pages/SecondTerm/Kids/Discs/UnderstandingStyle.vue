@@ -104,6 +104,24 @@ export default {
                         `They may need encouragement to speak up when things feel unfair or to try new things without worrying too much about others’ opinions.`,
                         `With steady encouragement, ` + this.childName + ` can become someone who connects with others in thoughtful, meaningful ways - while also learning to speak up and shine with growing confidence.`,
                     ],
+                },
+                SC: {
+                    topHeadings: [
+                        `Children with an SC style are calm, thoughtful, and steady. They tend to prefer routines, quiet environments, and tasks that are clear and well-organised. These children are careful with their words and actions and usually take their time before trying something new. They are dependable and gentle, often putting effort into doing things properly and avoiding mistakes.`,
+                        `They may not speak up unless they feel very sure, and they usually avoid conflict or sudden changes. While they are often very capable, they may need encouragement to believe in themselves and to feel confident trying new approaches.`,
+                    ],
+                    commonTraits: [
+                        `Working quietly and carefully`,
+                        `Preferring predictability and structure`,
+                        `Being cautious with new or unfamiliar tasks`,
+                        `Avoiding loud, rushed, or high-pressure situations`,
+                        `Wanting to do things correctly and avoid getting things wrong`,
+                        `Showing kindness through consistency rather than big gestures`,
+                    ],
+                    bottomHeadings: [
+                        `These children do best when given clear expectations, calm encouragement, and time to think. They may need gentle support in expressing their ideas, managing change, and accepting that getting something wrong is part of learning.`,
+                        `With steady guidance, `+ this.childName +` can grow into someone who is quietly confident, dependable, and thoughtful - bringing care and precision to everything they do.`
+                    ],
                 }
             }
         };
@@ -114,7 +132,7 @@ export default {
             return this.reportData[this.discStyle]?.commonTraits.length;
         }
     },
-    
+
 
 };
 </script>
