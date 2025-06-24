@@ -215,6 +215,33 @@ export default {
                         `Over time, helping `+this.childName+` grow in confidence and self-reliance helps them become someone who shows kindness with strength - and who trusts themselves to get things done.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> often show early signs of independence. They enjoy doing things their way, taking initiative, and leading the charge. They’re usually confident in making decisions and may prefer to set the pace rather than follow others. When they’re excited about something, they act quickly and bring others along with them.`,
+                        `However, they may avoid less exciting tasks or lose focus if no one is watching. They may also push back against instructions they don’t agree with, especially if they feel their ideas aren’t being heard. Building responsibility means helping them stay focused through to the end - not just when things feel fun or easy.`
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+                        `Taking charge without being asked`,
+                        `Wanting to do things independently, in their own way`,
+                        `Avoiding repetitive or slow routines`,
+                        `Needing reminders to complete what they’ve started`,
+                        `Responding strongly when they feel limited or corrected`,
+                    ],
+                    middleHeading: `This natural sense of initiative is a strength worth encouraging. Still, it’s important to support their ability to stick with tasks, accept guidance, and take ownership - even when something feels less exciting.`,
+                    supportPoints: [
+                        `<h5><b>Give meaningful tasks.</b></h5> <h6>Let them lead something from start to finish, with clear expectations.</h6>`,
+                        `<h5><b>Allow natural consequences.</b></h5> <h6>If something isn’t done properly, help them reflect on the impact and how they can improve next time.</h6>`,
+                        `<h5><b>Talk through outcomes.</b></h5> <h6>Ask, “What worked well?” or “What would you do differently next time?”</h6>`,
+                        `<h5><b>Use praise for follow-through.</b></h5> <h6>Recognition matters - highlight when they stick with something or finish it well, not just when they start with energy.</h6>`,
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+                        `Over time, helping `+this.childName+` stay focused and follow through helps build real independence - the kind that goes beyond ideas and becomes something others can rely on.`
+                    ],
+                },
             }
         };
 

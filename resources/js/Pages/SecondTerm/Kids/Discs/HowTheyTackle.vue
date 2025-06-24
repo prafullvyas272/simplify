@@ -243,6 +243,35 @@ export default {
                         `With support, `+this.childName+` can grow into a thoughtful, kind problem-solver - someone who tackles challenges with care, clarity, and quiet determination.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> tend to tackle problems with energy and enthusiasm. They often jump in quickly, offering ideas or trying different solutions straight away. They like to feel in control, and they may lead the effort confidently - even if they haven’t fully thought through the steps. Their creativity helps them approach challenges from different angles, but they may become distracted or lose interest if they don’t see quick results.`,
+                        `They may also get frustrated if others slow them down or if their idea isn’t chosen. While they prefer to lead, they benefit from learning how to involve others and stay focused through to the end of a task.`
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+                        `Trying several ideas without sticking to one`,
+                        `Talking through the problem before starting`,
+                        `Taking the lead in group problem-solving`,
+                        `Getting impatient if others hesitate or overthink`,
+                        `Struggling to finish if they get bored or stuck`,
+                    ],
+                    middleHeading: 'Because they enjoy movement and interaction, they may overlook details or skip over quieter voices in the group. They’re more likely to act than to wait - which is a strength, but can lead to missed steps or misunderstandings.',
+                    supportPoints: [
+                        `Ask, “What’s your first idea - and what’s your back-up plan?”`,
+                        `Encourage them to explain their thinking before acting`,
+                        `Help them focus on one solution at a time`,
+                        `Use timers or checklists to support follow-through`,
+                        `Praise collaboration and persistence, not just quick thinking`
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+                        `They don’t need to slow down completely - their energy and creativity are key strengths of the ID style. But they do benefit from learning when to pause, reflect, and bring others into the process.`,
+                        `With guidance, `+this.childName+` can become a confident and collaborative problem-solver - someone who brings great energy to challenges and learns how to balance it with thoughtfulness and teamwork.`
+                    ],
+                },
             }
         };
 

@@ -286,6 +286,47 @@ export default {
                         `With the right emotional support and structure, `+this.childName+` can build strong focus habits - staying calm and steady even when things change around them.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> are often full of energy, enthusiasm, and movement. They prefer fast-paced tasks, social interaction, and activities that feel fun or goal-oriented. When something catches their interest, they may become deeply involved - but their focus may fade quickly if it feels repetitive, slow, or too structured.`,
+                        this.childName+` is likely to concentrate best when the task feels exciting and when they can see quick progress. They may struggle with tasks that require quiet focus or lots of detail, especially without breaks or encouragement. Distractions are common - especially in busy environments or when they’re surrounded by people to talk to.`
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+                        `Starting with lots of energy but losing focus quickly`,
+                        `Needing reminders to finish what they started`,
+                        `Getting distracted by sounds, people, or new ideas`,
+                        `Enjoying group work more than solo or silent tasks`,
+                        `Disengaging when the task feels too slow or repetitive`,
+                    ],
+                    middleHeading: `These behaviours aren’t about a lack of ability - they reflect a need for variety, movement, and engagement. The goal is not to remove their energy, but to help them manage it more effectively.`,
+                    supportPoints: [
+                        `Break tasks into short, engaging segments`,
+                        `Use timers or mini-deadlines to keep momentum`,
+                        `Provide opportunities for movement or short resets`,
+                        `Let them begin with the creative or social part of a task`,
+                        `Celebrate when they show focus and finish something well`
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+                        `What part do you want to start with today?`,
+                        `What will help you stay focused for the next five minutes?`,
+                        `What’s something you’d like to finish before we stop?`
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+                        `With the right balance of structure and flexibility, `+this.childName+` can learn how to manage their energy in a way that supports focus - without losing their natural drive and enthusiasm.`
+                    ],
+                },
             }
         }
     },

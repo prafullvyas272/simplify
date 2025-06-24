@@ -282,6 +282,49 @@ export default {
                         `When `+this.childName+` feels included, appreciated, and supported, they’re often one of the most reliable and thoughtful helpers at home - with a natural desire to contribute in ways that feel caring and meaningful.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> are often eager to help when the task feels fun, active, or gives them a sense of control. They enjoy being trusted with responsibility, especially if they get to lead or add their own creative twist. They are more likely to engage when there’s praise, variety, or a goal involved - and less likely to stick with quiet, repetitive tasks unless they feel noticed.`,
+                        this.childName+` may start a job with excitement, then get distracted or drift off if it feels boring or takes too long. They respond well to encouragement and do best when they can see their progress along the way.`
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+                        {
+                            'img': '82.svg',
+                            'title': 'Let them choose how to help',
+                            'description': 'Offer two or three tasks and let them pick. This gives them a sense of control while still guiding the outcome.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Add a fun or timed challenge',
+                            'description': 'Use mini-competitions like “Let’s see if we can do this in five minutes” to keep energy high.',
+                        },
+                        {
+                            'img': '84.svg',
+                            'title': 'Use checklists or charts',
+                            'description': 'Visual reminders of progress help them stay on track and feel a sense of achievement.',
+                        },
+                        {
+                            'img': '85.svg',
+                            'title': 'Break up longer tasks',
+                            'description': 'Split jobs into short parts with little breaks or praise in between to maintain focus.',
+                        },
+                        {
+                            'img': '82.svg',
+                            'title': 'Celebrate effort and follow-through',
+                            'description': 'Praise them when they finish something well - not just when they start with energy.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Encourage responsibility with a twist',
+                            'description': 'Give them a rotating “home helper” role with their name on it. This gives structure while still feeling special.',
+                        }
+                    ],
+                    bottomHeadings: [
+                        `Helping at home works best when `+this.childName+` feels trusted, included, and appreciated. With the right support, their enthusiasm can grow into consistent, confident contributions.`
+                    ],
+                },
             }
         };
 

@@ -218,6 +218,32 @@ export default {
 
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> tend to feel emotions strongly and show them openly. Whether they’re happy, frustrated, excited, or disappointed, it’s likely to show right away - through their words, tone, or body language. They don’t usually hide how they feel and may react in the moment without thinking through the situation first.`,
+                        `They may get frustrated when things feel unfair, too slow, or when they don’t feel heard. On the other hand, they light up quickly when they’re praised, included, or allowed to take the lead. Their emotions often shift quickly too - they might be upset one minute and laughing the next.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Showing feelings through voice, movement, or expression`,
+                        `Responding strongly in the moment, then moving on quickly`,
+                        `Getting frustrated if they feel ignored or left out`,
+                        `Becoming louder or more assertive when upset`,
+                        `Needing help recognising how their reactions affect others`,
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children benefit from learning how to pause and reflect before reacting. They don’t need to hide their emotions - just understand how to respond in ways that are respectful and considered.`
+                    ],
+                    supportPoints: [
+                        `Asking, “What were you feeling just then?” or “What do you think made that so frustrating?”`,
+                        `Talking about how emotions can affect others in a group`,
+                        `Modelling calm responses and explaining your own feelings`,
+                        `Letting them take a moment to reset before talking about what happened`
+                    ],
+                    supportPointBottomHeadings: [
+                        `With practice, `+this.childName+` can learn to manage strong feelings in a way that builds trust and connection - while still keeping their expressive and passionate nature intact.`
+                    ],
+                },
             }
         };
 

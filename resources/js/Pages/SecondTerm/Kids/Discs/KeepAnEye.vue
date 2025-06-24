@@ -224,6 +224,38 @@ export default {
                         `With support, `+this.childName+` can grow into someone who blends kindness with quiet strength - someone who builds trust with others, while trusting themselves too.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> often stand out for their bold ideas, social confidence, and enthusiasm. They bring energy into a room and enjoy being part of - or leading - whatever is going on. These are valuable traits that can help them shine in many settings.`,
+                        `As `+this.childName+` grows, it’s helpful to support their natural confidence while gently encouraging reflection, patience, and consideration for others. They don’t need to be less expressive - just more aware of how their actions affect those around them.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+                        {
+                            title: 'Finishing what they start',
+                            description: 'They may begin with great energy, then drift away before the task is complete. Help them build consistency and celebrate follow-through, not just great ideas.',
+                            img: '101.svg',
+                        },
+                        {
+                            title: 'Needing to be heard all the time',
+                            description: 'They may struggle to share space in group settings or feel frustrated when others don’t agree. Encourage turn-taking and show how good listening builds stronger connections.',
+                            img: '102.svg',
+                        },
+                        {
+                            title: 'Rushing into things',
+                            description: 'They might act quickly without thinking through the outcome. Support them in slowing down just enough to make thoughtful choices.',
+                            img: '103.svg',
+                        },
+                        {
+                            title: 'Seeking constant attention',
+                            description: 'They may rely on praise or try to stay in the spotlight. Remind them that quiet effort and teamwork are just as valuable - and sometimes more appreciated.',
+                            img: '101.svg',
+                        },
+                    ],
+                    bottomHeading: [
+                        `With encouragement, `+this.childName+` can learn to lead with kindness, think things through, and finish what they start - without losing their spark or self-belief.`
+                    ],
+                },
             }
         };
 

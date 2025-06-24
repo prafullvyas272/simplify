@@ -197,6 +197,27 @@ export default {
                         `The key is to support their natural empathy while also encouraging independence. When `+this.childName+` feels accepted and valued, motivation tends to come naturally.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> are motivated by fun, challenge, and attention. They like to be active, involved, and in the spotlight - especially when they feel excited about what they’re doing. These children are driven by both social connection and personal achievement. They want to enjoy themselves, but they also like to win, lead, or make an impact.`,
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+                        `Being trusted to lead or make choices`,
+                        `Fun, playful learning environments with interaction`,
+                        `Getting praise or recognition from adults or peers`,
+                        `Doing something new, bold, or slightly competitive`,
+                        `Being the one to start something or share their idea first`,
+                        `Knowing they’ve made others smile or taken the lead`,
+                    ],
+                    motivationPointsBottomHeadings: [
+                        `They may lose interest if things feel too repetitive or too controlled. Instead, they’re more motivated by tasks that are fast-paced, social, and offer space for creativity or decision-making.`
+                    ],
+                    finalBottomHeadings: [
+                        this.childName+` is likely to feel most energised when the task is lively and they feel seen. They enjoy making others laugh, impressing people with their ideas, and turning activities into something exciting.`,
+                        `The key is to balance their enthusiasm with support around finishing tasks and listening to others. When `+this.childName+` feels involved and appreciated, motivation tends to come naturally.`
+                    ],
+                },
             }
         };
 

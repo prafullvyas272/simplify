@@ -209,6 +209,35 @@ export default {
                         `When they feel supported, `+this.childName+` is more likely to stay committed and grow in confidence. Over time, they’ll learn to set goals not just to please others - but because they believe in what they’re doing.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> are naturally goal-driven - especially when the goal is exciting, visible, or lets them take the lead. They like to achieve things quickly and enjoy being recognised when they do. They’re more likely to set bold, creative goals than quiet, step-by-step ones. Starting comes easily - sticking with it may take more support.`,
+                        `They may lose interest if progress feels slow or if the task becomes routine. They’re often motivated by rewards, praise, or the idea of making an impact, but they may need reminders to stay consistent and finish what they start.`
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+                        `Setting big or exciting goals without much planning`,
+                        `Feeling confident at the start, but drifting later`,
+                        `Needing quick wins to stay motivated`,
+                        `Becoming frustrated if something feels too slow`,
+                        `Enjoying public recognition or praise for effort`,
+                    ],
+                    middleHeading: ` Helping them break larger goals into shorter steps can make the process feel more manageable and rewarding. They may also benefit from encouragement that focuses on effort, not just the final result.`,
+                    supportPoints: [
+                        `Break bigger goals into small, playful steps`,
+                        `Use fun checklists, stickers, or visual trackers`,
+                        `Ask, “What’s the next small thing you could do?”`,
+                        `Keep goals light and enjoyable when possible`,
+                        `Celebrate effort, not just achievement`,
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+                        `Letting them reflect on what they’ve achieved - and what helped them do it - builds self-awareness and motivation. Questions like, “What are you proud of?” or “What’s next?” help keep them focused in a way that still feels fun and fast-paced.`,
+                        `With the right guidance, `+this.childName+` can turn bold ideas into real progress - learning to follow through without losing their energy or sense of fun.`
+                    ],
+                },
             }
         };
 

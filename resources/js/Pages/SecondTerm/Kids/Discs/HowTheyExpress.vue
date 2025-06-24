@@ -235,6 +235,32 @@ export default {
                         `With support, `+this.childName+` can learn to use their natural warmth and empathy to communicate clearly - becoming someone who speaks up with kindness and confidence.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> are usually lively, outgoing, and full of expression. They tend to speak up easily, share ideas with excitement, and enjoy being part of group conversations. They may use hand gestures, facial expressions, or humour to get their point across - often becoming the centre of attention without even trying.`,
+                        `They enjoy talking through their thoughts and may speak before thinking everything through. At times, they may interrupt or talk over others simply because they’re excited to contribute. While they’re often confident communicators, they may need reminders to pause, listen, and let others share too.`
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+                        `Talks freely and enthusiastically`,
+                        `Uses expressive language and body movement`,
+                        `Enjoys telling stories, sharing ideas, or making jokes`,
+                        `May interrupt or dominate conversations without realising`,
+                        `Speaks with confidence even when still forming their thoughts`
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children benefit from support in learning how to balance their voice with listening. They don’t need to tone down their enthusiasm - just learn how to use it in a way that brings others along too.`
+                    ],
+                    encouragePoints: [
+                        `Asking them to wait a moment and think before speaking`,
+                        `Praising them when they listen and include others`,
+                        `Helping them reflect on how their words affect those around them`,
+                        `Giving them roles like ‘discussion leader’ where they practice guiding, not just talking`
+                    ],
+                    encouragePointBottomHeadings: [
+                        `With gentle guidance, `+this.childName+` can continue to express themselves with confidence - while also growing into someone who communicates with care and respect for others’ voices too.`
+                    ],
+                },
             },
         };
     },

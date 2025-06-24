@@ -239,6 +239,32 @@ export default {
                         `With gentle support, `+this.childName+` can become someone who considers others - while also building the courage to decide for themselves with confidence and care.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> tend to make decisions quickly and confidently. They often rely on their instincts and enthusiasm, acting fast when something seems fun, exciting, or meaningful to them. They may speak their thoughts out loud as they decide, and are usually not afraid to share what they think - even before they’ve worked out every detail.`,
+                        `They like to take charge, especially when they feel confident in an idea or approach. However, they may struggle to slow down and consider all the facts, especially if there’s pressure to wait, plan, or follow someone else’s lead.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Jumping into action without hesitation`,
+                        `Talking through their thoughts as they decide`,
+                        `Choosing bold or exciting options`,
+                        `Overlooking small details in a rush to get started`,
+                        `Feeling frustrated when others hesitate or ask too many questions`,
+                    ],
+                    noticePointBottomHeading: [
+                        `Their confidence is a strength, but they benefit from learning how to pause, think through their choices, and consider how others may be affected. Decision-making becomes even stronger when they learn to balance their energy with reflection.`
+                    ],
+                    supportPoints: [
+                        `Ask, “What’s your first idea - and what else might work?”`,
+                        `Encourage them to take a short pause before acting`,
+                        `Talk about possible outcomes without criticising their choices`,
+                        `Celebrate when they show patience or listen to another view`
+                    ],
+                    supportPointBottomHeading: [
+                        `With support, `+this.childName+` can learn to make decisions that are not just bold and expressive, but also thoughtful and effective - growing into someone who leads with both heart and head.`
+                    ],
+                },
             }
         };
 

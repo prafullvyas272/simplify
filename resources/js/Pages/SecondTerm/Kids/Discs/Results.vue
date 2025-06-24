@@ -88,6 +88,12 @@ export default {
 
                     ],
                 },
+                ID: {
+                    bottomHeadings: [
+                        `The scores show a combination of two styles - <b>Influential (I) and Dominant (D)</b> - which together make up an <b>ID style</b>. This means `+this.childName+` is likely to be lively, talkative, and quick to take the lead. Children with this blend tend to be full of ideas and energy, often enjoying attention and jumping into activities with confidence and creativity.`,
+                        `This result is a helpful guide to how `+this.childName+` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+this.childName+` at home and at school.`
+                    ],
+                },
             },
             parsedDiscScores: this.discScores
                 ? this.discScores

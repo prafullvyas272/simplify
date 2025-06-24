@@ -219,6 +219,41 @@ export default {
                         `These activities help `+this.childName+` build resilience and self-assurance while continuing to nurture the warmth and connection they naturally bring to the world around them.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> thrive in playful, fast-paced environments where they can take the lead and stay active. They enjoy games, group activities, and anything that lets them share ideas or be in the spotlight. These kinds of experiences can also be used to build focus, patience, and collaborative thinking in a way that feels natural and enjoyable.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    playFulWays: [
+                        {
+                            title: 'Host a mini show or presentation',
+                            description: 'Let them plan and lead a performance, skit, or talk on a topic they love. This helps build communication skills while encouraging preparation and structure.'
+                        },
+                        {
+                            title: 'Challenge with a countdown',
+                            description: 'Set a fun timer to complete a task (like cleaning up or getting ready) to keep focus sharp without pressure.'
+                        },
+                        {
+                            title: 'Rotate leadership at home',
+                            description: 'Let them be “leader of the day” to manage small routines - like setting the table, choosing music, or organising an activity.'
+                        },
+                        {
+                            title: 'Plan a group game',
+                            description: 'Ask them to invent or adapt a game, then explain the rules to others. This builds both creativity and responsibility for fairness.'
+                        },
+                        {
+                            title: 'Storytelling swap',
+                            description: 'Take turns building a story sentence by sentence - this encourages listening, turn-taking, and fun collaboration.'
+                        },
+                        {
+                            title: 'Reflect and celebrate',
+                            description: 'Ask, “What went well today?” or “What are you proud of?” This helps them build awareness of effort and follow-through, not just energy and fun.'
+                        }
+                    ],
+                    bottomHeadings: [
+                        `These activities help `+this.childName+` use their natural charisma in ways that strengthen confidence, connection, and personal growth - while also building habits of reflection and follow-through.`
+                    ],
+                },
             }
         };
 

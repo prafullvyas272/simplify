@@ -217,6 +217,33 @@ export default {
                         `With encouragement and calm support, `+ this.childName +` can learn to express themselves more clearly and confidently - while still staying true to their naturally caring and inclusive nature.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `The words we use with children matter. For a child with an <b>ID style</b>, positive, upbeat, and clear language works best. They respond well to praise - especially when it highlights their effort, enthusiasm, or leadership. They also benefit from reminders that being thoughtful, patient, and consistent is just as important as being expressive or bold.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+                        `You really brought great energy to that.`,
+                        `I noticed how you helped get everyone involved.`,
+                        `You came up with a fun idea - and you saw it through.`,
+                        `You stayed with it, even when it got a bit slow - that’s real effort.`,
+                        `You made a big difference by sticking with the plan.`,
+                    ],
+                    encouragingPhraseBottomHeading: [
+                        `These phrases work best when they’re specific and connected to real actions. ID-style children enjoy being recognised for their impact - especially when it’s tied to growth or follow-through.`
+                    ],
+                    guidingPhrases: [
+                        `Let’s take a breath before jumping in.`,
+                        `Being a good leader means knowing when to listen too.`,
+                        `What’s your plan to finish this once you’ve started?`,
+                        `It’s okay to wait your turn - your idea will still matter.`,
+                        `Let’s think about how others might feel in this moment.`,
+                    ],
+                    guidingPhraseBottomHeading: [
+                        `They often speak and act quickly, so language that helps them pause, reflect, and include others supports their development.`,
+                        `Over time, this mix of praise and redirection helps `+this.childName+` become someone who leads with both enthusiasm and care - using their voice in ways that lift up the people around them.`
+                    ],
+                },
             }
         };
 

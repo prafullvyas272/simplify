@@ -214,6 +214,34 @@ export default {
                         `With the right support, `+this.childName+` can become someone who brings warmth and harmony to group settings - and who learns to lead in their own calm, thoughtful way.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an <b>ID style</b> are usually sociable, lively, and quick to take the lead in group settings. They enjoy being around others, often bringing energy and humour into the room. They tend to be natural leaders in games and group activities, with a strong desire to be liked and listened to.`,
+                        `They may prefer to steer the group rather than follow someone else’s plan. If others don’t agree with their ideas or slow down the activity, they might become impatient or lose interest. They often thrive when they feel both included and in control.`
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+                        `Taking the lead during group play or projects`,
+                        `Speaking up quickly in team discussions`,
+                        `Making friends easily, but sometimes trying to be “in charge”`,
+                        `Getting frustrated when others don’t follow their ideas`,
+                        `Enjoying attention and praise in group settings`,
+                    ],
+                    middleHeading: `These children benefit from learning how to balance their strong voice with space for others. They don’t need to stop leading - but learning to share, listen, and compromise helps them grow into more inclusive team players.`,
+                    supportPoints: [
+                        `Practice taking turns or sharing leadership roles during play`,
+                        `Praise them when they include or encourage others`,
+                        `Ask how the group worked together, not just what they did`,
+                        `Remind them that other people’s ideas matter too`,
+                        `Encourage quiet moments or one-on-one play to build empathy`
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+                        `With support, `+this.childName+` can grow into someone who not only leads with confidence, but also listens with care - making them a teammate that others trust and enjoy being around.`
+                    ],
+                },
             }
         };
 

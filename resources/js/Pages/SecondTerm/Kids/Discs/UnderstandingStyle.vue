@@ -159,6 +159,25 @@ export default {
                         `With encouragement, `+this.childName+` can become someone who builds strong, caring connections - while also learning to speak with confidence and act with quiet strength.`,
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `Children with an ID style are bold, energetic, and full of personality. They tend to be talkative, playful, and confident - often leading the way in both social and active settings. They enjoy being around others and are quick to share ideas, take initiative, and get involved. Their natural mix of charm and determination means they often influence those around them without even trying.`,
+                        `They may come across as both imaginative and assertive. They often want to lead but also want to be liked, which can sometimes lead to impatience or frustration when others don’t follow along. They enjoy fast-moving, engaging activities and may lose interest if things feel slow, repetitive, or overly structured.`
+                    ],
+                    commonTraits: [
+                        `Expressive, enthusiastic, and eager to speak up`,
+                        `Naturally confident and keen to take the lead`,
+                        `Enjoys being around people and feeling noticed`,
+                        `Brings energy and creativity into group activities`,
+                        `May become restless if there’s too much waiting or not enough fun`,
+                        `Can be impulsive or overlook details when rushing ahead`
+                    ],
+                    bottomHeadings: [
+                        `These children do best when they have room to express themselves, take on responsibility, and stay active. They may need help slowing down, listening to others, and staying focused on tasks that take longer to complete.`,
+                        `With the right support, `+this.childName+` can grow into someone who inspires and energises others - not just with ideas and excitement, but with growing patience, purpose, and follow-through.`
+
+                    ],
+                },
             }
         };
 

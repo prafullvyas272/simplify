@@ -220,6 +220,32 @@ export default {
                         `When supported well, IS-style children often become valued contributors in class - balancing empathy with quiet leadership and showing that kindness is a strength in any learning environment.`
                     ],
                 },
+                ID: {
+                    topHeadings: [
+                        `In school, children with an <b>ID style</b> are often expressive, confident, and eager to take part. They may be among the first to speak up, volunteer, or suggest ideas. They tend to enjoy attention and are usually motivated by interaction, praise, and leadership opportunities. They’re most engaged when lessons feel active, creative, or social.`,
+                        this.childName+` might be the child who leads a group project, chats easily with classmates, or comes up with big ideas during discussions. They may struggle, however, with more structured or repetitive tasks - especially those that require long periods of quiet concentration.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+                        `High participation and enthusiasm during interactive lessons`,
+                        `A strong desire to lead or influence group activities`,
+                        `Difficulty staying focused in quiet or independent work`,
+                        `Restlessness or distraction if the pace feels slow`,
+                        `Confidence in speaking, but less patience for listening`,
+                    ],
+                    boardImageText: `These children benefit from a classroom that allows for movement, creativity, and expression - balanced with gentle support in managing structure, listening, and follow-through.`,
+                    teacherParentSupportPoints: [
+                        `Break tasks into smaller steps with checkpoints for feedback`,
+                        `Give opportunities to lead, present, or share ideas`,
+                        `Use timers or visual tools to support focus and transitions`,
+                        `Encourage peer work that includes listening and taking turns`,
+                        `Praise consistency and teamwork as much as creativity`,
+                        `Keep home–school communication open to share progress and encourage reflection`
+                    ],
+                    bottomHeadings: [
+                        `When supported well, ID-style children can bring real energy to the classroom. With time and encouragement, `+this.childName+` can become a student who not only shines with ideas - but also learns to pace themselves and work effectively with others.`
+                    ],
+                },
             }
         };
 
