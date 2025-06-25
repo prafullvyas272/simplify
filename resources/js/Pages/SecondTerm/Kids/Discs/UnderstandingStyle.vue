@@ -178,6 +178,24 @@ export default {
 
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an Influential (I) style are natural communicators. They enjoy being around people, sharing stories, and expressing their thoughts. Whether it’s chatting with friends, performing in front of others, or coming up with new ideas, they often bring energy and excitement to whatever they do.`,
+                        `These children are enthusiastic and imaginative. They are often drawn to fun, colour, and creativity, and they enjoy being liked and noticed. They tend to be optimistic, and their positive attitude can be uplifting for those around them.`
+                    ],
+                    commonTraits: [
+                        `Enjoys talking and connecting with others`,
+                        `Often has lots of ideas and things to share`,
+                        `Likes to be the centre of attention`,
+                        `Has a big imagination and strong sense of creativity`,
+                        `Can be impulsive or easily distracted`,
+                        `Wants to feel liked, included, and appreciated`
+                    ],
+                    bottomHeadings: [
+                        `Influential children like things to feel light and engaging. They may struggle with tasks that feel repetitive or too serious. Sometimes, they focus more on people than on details, or they might talk instead of listen. This isn’t because they aren’t trying - they simply respond best to environments where expression and connection are part of the process.`,
+                        `With support, `+this.childName+` can use this natural energy to inspire others, build strong relationships, and grow in confidence.`
+                    ],
+                },
             }
         };
 

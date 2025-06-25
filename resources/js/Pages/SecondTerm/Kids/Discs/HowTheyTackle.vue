@@ -272,6 +272,35 @@ export default {
                         `With guidance, `+this.childName+` can become a confident and collaborative problem-solver - someone who brings great energy to challenges and learns how to balance it with thoughtfulness and teamwork.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> often approach problems with creativity and optimism. Rather than seeing an issue as something to fix step by step, `+this.childName+` is likely to talk it through, think out loud, or look for help from others. They may come up with clever ideas quickly, but they might also get distracted before finishing or change their mind mid-way through.`,
+                        `They are usually more focused on possibilities than obstacles. If they believe something will be fun or noticed by others, they’re more likely to stick with it. But if the task becomes repetitive, quiet, or overly technical, motivation may drop quickly.`
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+                        `Jumping into a task with excitement, then losing interest`,
+                        `Talking through the problem rather than thinking it through silently`,
+                        `Asking others for input or looking for group-based solutions`,
+                        `Struggling with long, detailed tasks that require sustained focus`,
+                        `Using humour or distraction when stuck or unsure`,
+                    ],
+                    middleHeading: 'Because I-style children like to keep things light and engaging, they may avoid problems that feel too heavy or serious. They tend to look for quick fixes or social solutions, rather than slow, step-by-step thinking.',
+                    supportPoints: [
+                        `Ask open-ended questions like “What could you try next?” or “Who could help with this?”`,
+                        `Break tasks into shorter steps with fun or visual progress markers`,
+                        `Give them space to talk through their ideas before choosing one`,
+                        `Encourage them to pause and reflect when something doesn’t work the first time`,
+                        `Celebrate persistence and effort, not just creative ideas or quick thinking`
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+                        `It’s important to let I-style children keep their energy and imagination. They don’t need to become overly serious or quiet thinkers, but they do benefit from learning when to pause, reflect, and follow through with care.`,
+                        `With practice, `+this.childName+` can learn to combine their natural creativity with stronger follow-through and planning. This helps them become not just imaginative, but effective in how they handle challenges.`
+                    ],
+                },
             }
         };
 

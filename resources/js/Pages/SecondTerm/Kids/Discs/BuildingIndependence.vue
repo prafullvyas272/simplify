@@ -242,6 +242,33 @@ export default {
                         `Over time, helping `+this.childName+` stay focused and follow through helps build real independence - the kind that goes beyond ideas and becomes something others can rely on.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> often want to feel included and liked. They enjoy being part of group plans, having a say in decisions, and being recognised for their ideas. `+this.childName+` may be quick to volunteer for something fun or creative, but might not always follow through once the excitement fades.`,
+                        `These children like tasks that feel light-hearted or social. They’re less motivated by rules or routines, and may need help learning how to stay focused on something even when it’s no longer interesting. Giving them ownership in small ways can help them build a sense of responsibility without it feeling too heavy.`
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+                        `Wanting to be involved when something sounds fun`,
+                        `Starting strong but losing interest midway`,
+                        `Forgetting steps or leaving things half-done`,
+                        `Getting distracted by people or conversations`,
+                        `Responding better to encouragement than correction`,
+                    ],
+                    middleHeading: `This sense of independence is worth encouraging, but it’s important to guide it gently. Without support, their free-spirited nature can lead to missed tasks, forgetfulness, or leaving others to pick up the pieces. What they often need is a little more structure and regular reminders to stick with things.`,
+                    supportPoints: [
+                        `<h5><b>Give meaningful tasks.</b></h5> <h6>Let them help with something that feels fun or expressive - like planning part of a day out, decorating a space, or writing a card. The more creative or social it feels, the more likely they are to follow through.</h6>`,
+                        `<h5><b>Allow natural consequences.</b></h5> <h6>If they forget to complete a task, gently show them the result. This helps connect actions with outcomes.</h6>`,
+                        `<h5><b>Talk through outcomes.</b></h5> <h6>Ask, “What helped you remember that?” or “What could we do differently next time?”</h6>`,
+                        `<h5><b>Use praise for follow-through, not just ideas.</b></h5> <h6>I-style children are great at getting started. Make sure they’re also praised when they complete something with care and consistency.</h6>`,
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+                        `Over time, helping `+this.childName+` balance freedom with responsibility will set them up to be both expressive and reliable. Not just someone who brings energy, but someone others can count on too.`
+                    ],
+                },
             }
         };
 

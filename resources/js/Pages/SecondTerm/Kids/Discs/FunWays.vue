@@ -254,6 +254,41 @@ export default {
                         `These activities help `+this.childName+` use their natural charisma in ways that strengthen confidence, connection, and personal growth - while also building habits of reflection and follow-through.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> respond well to learning experiences that are playful, expressive, and interactive. `+this.childName+` is likely to enjoy activities that allow them to be creative, use their voice, and connect with others. These types of activities can help build focus, listening skills, and emotional awareness while still feeling fun and natural.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    playFulWays: [
+                        {
+                            title: 'Story swap',
+                            description: 'Take turns telling parts of a story. One person starts with a sentence, and the other continues it. This helps with listening, turn-taking, and creativity.'
+                        },
+                        {
+                            title: 'Silly challenges',
+                            description: 'Make tasks into fun competitions. For example, “Can you tidy up three things before the timer runs out?” or “Let’s see who can stay quiet the longest.”'
+                        },
+                        {
+                            title: 'Mirror me',
+                            description: 'Play a game where they have to copy your movements or facial expressions. It encourages focus and builds awareness of others.'
+                        },
+                        {
+                            title: 'Mood matching',
+                            description: 'Draw faces to match different feelings. Ask, “When do you feel like this?” This builds emotional vocabulary and helps them reflect on their reactions.'
+                        },
+                        {
+                            title: 'Praise tracker',
+                            description: 'Create a chart with stars or stickers when they show listening, patience, or follow-through. Celebrate progress at the end of the week.'
+                        },
+                        {
+                            title: 'Share the spotlight',
+                            description: 'Encourage them to ask others questions or cheer someone else on. This teaches them how to be a supportive friend as well as a confident speaker.'
+                        }
+                    ],
+                    bottomHeadings: [
+                        `These activities don’t need to take long. Just a few minutes of connection and playful focus each day can help `+this.childName+` develop confidence, attention, and social awareness in a way that feels natural and fun.`
+                    ],
+                },
             }
         };
 

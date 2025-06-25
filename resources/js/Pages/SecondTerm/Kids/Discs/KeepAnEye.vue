@@ -256,6 +256,38 @@ export default {
                         `With encouragement, `+this.childName+` can learn to lead with kindness, think things through, and finish what they start - without losing their spark or self-belief.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> often stand out for their friendliness, enthusiasm, and sociability. These qualities can take them far and help `+this.childName+` become a joyful, expressive individual who brings energy and connection to the people around them.`,
+                        `As `+this.childName+` grows, it’s helpful to guide some of these natural traits so they continue to develop in a balanced and healthy way. The aim isn’t to quiet their energy or charm, but to shape it into something thoughtful and steady.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+                        {
+                            title: 'Following through',
+                            description: `I-style children love starting things but may lose interest before finishing. They might jump from one idea to the next without seeing a task through. Helping ` + this.childName + ` build persistence, even when things feel less exciting, will boost their sense of responsibility and reliability.`,
+                            img: '101.svg',
+                        },
+                        {
+                            title: 'Listening and focus',
+                            description: `Because they love to talk and connect, they might speak more than they listen. They may also get distracted by social interaction or storytelling. Supporting ` + this.childName + ` in building focus and active listening helps improve both learning and friendships.`,
+                            img: '102.svg',
+                        },
+                        {
+                            title: 'Managing big feelings',
+                            description: `These children often feel things intensely and can be very expressive. But when upset or overwhelmed, they may become dramatic or seek attention. Encouraging calm expression, naming their feelings, and taking a pause can help them stay grounded.`,
+                            img: '103.svg',
+                        },
+                        {
+                            title: 'Balancing fun with rules',
+                            description: `I-style children tend to value enjoyment over structure. They might resist rules that feel boring or unnecessary. Helping ` + this.childName + ` understand the “why” behind expectations, and using positive reinforcement, can improve cooperation.`,
+                            img: '101.svg',
+                        },
+                    ],
+                    bottomHeading: [
+                        `Over time, with gentle support and clear guidance, `+this.childName+` can grow into a confident and thoughtful communicator. One who brings joy to others, but also knows how to stay grounded, follow through, and handle life’s ups and downs with care.`
+                    ],
+                },
             }
         };
 

@@ -261,6 +261,32 @@ export default {
                         `With gentle guidance, `+this.childName+` can continue to express themselves with confidence - while also growing into someone who communicates with care and respect for others’ voices too.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> usually have a lot to say. They enjoy talking, sharing their thoughts, and connecting with the people around them. `+this.childName+` is likely to speak in a lively and expressive way, using their voice, hands, and face to help tell a story or explain an idea.`,
+                        `They often enjoy being part of conversations, asking questions, and making others laugh. Sometimes, they may talk over others without meaning to or struggle to stay quiet when it’s expected. It’s not that they’re trying to be disruptive - they’re just full of ideas and eager to join in.`
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+                        `Talks with energy, expression, and lots of ideas`,
+                        `Enjoys chatting with adults and children alike`,
+                        `May interrupt or forget to take turns when excited`,
+                        `Uses facial expressions and hand gestures to communicate`,
+                        `Can be easily distracted in quiet or long conversations`,
+                    ],
+                    noticePointBottomHeadings: [
+                        `Because I-style children often think while they speak, they may not always notice when someone else is trying to join the conversation. Helping `+this.childName+` slow down and tune in to others is a useful way to build stronger relationships and communication skills.`
+                    ],
+                    encouragePoints: [
+                        `Reminding them to pause and check if others want to speak`,
+                        `Helping them practice listening by asking, “What did your friend say?”`,
+                        `Showing them how to use tone and timing to connect better with others`,
+                        `Celebrating their storytelling while teaching them when less is more`
+                    ],
+                    encouragePointBottomHeadings: [
+                        `The goal is to help `+this.childName+` continue expressing themselves with confidence, while learning how to communicate in ways that include and respect others too.`
+                    ],
+                },
             },
         };
     },

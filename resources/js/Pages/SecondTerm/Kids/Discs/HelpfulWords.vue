@@ -24,7 +24,7 @@
         <div class="row p-6">
             <div class="col-12">
                 <h4 class="px-2 mb-4 font-bold text-blue-800">
-                    Here are some example phrases that tend to work well with SI-style children like {{ childName }}.
+                    Here are some example phrases that tend to work well with {{ discStyle }}-style children like {{ childName }}.
                 </h4>
             </div>
         </div>
@@ -242,6 +242,33 @@ export default {
                     guidingPhraseBottomHeading: [
                         `They often speak and act quickly, so language that helps them pause, reflect, and include others supports their development.`,
                         `Over time, this mix of praise and redirection helps `+this.childName+` become someone who leads with both enthusiasm and care - using their voice in ways that lift up the people around them.`
+                    ],
+                },
+                I: {
+                    topHeadings: [
+                        `The words we use with children matter. For a child with an <b>Influential style</b>, language that feels warm, enthusiastic, and encouraging works best. These children are motivated by connection, praise, and the chance to make others smile. They respond well to words that recognise their positive energy and remind them gently of what’s expected.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+                        `I love how you included everyone just then.`,
+                        `You brought so much fun to that activity.`,
+                        `You made a big effort to cheer up your friend - that was kind.`,
+                        `You kept going even when things got tricky. Well done.`,
+                        `You really helped make the day more fun for everyone.`,
+                    ],
+                    encouragingPhraseBottomHeading: [
+                        `These phrases work best when they’re linked to real moments. Try to highlight not just what happened, but the positive qualities behind it - like kindness, effort, or confidence.`
+                    ],
+                    guidingPhrases: [
+                        `Let’s slow down and think about what comes next.`,
+                        `Can you use your words to explain that more clearly?`,
+                        `What would help you stay focused right now?`,
+                        `How do you think your friend felt during that moment?`,
+                        `What’s something kind you could do next time?`
+                    ],
+                    guidingPhraseBottomHeading: [
+                        `It’s important not to dampen their spirit or excitement, but to shape it. These children thrive on connection and feedback, so guiding them in a kind but clear way helps them stay on track while still feeling encouraged.`,
+                        `Over time, this kind of language builds not just confidence, but self-awareness - helping `+this.childName+` learn how to use their personality to build strong, thoughtful relationships.`
                     ],
                 },
             }

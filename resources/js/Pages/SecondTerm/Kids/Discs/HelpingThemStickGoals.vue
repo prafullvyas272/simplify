@@ -238,6 +238,34 @@ export default {
                         `With the right guidance, `+this.childName+` can turn bold ideas into real progress - learning to follow through without losing their energy or sense of fun.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> often enjoy setting exciting goals and starting new things with enthusiasm. `+this.childName+` is likely to be motivated by the idea of what could happen and how fun it will be to get there. They may come up with colourful ideas or big plans, but they might need help staying on track when the excitement fades or when something gets in the way.`
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+                        `Starting tasks with energy but losing interest partway through`,
+                        `Getting distracted by something new or more fun`,
+                        `Forgetting about a goal unless reminded often`,
+                        `Needing praise and encouragement to stay focused`,
+                        `Wanting quick results or visible progress`,
+                    ],
+                    middleHeading: `These children are usually full of ideas, but they may not always break those ideas down into steps. `+this.childName+` may also avoid goals that feel too hard, slow, or not engaging. The challenge is helping them learn how to follow through, even when things get less interesting.`,
+                    supportPoints: [
+                        `Break bigger goals into small, playful steps`,
+                        `Use fun checklists, stickers, or visual trackers`,
+                        `Ask, “What’s the next small thing you could do?”`,
+                        `Keep goals light and enjoyable when possible`,
+                        `Celebrate effort, not just achievement`,
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+                        `Letting them choose some of their own goals also builds ownership. For example, ask, “What would you like to get better at this week?” or “Is there something new you want to try?”`,
+                        `With the right support, `+this.childName+` can learn how to stay committed even when things get tough. This turns their natural enthusiasm into a skill that helps them achieve goals with confidence and consistency.`
+                    ],
+                },
             }
         };
 

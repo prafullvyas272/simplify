@@ -265,6 +265,32 @@ export default {
                         `With support, `+this.childName+` can learn to make decisions that are not just bold and expressive, but also thoughtful and effective - growing into someone who leads with both heart and head.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> often think aloud. They like to talk things through, bounce ideas around, and follow where their curiosity takes them. Their decision-making is usually based on what feels fun, exciting, or socially engaging rather than on rules or logic.`,
+                        this.childName+` is likely to go with their first idea, especially if it sounds interesting or gets a big reaction from others. They tend to be fast thinkers but may overlook important details or the consequences of their choices in the moment.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Making choices based on feelings or enthusiasm`,
+                        `Needing to talk through ideas before deciding`,
+                        `Choosing options that are fun or attention-grabbing`,
+                        `Struggling with slower, more detailed decisions`,
+                        `Being influenced by friends or the people they like`,
+                    ],
+                    noticePointBottomHeading: [
+                        `This style of thinking often leads to creative and spontaneous ideas, but it can also result in impulsive decisions. It helps to give `+this.childName+` time to talk things out, and then gently guide them back to what matters most.`
+                    ],
+                    supportPoints: [
+                        `Ask questions like “What do you think will happen next?” or “How would that make someone else feel?”`,
+                        `Use short visual lists or reminders to help them stay on track`,
+                        `Let them talk through options, but encourage them to pause before acting`,
+                        `Offer choices that feel fun but still have structure built in`
+                    ],
+                    supportPointBottomHeading: [
+                        `Over time, these small habits help build better judgment while still allowing `+this.childName+` to enjoy the freedom and expression they naturally seek.`
+                    ],
+                },
             }
         };
 

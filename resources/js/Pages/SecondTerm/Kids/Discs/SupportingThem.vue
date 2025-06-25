@@ -246,6 +246,32 @@ export default {
                         `When supported well, ID-style children can bring real energy to the classroom. With time and encouragement, `+this.childName+` can become a student who not only shines with ideas - but also learns to pace themselves and work effectively with others.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `In school, children with an <b>Influential style</b> are often seen as cheerful, talkative, and full of energy. They thrive on connection and excitement, and enjoy learning through social interaction. These traits can make them a delight in class, but may also lead to challenges when tasks require quiet focus, routine, or sustained attention.`,
+                        this.childName+` might be the child who wants to share ideas aloud, tells stories during quiet time, or struggles to sit still for long periods. They often seek approval from teachers and friends and may lose interest if they don’t feel engaged or appreciated.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+                        `Excitement when interacting with others`,
+                        `Eagerness to answer questions or join discussions`,
+                        `Difficulty staying focused on repetitive or solo tasks`,
+                        `Tendency to talk during quiet work times`,
+                        `Strong emotional reactions to feedback, both positive and negative`,
+                    ],
+                    boardImageText: `To support this style in the classroom, warmth and structure work well together. These children benefit from encouragement, connection, and a bit of fun - all within clear expectations and routines.`,
+                    teacherParentSupportPoints: [
+                        `Provide roles that involve talking, such as sharing news or helping lead morning routines`,
+                        `Break longer tasks into short, engaging parts with movement or variety`,
+                        `Use visual reminders and gentle redirection when attention drifts`,
+                        `Praise their contributions to group harmony and team efforts`,
+                        `Build in time for creative expression and storytelling`,
+                        `Keep home–school communication open to celebrate progress and spot emerging patterns`
+                    ],
+                    bottomHeadings: [
+                        `When supported well, I-style children often become expressive, joyful learners who bring energy and positivity into the classroom. With thoughtful guidance, `+this.childName+` can learn to balance their sociable spirit with focus and responsibility, creating a strong foundation for academic and personal growth.`
+                    ],
+                },
             }
         };
 

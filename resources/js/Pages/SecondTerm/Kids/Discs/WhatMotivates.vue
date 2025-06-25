@@ -23,7 +23,7 @@
             <div class="row p-6">
                 <div class="col-6">
                     <h4 class="mb-4 font-bold text-blue-800">
-                        Here are a few things that tend to motivate an SI-style child:
+                        Here are a few things that tend to motivate an {{ discStyle }}-style child:
                     </h4>
                     <ul class="list-disc space-y-3">
                         <li v-for="(motivationPoint, index) in reportData[discStyle]?.motivationPoints?.slice(0, 3)">
@@ -216,6 +216,27 @@ export default {
                     finalBottomHeadings: [
                         this.childName+` is likely to feel most energised when the task is lively and they feel seen. They enjoy making others laugh, impressing people with their ideas, and turning activities into something exciting.`,
                         `The key is to balance their enthusiasm with support around finishing tasks and listening to others. When `+this.childName+` feels involved and appreciated, motivation tends to come naturally.`
+                    ],
+                },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential (I) style</b> are often driven by connection and creativity. They like to feel included, appreciated, and excited about what they’re doing. This doesn’t mean they always need to be the centre of attention, but they do want to feel involved and valued by the people around them.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+                        `Being part of a group or team activity`,
+                        `Having space to talk, share, and express themselves`,
+                        `Being recognised for their ideas or effort`,
+                        `Doing tasks that feel fun, colourful, or new`,
+                        `Getting to be imaginative or use their creativity`,
+                        `Feeling liked and connected to others`,
+                    ],
+                    motivationPointsBottomHeadings: [
+                        this.childName+` is likely to feel most energised when they are able to enjoy what they’re doing in a lively or social setting. Long, repetitive tasks or quiet, solo work may lead to boredom or distraction.`
+                    ],
+                    finalBottomHeadings: [
+                        `You’ll often find that `+this.childName+` pushes forward when there’s a sense of fun or connection - whether it’s working on a project with others, leading part of a performance, or chatting through an idea.`,
+                        `The key is to balance this enthusiasm with encouragement around focus and follow-through. When `+this.childName+` feels excited, noticed, and part of something, motivation naturally follows.`
                     ],
                 },
             }

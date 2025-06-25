@@ -327,6 +327,47 @@ export default {
                         `With the right balance of structure and flexibility, `+this.childName+` can learn how to manage their energy in a way that supports focus - without losing their natural drive and enthusiasm.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> are often lively and full of personality. They enjoy talking, sharing stories, and connecting with others. This natural enthusiasm can be a great strength. It helps them build friendships easily, bring energy into group settings, and stay engaged in things that feel fun or social. However, this same energy can sometimes make it harder to stay focused, especially during quiet, repetitive, or solitary tasks.`,
+                        this.childName+` is likely to show great concentration when the activity feels exciting, creative, or involves other people. These moments bring out their imagination and spark. But when the task feels dull, overly structured, or does not include social interaction, their attention might begin to wander.`
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+                        `Chatting during quiet work time`,
+                        `Losing interest in long or detailed instructions`,
+                        `Forgetting what they were meant to be doing`,
+                        `Needing reminders to stay on task`,
+                        `Getting distracted by what others are doing`,
+                    ],
+                    middleHeading: `These behaviours are not about being disobedient. Most I-style children want to do well. They just find it easier to focus when something feels enjoyable or expressive. They benefit from environments that allow movement, discussion, and some room for creativity, while gently helping them build attention skills.`,
+                    supportPoints: [
+                        `Use tasks with a creative or playful element when possible`,
+                        `Set short time limits or use timers to help with focus`,
+                        `Break longer tasks into fun, bite-sized chunks`,
+                        `Give reminders in a light, positive tone`,
+                        `Celebrate their focus with praise like, “I saw you really concentrate on that”`
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+                        `What helped you stay focused on that task?`,
+                        `Would music or drawing help you stay on track right now?`,
+                        `What’s the first thing you want to finish before your break?`
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+                        `With the right support, `+this.childName+` can learn to balance their creativity and energy with focus and follow-through. Over time, this helps them become not just expressive and fun, but steady and dependable too.`
+                    ],
+                },
             }
         }
     },

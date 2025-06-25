@@ -244,6 +244,32 @@ export default {
                         `With practice, `+this.childName+` can learn to manage strong feelings in a way that builds trust and connection - while still keeping their expressive and passionate nature intact.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> tend to feel emotions strongly and express them outwardly. You’re likely to know when `+this.childName+` is happy, excited, disappointed, or upset, because they’ll show it through their words, tone, and body language. These children are often open with how they feel and may look to others for reassurance or attention when emotions run high.`,
+                        `While this openness can be helpful, it can also lead to emotional ups and downs throughout the day. A moment of praise might lift their mood completely, while a small comment or feeling left out can feel like a big blow. `+this.childName+` may need help learning how to recognise and manage these shifts.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Expressing feelings clearly and often`,
+                        `Becoming excited quickly and showing strong enthusiasm`,
+                        `Feeling discouraged easily if they don’t feel noticed or liked`,
+                        `Seeking validation or attention when unsure`,
+                        `Reacting strongly to praise, tone of voice, or facial expressions`,
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children don’t usually hide how they’re feeling. Once something has passed, they often move on quickly and expect others to do the same. While this can be helpful in some situations, it also means they might overlook how their actions or words affected those around them, especially if someone else is still feeling upset after a disagreement.`
+                    ],
+                    supportPoints: [
+                        `Giving them words to describe what they’re feeling, like “It sounds like you felt left out” or “That seems frustrating”`,
+                        `Showing that it's okay to feel disappointed, sad, or confused, and that slowing down to talk about it is useful`,
+                        `Encouraging a short pause before reacting, especially when something feels unfair or unexpected`,
+                        `Modelling how to apologise or reflect when a reaction may have come across too strongly`
+                    ],
+                    supportPointBottomHeadings: [
+                        `I-style children are often seen as bubbly or carefree, but underneath, they need just as much emotional support as any other child. With encouragement and space to reflect, `+this.childName+` can learn to manage big feelings in a way that builds both strength and empathy.`
+                    ],
+                },
             }
         };
 

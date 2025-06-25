@@ -242,6 +242,34 @@ export default {
                         `With support, `+this.childName+` can grow into someone who not only leads with confidence, but also listens with care - making them a teammate that others trust and enjoy being around.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> are naturally social. `+this.childName+` is likely to enjoy being around others, joining in games, and making new friends. They often bring energy and excitement to group activities, and they like to feel included and liked by those around them.`,
+                        `These children usually prefer teamwork to working alone, and they often communicate their ideas with lots of expression. At times, `+this.childName+` may talk over others without meaning to or become distracted by conversations. They may also try to be the centre of attention, especially in larger groups.`
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+                        `Joining in easily with others`,
+                        `Talking a lot during group tasks`,
+                        `Finding it hard to take turns or stay quiet`,
+                        `Being drawn to popular or outgoing peers`,
+                        `Wanting approval or laughter from the group`,
+                    ],
+                    middleHeading: `These children are often seen as fun to be around, but they may need help slowing down and paying attention to how others feel. Reminders about listening, waiting, and sharing the spotlight can help them build stronger, more balanced relationships.`,
+                    supportPoints: [
+                        `Talk about what good teamwork looks like, including taking turns and listening`,
+                        `Praise moments when they include others or let someone else lead`,
+                        `Use gentle prompts like, “Let’s hear what your friend thinks too”`,
+                        `Help them notice when someone else might feel left out or quiet`,
+                        `Reflect with them after group activities, asking, “What went well?” or “What could you do differently next time?”`
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+                        `With support, `+this.childName+` can learn to be both expressive and thoughtful. Over time, they’ll grow into someone who lifts up the whole group - not just through fun and energy, but through kindness and awareness too.`
+                    ],
+                },
             }
         };
 

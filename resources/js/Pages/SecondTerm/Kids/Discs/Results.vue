@@ -94,6 +94,12 @@ export default {
                         `This result is a helpful guide to how `+this.childName+` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+this.childName+` at home and at school.`
                     ],
                 },
+                I: {
+                    bottomHeadings: [
+                        `The highest score shows that `+this.childName+` has an <b>Influential (I) style</b>. This means `+this.childName+` is likely to be expressive, enthusiastic, and highly social. Children with this style often enjoy talking, sharing ideas, and making people laugh. They bring energy to group settings and tend to be naturally persuasive.`,
+                        `This result is a helpful guide to how `+this.childName+` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+this.childName+` at home and at school.`
+                    ],
+                },
             },
             parsedDiscScores: this.discScores
                 ? this.discScores

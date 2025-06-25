@@ -325,6 +325,49 @@ export default {
                         `Helping at home works best when `+this.childName+` feels trusted, included, and appreciated. With the right support, their enthusiasm can grow into consistent, confident contributions.`
                     ],
                 },
+                I: {
+                    topHeadings: [
+                        `Children with an <b>Influential style</b> often enjoy being part of what’s going on around them. `+this.childName+` is likely to be happiest when the home feels lively, social, and full of opportunities to talk and share. They may be less motivated by quiet chores or strict routines, especially if those tasks feel dull or solitary.`,
+                        `Giving them the chance to feel involved and appreciated can make a big difference. The key is to make responsibility feel enjoyable and to use encouragement, rather than correction, to keep things on track.`
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+                        {
+                            'img': '82.svg',
+                            'title': 'Involve them in fun tasks',
+                            'description': 'Let them help with activities that allow for creativity or connection, such as making shopping lists, setting the table in their own way, or planning a family game night. If it feels like a team effort or gets a laugh, they’re more likely to join in.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Keep reminders light',
+                            'description': 'Rather than repeating instructions firmly, try using playful tones or visual cues. Influential children respond best when the message feels friendly rather than strict.',
+                        },
+                        {
+                            'img': '84.svg',
+                            'title': 'Celebrate small wins',
+                            'description': 'Notice and praise when they follow through on something, even if it’s small. For example, “You remembered that without being asked, well done.”',
+                        },
+                        {
+                            'img': '85.svg',
+                            'title': 'Add social elements to routines',
+                            'description': 'Pair chores or homework with music, a timer challenge, or a chance to share what they’re doing. Turning a task into something they can talk about or look forward to helps motivation.',
+                        },
+                        {
+                            'img': '82.svg',
+                            'title': 'Give space to express themselves',
+                            'description': 'Sometimes they just want to talk. Make time to listen and show interest, even when the stories are long. Feeling heard helps them feel settled.',
+                        },
+                        {
+                            'img': '82.svg',
+                            'title': 'Use visuals and variety',
+                            'description': 'Checklists, coloured markers, or rotating task charts can add energy to routine activities. Changing things up every so often can help them stay interested and engaged.',
+                        },
+                    ],
+                    bottomHeadings: [
+                        `Helping at home doesn’t need to be serious or strict. With a bit of creativity and plenty of encouragement, `+this.childName+` can build responsibility in ways that feel natural to them - and maybe even a bit of fun too`
+                    ],
+                },
             }
         };
 
