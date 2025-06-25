@@ -298,6 +298,34 @@ export default {
                         `Over time, using a mix of praise and gentle direction helps `+this.childName+` grow into someone who leads with both confidence and care - someone who acts with energy, but also listens with intention.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `The words we use with children matter. For a child with a <b>DC style</b>, direct, respectful, and thoughtful language works best. They value being spoken to clearly and treated as capable. Praise is most meaningful when it recognises effort, precision, or smart thinking - rather than general compliments.`,
+                        `At the same time, they benefit from reminders that not everything needs to be perfect, and that working with others is just as important as working independently.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+                        `You really thought that through - great planning.`,
+                        `I can see how much care you put into that.`,
+                        `You asked a smart question - that helped clarify things.`,
+                        `You stayed focused even when it got tricky - well done.`,
+                        `You did that your way, and it worked really well.`,
+                    ],
+                    encouragingPhraseBottomHeading: [
+                        `These phrases work best when linked to specific actions. DC-style children take pride in their thinking and effort, so noticing the process matters as much as the outcome.`
+                    ],
+                    guidingPhrases: [
+                        `It’s okay to try before everything is perfect.`,
+                        `Let’s hear what others think too - there might be more than one good way.`,
+                        `Not everything has a right answer - what do you think is the best option?`,
+                        `You don’t have to get it right straight away - we can work through it.`,
+                        `Let’s step back for a second and see the bigger picture.`,
+                    ],
+                    guidingPhraseBottomHeading: [
+                        `These children don’t need softening - but helping them stay open and reflective gives them even more strength as they grow.`,
+                        `Over time, a mix of recognition and calm redirection helps `+this.childName+` grow into someone who thinks with clarity, acts with purpose, and communicates with both confidence and consideration.`
+                    ],
+                },
             }
         };
 

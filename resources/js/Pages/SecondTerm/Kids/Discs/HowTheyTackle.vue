@@ -330,6 +330,35 @@ export default {
                         `With support, `+this.childName+` can learn to balance quick thinking with thoughtful problem-solving, growing into someone who solves challenges with both confidence and care.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> tend to approach problems with focus, determination, and a desire to get things right. They often want to act quickly - but only after they’ve had a chance to think it through and understand the best way forward. They may not ask for help, and they often prefer to solve things on their own.`,
+                        `Their combination of drive and logic means they’re likely to be confident problem-solvers. However, if they feel blocked, challenged, or that others are slowing them down, they can become impatient or critical. They might push ahead too firmly or step back completely if they feel they can’t control the outcome.`
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+                        `Looking for the most efficient way to fix something`,
+                        `Asking direct questions to get to the bottom of the issue`,
+                        `Becoming frustrated by delays or indecision`,
+                        `Trying to control the process or correct others`,
+                        `Avoiding collaboration if they think others won’t do it properly`
+                    ],
+                    middleHeading: 'Because they value being right and in control, DC-style children may need support in learning how to accept mistakes, listen to other ideas, and adapt when the plan changes. These are skills that help them grow into more flexible and collaborative problem-solvers.',
+                    supportPoints: [
+                        `Ask, “What’s your plan?” to encourage independent thinking with guidance`,
+                        `Suggest more than one possible solution to open their perspective`,
+                        `Praise thoughtful effort, not just quick or correct answers`,
+                        `Encourage group work in low-pressure settings`,
+                        `Reflect together on what worked - and what they might do differently next time`
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+                        `They don’t need to lose their independence or drive - those are strengths of the DC style. But they do benefit from learning when to pause, involve others, and be open to different ways of thinking.`,
+                        `With support, `+this.childName+` can learn to solve problems with both confidence and care - combining their natural precision and drive with growing patience, adaptability, and respect for different approaches.`
+                    ],
+                },
             }
         };
 

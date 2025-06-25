@@ -324,6 +324,41 @@ export default {
                         `These types of activities let `+this.childName+` express their energy and creativity - while also learning how to manage it thoughtfully. Just a few minutes a day can help them grow in focus, teamwork, and follow-through without losing their spark.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> often enjoy thoughtful, structured activities that allow them to focus, plan, and take control. They may prefer solo tasks over group play and tend to enjoy activities that involve strategy, logic, or a clear purpose. These kinds of experiences can help build their flexibility, patience, and connection with others - all while still feeling comfortable and in control.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    playFulWays: [
+                        {
+                            title: 'Create a challenge',
+                            description: 'Give them a practical problem to solve, like designing a more efficient morning routine or organising a messy drawer. Let them lead the process.'
+                        },
+                        {
+                            title: 'Strategy games',
+                            description: 'Play board games that require planning and patience, like chess, checkers, or puzzles. These help build focus and encourage flexibility in a low-pressure way.'
+                        },
+                        {
+                            title: 'Plan a task from start to finish',
+                            description: 'Let them plan and carry out a project - like setting up a small shop at home, making a timetable, or designing a game. Include steps and outcomes they can control.'
+                        },
+                        {
+                            title: '“Change one thing”',
+                            description: 'Take a familiar routine and change a small part of it. Ask them how they’d adapt. This helps them practice being flexible without overwhelming them.'
+                        },
+                        {
+                            title: 'Quiet leadership',
+                            description: 'Give them a job that requires thinking ahead and staying organised - like keeping track of time during a shared activity or preparing something for others.'
+                        },
+                        {
+                            title: 'Reflective check-ins',
+                            description: 'After a task or game, ask, “What worked well?” or “What would you improve?” This builds self-awareness and encourages thoughtful feedback.'
+                        }
+                    ],
+                    bottomHeadings: [
+                        `These activities can help `+this.childName+` feel challenged, respected, and in control - while also helping them practice adapting, collaborating, and stepping back when needed.`
+                    ],
+                },
             }
         };
 

@@ -260,6 +260,28 @@ export default {
                         `The key is to balance their need for excitement with reminders to slow down and stick with tasks that take time. When `+this.childName+` feels recognised and involved, motivation often follows naturally.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> are motivated by challenges that are clear, structured, and meaningful. They like to feel in control, know exactly what’s expected, and see that there’s a purpose behind what they’re doing. These children enjoy setting goals, solving problems, and working towards results - especially when they can do it independently and efficiently.`,
+                        `They are less likely to be motivated by group praise or fun for fun’s sake. Instead, they prefer a sense of achievement, precision, or progress. If something feels too vague, slow, or disorganised, they may lose interest or take over the task themselves.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+                        `Working on tasks that feel challenging and purposeful`,
+                        `Knowing the rules, expectations, and end goal in advance`,
+                        `Being allowed to do things in their own way`,
+                        `Receiving recognition for high-quality work or smart thinking`,
+                        `Having space to work independently without distractions`,
+                        `Seeing progress or results from their effort`,
+                    ],
+                    motivationPointsBottomHeadings: [
+                        this.childName+` is likely to feel most energised when they can focus without interruption, and when they know their effort is respected. They may not show excitement in obvious ways, but completing something well often brings quiet pride and motivation to do more.`
+                    ],
+                    finalBottomHeadings: [
+                        `You’ll often find that `+this.childName+` puts in their best effort when the task has clear value and they feel trusted to lead it their way. With the right kind of challenge and structure, they’re likely to push themselves to do things thoroughly - and on their own terms.`,
+                        `The key is to balance their need for structure and control with encouragement to stay open, flexible, and collaborative. When `+this.childName+` feels trusted and challenged, motivation tends to follow naturally.`
+                    ],
+                },
             }
         };
 

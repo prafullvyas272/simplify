@@ -295,6 +295,35 @@ export default {
                         `With support, `+this.childName+` can learn that sticking to a goal is just as rewarding as setting one. Over time, this helps turn bold ideas into real progress - and real confidence.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> are often self-motivated and like setting goals - especially when they feel those goals are useful, clear, and achievable on their own terms. They tend to take their goals seriously and expect a lot from themselves. However, they may become overly focused on the outcome and frustrated if things don’t go according to plan.`,
+                        `They may not need help coming up with goals, but they do benefit from support in staying flexible, realistic, and open to feedback. These children are more likely to set high expectations and may avoid a goal if they feel it’s out of their control or not worth their effort.`
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+                        `Wanting to set personal targets or challenges`,
+                        `Pushing themselves to high standards`,
+                        `Struggling when progress is slow or unclear`,
+                        `Losing interest if they can’t control the process`,
+                        `Working well when the goal is detailed and results-driven`,
+                    ],
+                    middleHeading: `Helping them break big goals into smaller, practical steps makes it easier for them to track progress and stay engaged - even when things don’t go perfectly.`,
+                    supportPoints: [
+                        `Break goals into specific, measurable steps`,
+                        `Use checklists or trackers to help monitor progress`,
+                        `Ask questions like “What matters most about this goal to you?”`,
+                        `Celebrate steady progress, not just final results`,
+                        `Help them reflect on what went well, even if the goal changed along the way`,
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+                        `Letting them take ownership of their goals helps build long-term motivation. For example, ask, “What did you feel proud of this week?” or “What’s something you’d like to improve next time?”`,
+                        `With the right mix of structure and encouragement, `+this.childName+` can learn to balance high standards with resilience - sticking to goals with both focus and flexibility.`
+                    ],
+                },
             }
         };
 

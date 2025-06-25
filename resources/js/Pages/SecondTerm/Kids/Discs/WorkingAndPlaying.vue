@@ -297,6 +297,33 @@ export default {
                         `With guidance, `+this.childName+` can become not just a bold leader, but a fair and thoughtful one - someone others want to follow because they lead with both confidence and care.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> are often independent and task-focused in group settings. They may prefer to lead or work alone rather than take part in unstructured or overly social activities. They usually care more about getting the job done properly than making sure everyone feels included - not because they don’t care, but because they’re focused on results and doing things the “right” way.`,
+                        `They may become frustrated when others are slow, disorganised, or off-task. In games or group work, they might try to take over or withdraw entirely if they feel others aren’t meeting their standards.`
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+                        `Preferring to lead or work independently`,
+                        `Being critical if others aren’t following the rules`,
+                        `Struggling with compromise or group decision-making`,
+                        `Avoiding overly chatty or playful groups`,
+                        `Wanting things done their way and finding it hard to adapt`,
+                    ],
+                    middleHeading: `These children benefit from learning how to be more flexible, patient, and collaborative. They don’t need to be the most social person in the group - but learning to listen, share space, and respect different styles helps them succeed in team settings.`,
+                    supportPoints: [
+                        `Give them clear roles in group work so they know what to focus on`,
+                        `Practice turn-taking and compromise in small group games`,
+                        `Talk about how different strengths can help a group succeed`,
+                        `Praise them when they show patience or flexibility with others`
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+                        `With support, `+this.childName+` can learn to bring their precision and drive into group settings - becoming someone who contributes with both purpose and respect.`
+                    ],
+                },
             }
         };
 

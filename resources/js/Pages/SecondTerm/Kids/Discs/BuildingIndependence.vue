@@ -296,6 +296,33 @@ export default {
                         `Over time, helping `+this.childName+` stay consistent and accountable builds true independence. Not just the kind that starts strong - but the kind that sees things through and takes pride in doing so.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> often show independence from an early age. They like to be trusted with responsibility, especially when they can do things their own way. These children often prefer working alone, setting their own pace, and holding themselves to high standards. When they feel in control and clear about expectations, they usually follow through well.`,
+                        `However, if the task feels unnecessary or poorly explained, they may resist it altogether. They are more likely to push back than go along with something that doesn’t make sense to them. They may also avoid tasks if they feel unprepared or unsure of the outcome.`
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+                        `Taking control of tasks without being asked`,
+                        `Holding themselves (and others) to high standards`,
+                        `Questioning instructions they don’t agree with`,
+                        `Avoiding repetitive or unclear routines`,
+                        `Completing tasks well once they understand the purpose`,
+                    ],
+                    middleHeading: `This thoughtful, self-directed nature is worth encouraging. Still, it’s important to support their ability to follow through even when they don’t fully enjoy the task - and to help them accept that not everything has to be perfect.`,
+                    supportPoints: [
+                        `<h5><b>Give meaningful tasks.</b></h5> <h6>Let them take on something where quality matters - like checking a list or leading a routine.</h6>`,
+                        `<h5><b>Allow natural consequences.</b></h5> <h6>If something isn’t completed, help them reflect rather than step in right away.</h6>`,
+                        `<h5><b>Talk through outcomes.</b></h5> <h6>Ask, “What would you change next time?” or “Did the outcome match what you expected?”</h6>`,
+                        `<h5><b>Use praise for commitment and quality.</b></h5> <h6>These children value being recognised for smart effort and precision.</h6>`,
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+                        `Over time, helping `+this.childName+` stay consistent, flexible, and open to feedback helps build a deeper kind of independence - one that’s grounded not just in control, but in resilience and responsibility.`
+                    ],
+                },
             }
         };
 

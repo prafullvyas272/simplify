@@ -409,6 +409,47 @@ export default {
                         `With the right balance of structure and flexibility, `+this.childName+` can learn to direct their energy and attention in ways that feel focused, fulfilling, and true to who they are.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> often focus well when the task is clear, meaningful, and under their control. They like working independently and may become fully absorbed in something that challenges them intellectually. They are less likely to be distracted by others - but may become restless or resistant if the task feels too slow, repetitive, or disorganised.`,
+                        this.childName+` is likely to concentrate best when they feel prepared and when their environment is structured. They may dislike interruptions or last-minute changes, and they may lose focus if they feel the task isn’t worth their time or effort.`
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+                        `Staying focused when tasks are logical or results-based`,
+                        `Disengaging if something feels too easy or repetitive`,
+                        `Getting frustrated with distractions or unclear instructions`,
+                        `Wanting to work alone or in quiet settings`,
+                        `Finding it difficult to restart once concentration is broken`,
+                    ],
+                    middleHeading: `These behaviours aren’t about a lack of attention - they’re usually a reflection of their need for clarity, control, and purpose. Supporting this while gently building patience and adaptability helps them succeed in a wider range of situations.`,
+                    supportPoints: [
+                        `Offer quiet, structured environments where possible`,
+                        `Give clear goals and allow space for independent work`,
+                        `Use checklists or visual guides to help them track progress`,
+                        `Break up longer tasks with short, focused breaks`,
+                        `Gently challenge them to complete less exciting parts, even if they resist`
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+                        `What part of this feels easiest to start with?`,
+                        `Do you want to do this in your way or follow a step-by-step?`,
+                        `What’s one thing you want to finish before we stop?`
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+                        `With support, `+this.childName+` can learn to manage their energy in a way that balances intensity with flexibility - helping them stay focused, even when things don’t go exactly to plan.`
+                    ],
+                },
             }
         }
     },

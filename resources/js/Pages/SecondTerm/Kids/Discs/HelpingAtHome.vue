@@ -411,6 +411,49 @@ export default {
                         `Helping at home works best when it taps into their energy and drive. With a bit of structure and encouragement, `+this.childName+` can turn their natural confidence into a real sense of contribution and pride.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> are often reliable and independent when it comes to helping at home - especially if the task is clear, meaningful, and done their way. They usually prefer structure over spontaneity and are more likely to take pride in a job well done than in praise or attention.`,
+                        this.childName+` may not enjoy overly social or repetitive tasks, but they often work hard when they understand the purpose and are given space to do it properly. They may push back if the task feels unclear, unnecessary, or imposed without explanation.`
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+                        {
+                            'img': '82.svg',
+                            'title': 'Give clear, specific instructions',
+                            'description': 'They want to know exactly what needs to be done. Avoid vague requests - instead, explain what the task is and why it matters.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Let them take ownership',
+                            'description': 'Offer tasks they can manage independently, such as organising their school bag, preparing a checklist, or managing part of a routine.',
+                        },
+                        {
+                            'img': '84.svg',
+                            'title': 'Set quality expectations',
+                            'description': 'Explain what a “job well done” looks like in advance. They often enjoy rising to a clear standard.',
+                        },
+                        {
+                            'img': '85.svg',
+                            'title': 'Limit interruptions',
+                            'description': 'If they’re focused on a task, avoid stepping in too quickly. Give them time to finish without too many changes or corrections.',
+                        },
+                        {
+                            'img': '82.svg',
+                            'title': 'Praise their effort and thinking',
+                            'description': 'Recognise not just the finished task, but the care, accuracy, or planning they put into it.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Let them improve a system',
+                            'description': 'Invite them to help make something work better - like rearranging a drawer or creating a new routine. They often enjoy streamlining things.',
+                        },
+                    ],
+                    bottomHeadings: [
+                        `With the right balance of structure, trust, and autonomy, `+this.childName+` can become a thoughtful, dependable helper - not just ticking off tasks, but taking real pride in doing them well.`
+                    ],
+                },
             }
         };
 

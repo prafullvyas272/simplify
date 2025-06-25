@@ -317,6 +317,32 @@ export default {
                         `With support, `+this.childName+` can learn to balance fast decision-making with thoughtful planning. Their natural confidence and enthusiasm are powerful tools - especially when paired with growing awareness and care.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> often think before they act - but once they’ve made up their mind, they move forward with confidence. They like to understand the rules, the logic behind something, and whether it will work. Once they’ve decided on a path, they are unlikely to change direction unless given a clear reason.`,
+                        `They tend to value accuracy and efficiency. They may ask direct or technical questions, and prefer to figure things out on their own. These children don’t usually enjoy guesswork - they want facts, proof, and clarity before committing to a decision.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Thinking quietly before making a choice`,
+                        `Asking smart, specific questions`,
+                        `Wanting control over how things are done`,
+                        `Preferring logic over emotion in decision-making`,
+                        `Sticking to a decision once it’s been made`,
+                    ],
+                    noticePointBottomHeading: [
+                        `This kind of thinking helps them act with certainty, but they may need support when things are unclear or when they’re asked to be flexible. They may also need help understanding that not every choice has a perfect answer - and that sometimes, collaboration matters more than being right.`
+                    ],
+                    supportPoints: [
+                        `Ask, “What do you already know about this?” to help them build on facts`,
+                        `Provide clear choices with pros and cons`,
+                        `Reassure them that some uncertainty is okay`,
+                        `Encourage them to ask questions and explain their reasoning`
+                    ],
+                    supportPointBottomHeading: [
+                        `With guidance, `+this.childName+` can learn to balance careful thinking with flexibility. Their ability to analyse and decide with purpose is a strength - and one that can grow even stronger with time, patience, and a willingness to listen.`
+                    ],
+                },
             }
         };
 

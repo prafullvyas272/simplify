@@ -214,6 +214,24 @@ export default {
                         `With support and gentle guidance, `+this.childName+` can grow into a lively, inspiring individual who not only leads with confidence, but also listens with care and follows through with focus.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a DC style are often serious, determined, and highly focused. They like to feel in control of what they’re doing and are motivated by results, logic, and clear expectations. These children usually enjoy challenges - especially when they have the tools to succeed. They are more likely to think things through before acting, but when they’re ready, they move with purpose.`,
+                        `They may come across as confident and direct, but also careful and precise. They often want to be right, and they tend to ask thoughtful or technical questions before starting something new. If something feels unfair or doesn’t make sense, they may challenge it directly or step back until it’s clear.`
+                    ],
+                    commonTraits: [
+                        `Setting high standards for themselves and others`,
+                        `Wanting to know the rules, but also test them`,
+                        `Preferring clarity and control over group chatter or messiness`,
+                        `Feeling frustrated by slow or disorganised tasks`,
+                        `Enjoying independence more than collaboration`,
+                        `Being confident in their thinking, but less comfortable with uncertainty`
+                    ],
+                    bottomHeadings: [
+                        `These children do best when they feel respected, trusted, and have space to work things out logically. They may not ask for help or attention, but they care deeply about doing things well and being taken seriously.`,
+                        `With steady support and space to think, `+this.childName+` can grow into a capable, independent thinker who brings both focus and depth to whatever they choose to do.`
+                    ],
+                },
             }
         };
 

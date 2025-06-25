@@ -320,6 +320,38 @@ export default {
                         `With encouragement and steady support, `+this.childName+` can learn to channel their energy in a way that lifts others up, builds lasting confidence, and turns their natural spark into real leadership.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> often stand out for their drive, focus, and ability to work independently. They like to take charge when needed, and they approach tasks with logic and determination. These are powerful strengths - especially when paired with growing flexibility and emotional awareness.`,
+                        `As `+this.childName+` grows, it’s helpful to support not only their high standards, but also their ability to listen, adapt, and connect with others. The goal is not to soften their strength, but to help them use it with intention and perspective.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+                        {
+                            title: 'Perfectionism',
+                            description: `They may avoid tasks if they think they won’t succeed, or become critical of themselves and others when things aren’t done properly. Remind them that trying is just as valuable as getting it right.`,
+                            img: '101.svg',
+                        },
+                        {
+                            title: 'Reluctance to collaborate',
+                            description: `They might prefer to work alone or lead rather than share ideas. Encourage team-based activities and highlight the value of hearing different perspectives.`,
+                            img: '102.svg',
+                        },
+                        {
+                            title: 'Resistance to change',
+                            description: `Sudden shifts in plans or unclear instructions may frustrate them. Practising flexibility in safe, everyday situations helps build confidence when things feel out of their control.`,
+                            img: '103.svg',
+                        },
+                        {
+                            title: 'Difficulty expressing emotions',
+                            description: `They may keep worries or frustration to themselves. Create space for calm, reflective conversations so they feel safe to open up - even when they seem fine on the outside.`,
+                            img: '101.svg',
+                        },
+                    ],
+                    bottomHeading: [
+                        `With steady guidance, `+this.childName+` can grow into someone who blends focus with flexibility - someone who not only gets things done, but also learns to trust others, share responsibility, and lead with clarity and care.`
+                    ],
+                },
             }
         };
 

@@ -296,6 +296,32 @@ export default {
                         `DI-style children bring energy and honesty to their emotional world. With time and support, `+this.childName+` can learn to channel strong feelings into responses that are both expressive and thoughtful.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> may not show their emotions openly, but that doesn’t mean they aren’t feeling something strongly. They tend to keep their reactions contained and may appear serious or unaffected, even when something bothers them. Rather than talking about their emotions, they’re more likely to focus on what went wrong or what needs to be fixed.`,
+                        `They often become frustrated when things feel unfair, slow, or disorganised. They may express this with short, sharp words or by withdrawing to think things through alone. While they may not seek comfort in obvious ways, they do benefit from calm support and clear conversations when emotions start to build.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Hiding frustration or showing it through impatience`,
+                        `Struggling with situations that feel illogical or unpredictable`,
+                        `Keeping worries or disappointment to themselves`,
+                        `Becoming quiet, resistant, or overly critical when upset`,
+                        `Focusing on what’s wrong instead of how they feel`,
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children don’t always want to talk about feelings, but they still need help understanding and managing them. Supporting emotional awareness helps them respond with more flexibility and less pressure to always stay in control.`
+                    ],
+                    supportPoints: [
+                        `Giving them space to cool down before talking`,
+                        `Describing what you observe: “It seemed like that really frustrated you”`,
+                        `Encouraging problem-solving and emotional reflection together`,
+                        `Showing that all feelings are valid - even when they’re uncomfortable`
+                    ],
+                    supportPointBottomHeadings: [
+                        `With time and the right support, `+this.childName+` can learn to handle strong emotions in a way that protects their sense of control while also building empathy and connection.`
+                    ],
+                },
             }
         };
 

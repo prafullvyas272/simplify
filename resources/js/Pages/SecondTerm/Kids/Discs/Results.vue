@@ -106,6 +106,12 @@ export default {
                         `These results provide a starting point for understanding how `+this.childName+` behaves, learns, and interacts with others. The next sections will explore this further, helping you support `+this.childName+` at home, in school, and beyond.`
                     ],
                 },
+                DC: {
+                    bottomHeadings: [
+                        `The scores show a combination of two styles - <b>Dominant (D) and Cautious (C)</b> - which together make up a <b>DC style</b>. This means `+this.childName+` is likely to be focused, determined, and thoughtful. Children with this blend tend to take goals seriously, ask smart questions, and want to get things right while also getting them done efficiently.`,
+                        `These results provide a starting point for understanding how `+this.childName+` behaves, learns, and interacts with others. The next sections will explore this further, helping you support `+this.childName+` at home, in school, and beyond.`
+                    ],
+                },
             },
             parsedDiscScores: this.discScores
                 ? this.discScores

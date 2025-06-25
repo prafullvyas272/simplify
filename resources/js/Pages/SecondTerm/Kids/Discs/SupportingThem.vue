@@ -298,6 +298,32 @@ export default {
                         `When supported well, DI-style children often become enthusiastic learners and confident communicators. With the right balance of freedom and responsibility, `+this.childName+` can thrive both in group settings and in completing their individual goals.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `In school, children with a <b>DC style</b> are often focused, serious, and driven to do things properly. They tend to work best when expectations are clear, the environment is structured, and they’re given space to concentrate. They often prefer to work alone, follow their own method, and take pride in doing things with both speed and accuracy.`,
+                        this.childName+` might be the child who double-checks instructions, works quietly and independently, and expects a lot from themselves - and sometimes from others too. They may feel uncomfortable with group work that feels disorganised or tasks that don’t seem purposeful.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+                        `Asking thoughtful questions to understand the rules or expectations`,
+                        `Being serious and focused during independent work`,
+                        `Getting frustrated when others are off-task or unclear`,
+                        `Avoiding noisy or overly social classroom activities`,
+                        `Working quickly, but with attention to correctness`,
+                    ],
+                    boardImageText: `To support this style in the classroom, teachers can provide consistent routines, clear goals, and opportunities for self-directed tasks. These children benefit from being challenged in ways that feel meaningful and logical - and from encouragement to practice flexibility in less structured moments.`,
+                    teacherParentSupportPoints: [
+                        `Offer choice in how to complete tasks, while keeping outcomes clear`,
+                        `Use written instructions alongside verbal ones for extra clarity`,
+                        `Encourage moments of group learning, even in low-pressure ways`,
+                        `Praise precision and thoughtful effort - not just speed or results`,
+                        `Help them understand that mistakes are part of learning, not a failure`,
+                        `Keep home–school communication open to monitor how they’re managing pressure or perfectionism`
+                    ],
+                    bottomHeadings: [
+                        `When supported well, DC-style children often become strong independent learners. With encouragement and balance, `+this.childName+` can continue to build confidence, rigour, and the ability to succeed in both structured and social learning settings.`
+                    ],
+                },
             }
         };
 

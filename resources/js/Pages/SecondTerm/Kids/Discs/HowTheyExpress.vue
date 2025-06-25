@@ -312,6 +312,31 @@ export default {
                         `With gentle guidance, `+this.childName+` can continue to express themselves boldly while learning to listen with care - creating stronger connections with the people around them.`
                     ],
                 },
+                DC: {
+                    topHeadings: [
+                        `Children with a <b>DC style</b> are often direct, thoughtful, and purposeful in how they communicate. They may not speak often just for the sake of talking, but when they do, they tend to be clear and confident. These children are usually more focused on facts than feelings and prefer to say what needs to be said without extra fuss.`,
+                        `They may ask sharp or specific questions, especially if something doesn’t make sense or feels unfair. While they may not always show emotion openly, they often take communication seriously - and expect others to do the same.`
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+                        `Prefers clarity over small talk or emotional language`,
+                        `Speaks with confidence when they’ve thought something through`,
+                        `May correct others or challenge things that feel inaccurate`,
+                        `Doesn’t always pick up on tone or social cues`,
+                        `More likely to listen carefully in quiet settings than busy groups`,
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children benefit from learning how to soften their tone at times, listen actively, and be aware of how their words affect others. They don’t need to change how they speak - but learning to adjust in different situations helps them connect more effectively.`
+                    ],
+                    encouragePoints: [
+                        `Giving space to think before expecting a response`,
+                        `Asking them to explain how they reached a conclusion`,
+                        `Talking about how others might feel during discussions`,
+                    ],
+                    encouragePointBottomHeadings: [
+                        `With support, `+this.childName+` can learn to use their clear and confident voice while also listening thoughtfully. This helps them become someone who communicates with both strength and respect.`
+                    ],
+                },
             },
         };
     },
