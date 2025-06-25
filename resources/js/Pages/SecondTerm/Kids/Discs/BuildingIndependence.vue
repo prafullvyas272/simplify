@@ -269,6 +269,33 @@ export default {
                         `Over time, helping `+this.childName+` balance freedom with responsibility will set them up to be both expressive and reliable. Not just someone who brings energy, but someone others can count on too.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> are often naturally independent. They like having control over what they do and are quick to take charge of situations. They may volunteer for tasks before others do, share big ideas confidently, or lead the way in group activities. This self-starting energy is a real strength - but they may need reminders to stay consistent and finish what they’ve started.`,
+                        `Because they like freedom and variety, they might resist doing something that feels boring, slow, or repetitive. They may also challenge rules or instructions if they don’t see the point. Responsibility grows when they learn that follow-through matters just as much as enthusiasm.`
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+                        `Taking initiative without needing reminders`,
+                        `Wanting to lead or take the spotlight`,
+                        `Avoiding tasks that feel routine or slow`,
+                        `Needing praise and encouragement to stay engaged`,
+                        `Starting quickly but losing interest if results aren’t fast`,
+                    ],
+                    middleHeading: `This bold, energetic nature is something to encourage - it helps them build confidence and independence early on. But it’s just as important to help them develop consistency, patience, and a sense of ownership.`,
+                    supportPoints: [
+                        `<h5><b>Give meaningful tasks.</b></h5> <h6>Let them take charge of something visible, like planning part of a day out, then hold them to it.</h6>`,
+                        `<h5><b>Allow natural consequences.</b></h5> <h6>If they forget to do something, help them see what happened and how they can take ownership next time.</h6>`,
+                        `<h5><b>Talk through outcomes.</b></h5> <h6>Ask, “What worked well?” or “What would you change next time?”</h6>`,
+                        `<h5><b>Use praise for follow-through, not just enthusiasm.</b></h5> <h6>They thrive on recognition - so use it to highlight reliability, not just personality.</h6>`,
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+                        `Over time, helping `+this.childName+` stay consistent and accountable builds true independence. Not just the kind that starts strong - but the kind that sees things through and takes pride in doing so.`
+                    ],
+                },
             }
         };
 

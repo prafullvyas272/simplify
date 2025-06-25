@@ -196,6 +196,24 @@ export default {
                         `With support, `+this.childName+` can use this natural energy to inspire others, build strong relationships, and grow in confidence.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a DI style are confident, fast-moving, and full of energy. They enjoy being around people and often take the lead in group situations. These children like to get things done quickly, but also want the process to feel fun and exciting. They are natural decision-makers who can think on their feet and bring enthusiasm into nearly everything they do.`,
+                        `They are usually talkative, expressive, and assertive. They may try to take charge during games, offer bold ideas during class projects, or be the first to volunteer for something new. Their enthusiasm can be contagious, but their high energy and strong opinions may sometimes feel overwhelming to others.`
+                    ],
+                    commonTraits: [
+                        `Quick to speak and act`,
+                        `Comfortable leading or taking initiative`,
+                        `Enjoys being noticed, praised, or included`,
+                        `Motivated by fast progress and exciting challenges`,
+                        `May lose interest if things feel too slow or repetitive`,
+                        `Can be impatient, especially when others are uncertain or hesitant`
+                    ],
+                    bottomHeadings: [
+                        `These children do best in environments that allow for both action and interaction. They thrive when they feel empowered and engaged, but they may need help learning when to pause, listen, and include others.`,
+                        `With support and gentle guidance, `+this.childName+` can grow into a lively, inspiring individual who not only leads with confidence, but also listens with care and follows through with focus.`
+                    ],
+                },
             }
         };
 

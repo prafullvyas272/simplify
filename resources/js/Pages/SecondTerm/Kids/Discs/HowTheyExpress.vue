@@ -287,6 +287,31 @@ export default {
                         `The goal is to help `+this.childName+` continue expressing themselves with confidence, while learning how to communicate in ways that include and respect others too.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> are usually expressive, bold, and confident in how they communicate. They tend to speak up easily, share their opinions openly, and enjoy being part of lively conversations. They are often persuasive and enthusiastic, and may naturally take the lead in group discussions or play.`,
+                        `They like to feel heard and may repeat themselves or raise their voice if they feel ignored. These children often enjoy using gestures, humour, or strong opinions to get their message across. At times, they may interrupt others or dominate a conversation without meaning to.`
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+                        `Speaks with confidence and energy`,
+                        `Uses expressive body language or humour`,
+                        `Enjoys leading conversations or sharing ideas first`,
+                        `May interrupt or talk over others when excited`,
+                        `Likes to talk things through out loud rather than thinking silently`,
+                    ],
+                    noticePointBottomHeadings: [
+                        `Because they communicate with such energy, they may need support in learning how to listen well and make space for others. With the right balance, their confidence becomes a strength - one that brings people together rather than leaving others out.`
+                    ],
+                    encouragePoints: [
+                        `Praising them when they take turns or show good listening`,
+                        `Reminding them that others have valuable ideas too`,
+                        `Giving them a chance to lead, but also coaching them on when to pause`
+                    ],
+                    encouragePointBottomHeadings: [
+                        `With gentle guidance, `+this.childName+` can continue to express themselves boldly while learning to listen with care - creating stronger connections with the people around them.`
+                    ],
+                },
             },
         };
     },

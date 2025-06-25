@@ -301,6 +301,35 @@ export default {
                         `With practice, `+this.childName+` can learn to combine their natural creativity with stronger follow-through and planning. This helps them become not just imaginative, but effective in how they handle challenges.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> tend to dive into problems quickly. They are often eager to take the lead, try their own ideas, and move fast toward a solution. They may not stop to think through every step, especially if they feel confident they already know the answer.`,
+                        `Their mix of boldness and creativity means they can solve problems in unexpected or original ways. However, if they feel blocked or if something doesn’t go as planned, they may get frustrated or lose interest quickly.`
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+                        `Jumping in before fully understanding the task`,
+                        `Using bold or creative approaches to find solutions`,
+                        `Becoming impatient when things feel too slow or difficult`,
+                        `Wanting to win or be first when solving problems`,
+                        `Getting upset if their idea is challenged or ignored`
+                    ],
+                    middleHeading: 'These children benefit from learning to slow down and consider other perspectives. They don’t need to stop being bold, but practising a more thoughtful pace can help them solve problems more effectively - especially in groups.',
+                    supportPoints: [
+                        `Ask, “What’s another way you could try that?”`,
+                        `Remind them that great ideas often come from listening to others`,
+                        `Break big problems into short steps so they can see progress quickly`,
+                        `Praise persistence and teamwork, not just speed or success`,
+                        `Encourage reflection after things go well - or when they don’t`
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+                        `They don’t need to lose their energy or confidence - those are key strengths of the DI style. But they do benefit from learning when to pause, involve others, and think a little more carefully before jumping in.`,
+                        `With support, `+this.childName+` can learn to balance quick thinking with thoughtful problem-solving, growing into someone who solves challenges with both confidence and care.`
+                    ],
+                },
             }
         };
 

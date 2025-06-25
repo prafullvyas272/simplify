@@ -368,6 +368,49 @@ export default {
                         `Helping at home doesn’t need to be serious or strict. With a bit of creativity and plenty of encouragement, `+this.childName+` can build responsibility in ways that feel natural to them - and maybe even a bit of fun too`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> often enjoy helping at home when the task feels active, important, or fun. They like to feel trusted and involved, especially when they’re given some freedom in how they do things. `+this.childName+` may not enjoy quiet or repetitive tasks, but they usually respond well when there’s praise, variety, or a challenge involved.`,
+                        `These children may start a job quickly, but lose interest before finishing. They often want things to be done their way and may need help slowing down or staying focused, especially if no one is watching.`
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+                        {
+                            'img': '82.svg',
+                            'title': 'Let them take charge of something',
+                            'description': 'Offer a task where they can be the leader - like planning a meal, organising a drawer, or creating a game for the family.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Make it feel like a challenge',
+                            'description': 'Use short timers or mini-goals, like “Let’s see if we can do this in five minutes” to keep things exciting and focused.',
+                        },
+                        {
+                            'img': '84.svg',
+                            'title': 'Use checklists they can tick off',
+                            'description': 'Seeing progress helps them stay on track and gives a sense of completion.',
+                        },
+                        {
+                            'img': '85.svg',
+                            'title': 'Give freedom with structure',
+                            'description': 'Let them choose how to do the task, but keep clear expectations around the end result.',
+                        },
+                        {
+                            'img': '82.svg',
+                            'title': 'Praise consistency',
+                            'description': 'They love being noticed - so highlight when they stick with something or finish it well, not just when they start with enthusiasm.',
+                        },
+                        {
+                            'img': '83.svg',
+                            'title': 'Reflect together',
+                            'description': 'After a task, ask “What part did you enjoy most?” or “What would you do differently next time?” to encourage learning and ownership.',
+                        },
+                    ],
+                    bottomHeadings: [
+                        `Helping at home works best when it taps into their energy and drive. With a bit of structure and encouragement, `+this.childName+` can turn their natural confidence into a real sense of contribution and pride.`
+                    ],
+                },
             }
         };
 

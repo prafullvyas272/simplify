@@ -270,6 +270,32 @@ export default {
                         `I-style children are often seen as bubbly or carefree, but underneath, they need just as much emotional support as any other child. With encouragement and space to reflect, `+this.childName+` can learn to manage big feelings in a way that builds both strength and empathy.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> often experience emotions strongly and react quickly. They may show excitement, frustration, or enthusiasm right away, especially when something feels important to them. They usually don’t hold back - whether they’re happy, disappointed, or annoyed, it’s likely to show.`,
+                        `They tend to move on quickly from emotions, but in the moment, reactions can be intense. If they feel ignored, misunderstood, or restricted, they may respond with raised voices, dramatic expressions, or stubbornness. On the other hand, they light up when praised, included, or given freedom to act.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Showing emotions openly and instantly`,
+                        `Getting frustrated when they feel slowed down or corrected`,
+                        `Reacting strongly to praise or disapproval`,
+                        `Recovering quickly after an outburst`,
+                        `Sometimes missing how their reactions affect others`,
+                    ],
+                    noticePointBottomHeadings: [
+                        `These children benefit from support in learning how to pause and reflect before reacting. They don’t need to bottle up their feelings - just to become more aware of how they express them and how others might feel in response.`
+                    ],
+                    supportPoints: [
+                        `Asking, “What were you feeling just then?” to help them reflect`,
+                        `Reassuring them that strong feelings are normal, but how they respond matters`,
+                        `Modelling calm reactions during your own emotional moments`,
+                        `Reminding them to notice how others might feel in the situation`
+                    ],
+                    supportPointBottomHeadings: [
+                        `DI-style children bring energy and honesty to their emotional world. With time and support, `+this.childName+` can learn to channel strong feelings into responses that are both expressive and thoughtful.`
+                    ],
+                },
             }
         };
 

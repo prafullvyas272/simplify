@@ -288,6 +288,38 @@ export default {
                         `Over time, with gentle support and clear guidance, `+this.childName+` can grow into a confident and thoughtful communicator. One who brings joy to others, but also knows how to stay grounded, follow through, and handle life’s ups and downs with care.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> often stand out for their energy, confidence, and enthusiasm. They are quick thinkers, natural communicators, and usually eager to lead. These are powerful traits that can help them grow into dynamic, engaging individuals.`,
+                        `As `+this.childName+` grows, it’s helpful to guide some of these natural strengths so they develop with balance. They don’t need to slow down or be less enthusiastic - they simply need tools to help them listen, follow through, and consider others along the way.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+                        {
+                            title: 'Starting strong but not finishing',
+                            description: `They may begin with confidence, then lose interest once the excitement fades. Support them in breaking tasks into smaller steps and encourage them to stick with something even when it’s no longer new.`,
+                            img: '101.svg',
+                        },
+                        {
+                            title: 'Wanting to lead all the time',
+                            description: `They may struggle to follow others or step back in group settings. Help them understand that being a good team member is just as important as being a good leader.`,
+                            img: '102.svg',
+                        },
+                        {
+                            title: 'Responding quickly, but not always thoughtfully',
+                            description: `They may react strongly in the moment - whether that’s excitement, frustration, or disagreement. Practising small pauses before responding helps them make stronger choices.`,
+                            img: '103.svg',
+                        },
+                        {
+                            title: 'Needing constant recognition',
+                            description: `They might seek attention or approval more than is needed. Remind them that quiet effort matters too - and help them feel proud of progress even when no one is watching.`,
+                            img: '101.svg',
+                        },
+                    ],
+                    bottomHeading: [
+                        `With encouragement and steady support, `+this.childName+` can learn to channel their energy in a way that lifts others up, builds lasting confidence, and turns their natural spark into real leadership.`
+                    ],
+                },
             }
         };
 

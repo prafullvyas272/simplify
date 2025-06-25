@@ -270,6 +270,33 @@ export default {
                         `With support, `+this.childName+` can learn to be both expressive and thoughtful. Over time, they’ll grow into someone who lifts up the whole group - not just through fun and energy, but through kindness and awareness too.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> are often natural leaders in group settings. They enjoy being around others, sharing ideas, and taking charge during games or projects. They are confident and sociable, and they tend to bring energy and enthusiasm into group activities. Others may look to them for direction, or simply be drawn to their outgoing nature.`,
+                        `While they usually enjoy being the centre of attention, they may struggle when asked to follow someone else’s lead or when things aren’t going their way. They may interrupt, take over, or become frustrated if others move too slowly or don’t agree with their plan.`
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+                        `Enjoying group play and leading team activities`,
+                        `Wanting to be heard and recognised in group settings`,
+                        `Interrupting or talking over others when excited`,
+                        `Becoming frustrated if others disagree or go off track`,
+                        `Needing reminders to listen and include everyone fairly`,
+                    ],
+                    middleHeading: `These children benefit from learning how to balance their natural confidence with patience and teamwork. They don’t need to quiet their personality - just learn when to pause, share space, and work with others rather than leading every time.`,
+                    supportPoints: [
+                        `Talk about what makes a good team member, not just a good leader`,
+                        `Praise them for including others, not just for taking charge`,
+                        `Practice taking turns or playing different roles in group games`,
+                        `Ask, “How did the group work together?” after activities`
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+                        `With guidance, `+this.childName+` can become not just a bold leader, but a fair and thoughtful one - someone others want to follow because they lead with both confidence and care.`
+                    ],
+                },
             }
         };
 

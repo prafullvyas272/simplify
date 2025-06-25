@@ -239,6 +239,27 @@ export default {
                         `The key is to balance this enthusiasm with encouragement around focus and follow-through. When `+this.childName+` feels excited, noticed, and part of something, motivation naturally follows.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> are often driven by challenge, recognition, and excitement. They like to feel in charge, but they also want things to be fun and engaging. These children enjoy fast results and visible progress - especially when others are watching or involved. They may not be motivated by quiet routines or tasks that feel too repetitive or slow.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+                        `Leading group activities or being given responsibility`,
+                        `Competing or trying to be first, fastest, or best`,
+                        `Getting praise for ideas, effort, or confidence`,
+                        `Doing tasks that feel fun, fast, or dynamic`,
+                        `Being noticed and included in decision-making`,
+                        `Feeling that they’re achieving something meaningful`,
+                    ],
+                    motivationPointsBottomHeadings: [
+                        this.childName+` is likely to feel most energised when they’re challenged, included, and able to take action. They thrive in fast-moving, social environments where they can stand out and make an impact.`
+                    ],
+                    finalBottomHeadings: [
+                        `You’ll often find that `+this.childName+` puts in the most effort when there’s a goal to reach, a group to lead, or an audience to impress. They may lose interest if they feel bored, unseen, or restricted by too many rules.`,
+                        `The key is to balance their need for excitement with reminders to slow down and stick with tasks that take time. When `+this.childName+` feels recognised and involved, motivation often follows naturally.`
+                    ],
+                },
             }
         };
 

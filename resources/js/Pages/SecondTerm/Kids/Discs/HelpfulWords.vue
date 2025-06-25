@@ -271,6 +271,33 @@ export default {
                         `Over time, this kind of language builds not just confidence, but self-awareness - helping `+this.childName+` learn how to use their personality to build strong, thoughtful relationships.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `The words we use with children matter. For a child with a <b>DI style</b>, upbeat, clear, and direct language works best. These children thrive on praise and recognition, especially when it focuses on their effort, leadership, or progress. At the same time, they respond well to firm but kind reminders that help them slow down and reflect.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+                        `I really liked the way you took the lead - that helped us get started.`,
+                        `You stayed focused even when it got tricky - that shows real effort.`,
+                        `You brought great energy to that - and you helped others join in too.`,
+                        `You had a strong idea, and you gave everyone a chance to speak.`,
+                        `You finished what you started - that’s something to be proud of.`,
+                    ],
+                    encouragingPhraseBottomHeading: [
+                        `These phrases work best when connected to real actions and progress. DI-style children like to be recognised, and your words can help them feel seen for more than just their personality.`
+                    ],
+                    guidingPhrases: [
+                        `Let’s take a second to think this through.`,
+                        `Being a good leader means helping others feel heard.`,
+                        `Take your time - you don’t have to rush to get it right.`,
+                        `Let’s listen first, then share your idea.`,
+                        `What’s one way we can include others in this?`
+                    ],
+                    guidingPhraseBottomHeading: [
+                        `This kind of language reminds them that thinking and listening are just as valuable as acting quickly or taking charge.`,
+                        `Over time, using a mix of praise and gentle direction helps `+this.childName+` grow into someone who leads with both confidence and care - someone who acts with energy, but also listens with intention.`
+                    ],
+                },
             }
         };
 

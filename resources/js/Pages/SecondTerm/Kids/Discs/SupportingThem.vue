@@ -272,6 +272,32 @@ export default {
                         `When supported well, I-style children often become expressive, joyful learners who bring energy and positivity into the classroom. With thoughtful guidance, `+this.childName+` can learn to balance their sociable spirit with focus and responsibility, creating a strong foundation for academic and personal growth.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `In school, children with a <b>DI style</b> are often seen as energetic, vocal, and enthusiastic. They enjoy taking part, leading discussions, and jumping into new activities. They may raise their hand first, offer strong opinions, or try to take charge during group work. Their confidence can be a real strength - but it may need gentle guidance to help them stay focused, patient, and inclusive.`,
+                        this.childName+` might be the child who thrives when they feel noticed, trusted, and given some responsibility. They may lose interest when lessons feel repetitive or too slow, or when they don’t get a chance to move or speak. They’re often most engaged in lessons that feel fast-paced, collaborative, or open-ended.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+                        `Speaking confidently and participating often`,
+                        `Wanting to lead tasks or contribute ideas first`,
+                        `Struggling with quiet, repetitive, or highly structured work`,
+                        `Becoming frustrated if they feel ignored or limited`,
+                        `Needing reminders to listen and share the space with others`,
+                    ],
+                    boardImageText: `To support this style in the classroom, active participation and clear expectations work well. These children benefit from a balance of freedom and structure - with opportunities to take the lead, but also clear boundaries to help them grow.`,
+                    teacherParentSupportPoints: [
+                        `Give chances to lead or present, paired with guidelines for turn-taking`,
+                        `Break lessons into interactive parts that allow for movement or discussion`,
+                        `Offer reminders about listening, taking turns, and working as part of a team`,
+                        `Reinforce the importance of finishing tasks, not just starting them`,
+                        `Use clear routines so they know when it’s time to be still and when it’s time to speak`,
+                        `Keep home–school communication open to track energy levels, focus, and engagement`
+                    ],
+                    bottomHeadings: [
+                        `When supported well, DI-style children often become enthusiastic learners and confident communicators. With the right balance of freedom and responsibility, `+this.childName+` can thrive both in group settings and in completing their individual goals.`
+                    ],
+                },
             }
         };
 

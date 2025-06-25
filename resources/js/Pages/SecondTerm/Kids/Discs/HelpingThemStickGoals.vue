@@ -266,6 +266,35 @@ export default {
                         `With the right support, `+this.childName+` can learn how to stay committed even when things get tough. This turns their natural enthusiasm into a skill that helps them achieve goals with confidence and consistency.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> are often goal-driven - especially when the goal feels exciting, competitive, or visible to others. They enjoy working towards something with energy and speed, and they usually start strong. But if the task feels slow, repetitive, or takes too long to show results, they may lose interest or move on to something else.`,
+                        `They like to set their own targets, often aiming high and thinking big. While this ambition is a strength, they may need support in learning how to follow through - even when the initial excitement fades.`
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+                        `Setting bold goals or wanting to lead a challenge`,
+                        `Starting quickly, but struggling with follow-through`,
+                        `Choosing fast results over slower, steady progress`,
+                        `Focusing more on the big picture than on small steps`,
+                        `Becoming discouraged if progress isn’t immediate`,
+                    ],
+                    middleHeading: `These children often need help breaking goals into realistic, manageable parts. They may also benefit from praise that focuses on effort and consistency, not just the end result.`,
+                    supportPoints: [
+                        `Break goals into short-term steps they can check off`,
+                        `Use visual trackers or progress charts to show how far they’ve come`,
+                        `Ask questions like “What do you want to work on this week?”`,
+                        `Celebrate small wins and effort along the way`,
+                        `Help them reflect on what they learned - not just whether they won`,
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+                        `Letting them take ownership of their goals helps build lasting motivation. For example, ask, “What made you feel proud today?” or “What do you want to aim for next?”`,
+                        `With support, `+this.childName+` can learn that sticking to a goal is just as rewarding as setting one. Over time, this helps turn bold ideas into real progress - and real confidence.`
+                    ],
+                },
             }
         };
 

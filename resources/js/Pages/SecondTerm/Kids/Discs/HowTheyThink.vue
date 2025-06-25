@@ -291,6 +291,32 @@ export default {
                         `Over time, these small habits help build better judgment while still allowing `+this.childName+` to enjoy the freedom and expression they naturally seek.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> tend to make decisions quickly and confidently. They often trust their instincts and prefer to take action right away rather than spend too long thinking things through. They are motivated by exciting ideas and quick results, and they may not always stop to ask for advice or check all the details before moving ahead.`,
+                        `These children enjoy leading and being in control of decisions. At the same time, they like to involve others and share their thoughts out loud. They may be more focused on big-picture outcomes than on step-by-step planning, and they sometimes change their mind if something new sounds more fun or interesting.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+                        `Making fast decisions without needing lots of time to think`,
+                        `Talking through ideas confidently, even before a plan is clear`,
+                        `Jumping into action without asking many questions`,
+                        `Choosing exciting or bold options over cautious ones`,
+                        `Struggling to pause or wait if others are taking too long`,
+                    ],
+                    noticePointBottomHeading: [
+                        `This confident style helps them stay motivated, but they may need support learning how to think things through more carefully - especially when a decision affects others. Slowing down their thinking, even briefly, can help them make stronger, more thoughtful choices.`
+                    ],
+                    supportPoints: [
+                        `Ask, “What might happen if you try that?” to help them consider the outcome`,
+                        `Encourage short pauses before acting, especially in group settings`,
+                        `Help them weigh more than one option before moving forward`,
+                        `Celebrate when they take time to reflect, not just when they act quickly`
+                    ],
+                    supportPointBottomHeading: [
+                        `With support, `+this.childName+` can learn to balance fast decision-making with thoughtful planning. Their natural confidence and enthusiasm are powerful tools - especially when paired with growing awareness and care.`
+                    ],
+                },
             }
         };
 

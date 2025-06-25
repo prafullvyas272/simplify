@@ -100,6 +100,12 @@ export default {
                         `This result is a helpful guide to how `+this.childName+` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+this.childName+` at home and at school.`
                     ],
                 },
+                DI: {
+                    bottomHeadings: [
+                        `The scores show a combination of two styles - <b>Dominant (D) and Influential (I)</b> - which together make up a <b>DI style</b>. This means `+this.childName+` is likely to be energetic, outgoing, and action-oriented. Children with this blend tend to be confident, enthusiastic, and quick to jump into new experiences. They enjoy being around others and often take the lead in group settings.`,
+                        `These results provide a starting point for understanding how `+this.childName+` behaves, learns, and interacts with others. The next sections will explore this further, helping you support `+this.childName+` at home, in school, and beyond.`
+                    ],
+                },
             },
             parsedDiscScores: this.discScores
                 ? this.discScores

@@ -289,6 +289,41 @@ export default {
                         `These activities don’t need to take long. Just a few minutes of connection and playful focus each day can help `+this.childName+` develop confidence, attention, and social awareness in a way that feels natural and fun.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> learn best through activity, variety, and excitement. They enjoy games, movement, and opportunities to lead or create. These types of experiences help build focus, patience, and social awareness - all in a way that feels enjoyable and natural to them.`
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    playFulWays: [
+                        {
+                            title: 'Leadership missions',
+                            description: 'Give them a short-term role like “captain of clean-up” or “game organiser” for the day. These help build responsibility in a fun, active way.'
+                        },
+                        {
+                            title: 'Countdown challenges',
+                            description: 'Use a timer for tasks like brushing teeth, packing a bag, or tidying up. Time-based tasks help keep them engaged while building follow-through.'
+                        },
+                        {
+                            title: '“Swap the role”',
+                            description: 'Let them pretend to be the teacher or parent during a simple task. This helps them practice listening, giving instructions, and seeing things from another view.'
+                        },
+                        {
+                            title: 'Story starter race',
+                            description: 'Say the first line of a story and ask them to finish it as fast as they can - then ask them to slow down and rewrite it with more detail.'
+                        },
+                        {
+                            title: 'Praise points',
+                            description: 'Give tokens or stickers when they stay focused, wait their turn, or finish a slower task. Reinforcing effort helps build staying power.'
+                        },
+                        {
+                            title: 'Group task spotlight',
+                            description: 'Put them in charge of organising a small group activity at home or school. Afterward, talk about how the group worked together and what they learned.'
+                        }
+                    ],
+                    bottomHeadings: [
+                        `These types of activities let `+this.childName+` express their energy and creativity - while also learning how to manage it thoughtfully. Just a few minutes a day can help them grow in focus, teamwork, and follow-through without losing their spark.`
+                    ],
+                },
             }
         };
 

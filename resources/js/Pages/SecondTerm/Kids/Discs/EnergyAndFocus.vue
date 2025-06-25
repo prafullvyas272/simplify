@@ -368,6 +368,47 @@ export default {
                         `With the right support, `+this.childName+` can learn to balance their creativity and energy with focus and follow-through. Over time, this helps them become not just expressive and fun, but steady and dependable too.`
                     ],
                 },
+                DI: {
+                    topHeadings: [
+                        `Children with a <b>DI style</b> are often full of energy, ideas, and enthusiasm. They like to move quickly, start tasks straight away, and talk through what they’re doing. This high energy can be exciting and productive - but it can also lead to distractions, unfinished work, or jumping from one thing to the next without slowing down.`,
+                        this.childName+` is likely to focus best when there’s variety, movement, or a chance to lead. Tasks that feel repetitive, too quiet, or overly detailed may lead to boredom or frustration. They may also struggle to sit still or follow through when the excitement fades.`
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+                        `Starting with lots of energy, but drifting off before finishing`,
+                        `Getting distracted by sounds, people, or their own ideas`,
+                        `Needing reminders to stay on task`,
+                        `Enjoying fast-paced or group-based activities`,
+                        `Finding it hard to stay focused when things feel too slow`
+                    ],
+                    middleHeading: `These behaviours are not signs of laziness or carelessness. Most DI-style children want to succeed - they just need support in pacing themselves and managing their energy in productive ways.`,
+                    supportPoints: [
+                        `Use timers, checklists, or mini-deadlines to keep them on track`,
+                        `Add movement breaks or opportunities to reset between tasks`,
+                        `Break tasks into shorter chunks with visible progress`,
+                        `Let them start with the fun or creative part before moving to details`,
+                        `Praise focus and effort, especially when they stick with something until the end`
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+                        `What’s helping you stay focused right now?`,
+                        `What will help you finish the next part?`,
+                        `Do you want to take a quick break and come back to it?`
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+                        `With the right balance of structure and flexibility, `+this.childName+` can learn to direct their energy and attention in ways that feel focused, fulfilling, and true to who they are.`
+                    ],
+                },
             }
         }
     },
