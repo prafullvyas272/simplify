@@ -284,17 +284,23 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious (C) style</b> are often driven by clarity, order, and knowing exactly what’s expected of them. They enjoy tasks that allow them to focus, work carefully, and get things right. They don’t usually seek attention or praise, but they do take pride in producing high-quality work or following rules properly.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     motivationPoints: [
-
+                        `Clear instructions with step-by-step guidance`,
+                        `Tasks that involve sorting, building, or problem-solving`,
+                        `Having time to prepare before beginning something new`,
+                        `Quiet, organised environments where they can focus`,
+                        `Being given space to work independently`,
+                        `Knowing that accuracy and quality are valued`,
                     ],
                     motivationPointsBottomHeadings: [
-
+                        this.childName+` is likely to feel most comfortable and motivated when things feel structured, calm, and predictable. Sudden changes or unclear expectations may make them nervous or hesitant to begin.`
                     ],
                     finalBottomHeadings: [
-
+                        `You’ll often find that `+this.childName+` pushes forward when they feel confident in the plan - whether it’s following a project outline, building something from a guide, or working through a task they understand well.`,
+                        `The key is to support their natural precision while helping them become more confident trying new things and working through small uncertainties. When `+this.childName+` feels prepared and supported, motivation follows.`
                     ],
                 },
                 CS: {

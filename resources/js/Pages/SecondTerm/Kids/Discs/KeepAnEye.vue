@@ -354,14 +354,34 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> often stand out for their attention to detail, strong focus, and thoughtful approach. These qualities help them complete tasks carefully and contribute meaningfully in structured settings. They are often their own biggest critics and like to feel that they’ve done something correctly.`,
+                        `As `+this.childName+` grows, it’s helpful to guide these strengths in a way that encourages flexibility, confidence, and self-kindness. The goal is not to remove their precision, but to help them feel comfortable even when things aren’t perfect.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     keepAnEyeTips: [
-
+                        {
+                            title: 'Hesitation to start',
+                            description: `They may hold back if they don’t feel fully ready or confident. Helping them take small first steps, even without all the answers, builds trust in their ability to figure things out along the way.`,
+                            img: '101.svg',
+                        },
+                        {
+                            title: 'Fear of making mistakes',
+                            description: `They may take errors personally or worry that they’ve failed. Remind them that mistakes are part of learning, and support them in trying again without judgement.`,
+                            img: '102.svg',
+                        },
+                        {
+                            title: 'Rigid expectations',
+                            description: `They might get stuck when plans change or rules shift. Practising flexibility in safe ways, like adapting routines or experimenting with new approaches, helps prepare them for everyday change.`,
+                            img: '103.svg',
+                        },
+                        {
+                            title: 'Holding in feelings',
+                            description: `They may keep worries to themselves rather than speaking up. Check in regularly and create space for them to talk about how they feel, even if nothing seems wrong on the surface.`,
+                            img: '101.svg',
+                        },
                     ],
                     bottomHeading: [
-
+                        `With time and encouragement, `+this.childName+` can grow into someone who is not only precise and thoughtful, but also confident, adaptable, and kind to themselves when things don’t go perfectly.`
                     ],
                 },
                 CS: {

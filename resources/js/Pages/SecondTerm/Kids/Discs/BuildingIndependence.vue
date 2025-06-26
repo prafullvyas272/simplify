@@ -325,21 +325,29 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> often want to do things properly and follow instructions carefully. They may ask a lot of questions, double-check their work, and wait for reassurance before taking the next step. While this shows great care, it can also mean they rely too much on others to confirm they’re doing things the ‘right’ way.`,
+                        `These children may hesitate to act unless they feel completely confident. They are more likely to avoid trying than risk making a mistake. Helping them feel safe to explore, learn from errors, and take small risks is key to building real independence.`
                     ],
                     topHeadingImages: ['53.svg'],
                     noticePoints: [
-
+                        `Wanting help or reassurance before beginning`,
+                        `Checking rules or expectations more than needed`,
+                        `Avoiding tasks if unsure how to do them`,
+                        `Becoming upset when something isn’t perfect`,
+                        `Following through well once they feel secure`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `This strong desire to “get it right” is worth supporting, but it’s important to help them grow more comfortable with small challenges and ownership. Without support, they may become overly cautious or fearful of change.`,
                     supportPoints: [
-
+                        `<h5><b>Give meaningful tasks.</b></h5> <h6>Offer small responsibilities that are clear and achievable, like organising something or checking a list. Make sure they can succeed without heavy guidance.</h6>`,
+                        `<h5><b>Allow natural consequences.</b></h5> <h6>If something goes wrong, support them in learning from it rather than stepping in too quickly.</h6>`,
+                        `<h5><b>Talk through outcomes.</b></h5> <h6>Ask, “What went well?” or “What would you do differently next time?” to help build reflection and self-trust.</h6>`,
+                        `<h5><b>Use praise for effort, not just results.</b></h5> <h6>C-style children need to know it’s okay to try, even if things don’t go perfectly.</h6>`,
                     ],
                     supportPointImages: [
                         '56.svg', '57.svg', '59.svg', '58.svg',
                     ],
                     bottomHeadings: [
-
+                        `Over time, helping `+this.childName+` step into tasks without fear builds true independence - not just in doing things right, but in feeling confident when things don’t go to plan.`
                     ],
                 },
                 CS: {

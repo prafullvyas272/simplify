@@ -456,15 +456,45 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> often enjoy helping at home when they know exactly what’s expected. They feel most comfortable when routines are clear and the environment is calm. They may not rush to take charge, but they usually take great care in whatever they’re given responsibility for.`,
+                        this.childName+` might need a little extra encouragement to try something new, especially if they’re unsure how to do it. But once confident, they are often very dependable.`
                     ],
                     topHeadingImages: ['81.svg'],
                     middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
                     helpFullIdeas: [
-
+                        {
+                            img: '82.svg',
+                            title: 'Give clear instructions',
+                            description: 'Explain tasks step by step. A written list or visual reminder can help them feel more confident starting independently.',
+                        },
+                        {
+                            img: '83.svg',
+                            title: 'Keep routines predictable',
+                            description: 'They feel safer and more capable when things are consistent. Let them know in advance if a change is coming.',
+                        },
+                        {
+                            img: '84.svg',
+                            title: 'Give time to prepare',
+                            description: 'If something needs to be done at a certain time, give them a gentle heads-up in advance rather than rushing.',
+                        },
+                        {
+                            img: '85.svg',
+                            title: 'Reassure them it’s okay to get things wrong',
+                            description: 'Mistakes may feel bigger than they are. Remind them that learning comes from trying, not just getting it right.',
+                        },
+                        {
+                            img: '82.svg',
+                            title: 'Celebrate accuracy and effort',
+                            description: 'Notice when they’ve followed instructions carefully or finished something well. Quiet praise means a lot.',
+                        },
+                        {
+                            img: '83.svg',
+                            title: 'Invite them to organise or sort',
+                            description: 'They often enjoy tasks that involve tidying, checking, or planning - like setting the table, organising a shelf, or checking a list.',
+                        },
                     ],
                     bottomHeadings: [
-
+                        `Helping at home can be a source of pride for these children. With gentle support and calm routines, `+this.childName+` can build responsibility in a way that feels steady, manageable, and rewarding.`
                     ],
                 },
                 CS: {

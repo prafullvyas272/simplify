@@ -339,20 +339,28 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> are usually thoughtful and reserved in how they communicate. They often prefer to think things through before speaking and may take longer to express their ideas, especially in busy or unfamiliar settings. Rather than jumping into conversations, they tend to wait for the right moment or until they feel sure about what to say.`,
+                        `They may not speak often in large groups, but when they do, their comments are usually well considered. They prefer clear, specific language and may become frustrated if things feel vague or confusing.`
                     ],
                     topHeadingImages: ["87.svg", "88.svg"],
                     noticePoints: [
-
+                        `Quiet in group settings, especially when unsure`,
+                        `Prefers one-on-one conversations or written communication`,
+                        `Asks detailed questions or offers precise answers`,
+                        `Avoids interrupting or speaking without thinking`,
+                        `May become silent if they feel uncertain or unprepared`,
                     ],
                     noticePointBottomHeadings: [
-
+                        `Because these children often keep their thoughts to themselves, it’s important to create calm, open spaces for them to speak. When given time and encouragement, their ideas are usually thoughtful and well expressed.`
                     ],
                     encouragePoints: [
-
+                        `Giving them a moment to think before expecting an answer`,
+                        `Asking specific, open-ended questions that invite detail`,
+                        `Creating quieter settings where they feel comfortable sharing`,
+                        `Reassuring them that their voice is valuable, even if it’s quiet`,
                     ],
                     encouragePointBottomHeadings: [
-
+                        `With gentle support, `+this.childName+` can become more confident in expressing their ideas and opinions. Their natural thoughtfulness and clarity are a real strength, especially when they feel safe and ready to speak.`
                     ],
                 },
                 CS: {

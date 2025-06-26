@@ -328,20 +328,29 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `The words we use with children matter. For a child with a <b>Cautious style</b>, calm, thoughtful language is especially important. These children are often sensitive to tone and take words to heart. They respond best to language that reassures, guides clearly, and shows that care and effort are just as valuable as getting everything right.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     encouragingPhrases: [
-
+                        `I saw how carefully you worked on that.`,
+                        `You really took your time and it shows.`,
+                        `I liked how you asked questions to understand better.`,
+                        `You noticed the small details - that really helped.`,
+                        `You kept trying even when it was tricky. Well done.`,
                     ],
                     encouragingPhraseBottomHeading: [
-
+                        `These phrases work best when they reflect specific effort. C-style children feel seen when their precision and focus are noticed and appreciated.`
                     ],
                     guidingPhrases: [
-
+                        `It’s okay to try, even if you’re not sure yet.`,
+                        `Mistakes are part of learning - what can we try next?`,
+                        `You don’t have to know everything before you begin.`,
+                        `Let’s break this down and do one part at a time.`,
+                        `Trust yourself - you’ve thought it through.`,
                     ],
                     guidingPhraseBottomHeading: [
-
+                        `These children may worry about making mistakes or getting things wrong. Gentle guidance and positive phrasing help them feel more confident and less afraid of uncertainty.`,
+                        `Over time, this kind of language helps `+this.childName+` grow not only in confidence, but in their ability to take part, try new things, and trust their own judgement.`
                     ],
                 },
                 CS: {

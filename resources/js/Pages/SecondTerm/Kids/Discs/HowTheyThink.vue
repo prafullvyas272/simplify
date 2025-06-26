@@ -345,20 +345,28 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> tend to think carefully and logically before making decisions. They like to gather all the facts, understand the rules, and weigh up the options before acting. They are unlikely to rush into something without feeling fully prepared.`,
+                        `These children often need time and space to process things. They may ask questions or want to double-check instructions to make sure they understand. If something feels uncertain or inconsistent, they may hesitate or feel stuck.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     noticePoints: [
-
+                        `Taking longer to make a choice, especially if unsure`,
+                        `Asking detailed or specific questions`,
+                        `Wanting everything explained clearly before starting`,
+                        `Preferring not to guess or take risks`,
+                        `Worrying about getting it wrong`,
                     ],
                     noticePointBottomHeading: [
-
+                        `This thoughtful approach can be a strength, but they may need support in becoming more comfortable with uncertainty or when a clear answer isn’t available. Giving reassurance and space to think helps build confidence in their own judgement.`
                     ],
                     supportPoints: [
-
+                        `Ask questions like “What do you already know about this?” or “What’s your first thought?”`,
+                        `Allow extra time before expecting a response`,
+                        `Reassure them that it’s okay not to be perfect or certain every time`,
+                        `Encourage them to try small decisions without overthinking`
                     ],
                     supportPointBottomHeading: [
-
+                        `With support, `+this.childName+` can learn to trust their own thinking while becoming more confident in situations that feel less clear. Their natural care and precision are valuable skills - especially when paired with growing flexibility and self-trust.`
                     ],
                 },
                 CS: {

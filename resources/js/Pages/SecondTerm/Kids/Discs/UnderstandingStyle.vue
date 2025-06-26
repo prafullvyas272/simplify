@@ -234,13 +234,20 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a Cautious style are often careful thinkers who like to know how things work. They prefer structure, clear rules, and time to do things properly. These children often notice details that others miss and may ask a lot of thoughtful questions before getting started.`,
+                        `They are usually more reserved, especially in new situations, and may prefer to observe before joining in. They like to feel prepared, and may become uncomfortable if something feels rushed, unclear, or unpredictable. They are often their own toughest critic and take pride in doing things well.`
                     ],
                     commonTraits: [
-
+                        `Detail-focused and careful with their work`,
+                        `Likes clear instructions and predictable routines`,
+                        `Often quiet or reserved, especially with unfamiliar people`,
+                        `Prefers to take their time before speaking or acting`,
+                        `Can become frustrated if things feel messy, rushed, or disorganised`,
+                        `May worry about making mistakes or not getting things right`
                     ],
                     bottomHeadings: [
-
+                        `These children do best when things are calm, structured, and well explained. They may not always speak up, but they’re often thinking deeply. They feel most confident when they know what is expected and have time to prepare.`,
+                        `With support and encouragement, `+this.childName+` can grow into a thoughtful, capable individual who brings clarity, precision, and quiet focus to whatever they choose to do.`
                     ],
                 },
                 CS: {

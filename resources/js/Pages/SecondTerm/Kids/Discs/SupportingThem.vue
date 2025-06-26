@@ -326,18 +326,28 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `In school, children with a <b>Cautious style</b> are often seen as careful, thoughtful, and well organised. They may not speak up often, but they pay close attention to detail and like to follow instructions exactly. They prefer calm classrooms, clear expectations, and time to do things properly.`,
+                        this.childName+` might be the child who double-checks the task before beginning, sits quietly during group work, and becomes unsettled when routines change unexpectedly. They are usually highly motivated by doing things well and feel most confident when there’s structure and consistency around them.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     teacherMightNotices: [
-
+                        `Quiet and reserved in class discussions`,
+                        `High attention to detail in written or structured tasks`,
+                        `Discomfort with sudden changes or unclear instructions`,
+                        `Reluctance to ask for help or take risks`,
+                        `Strong sense of responsibility when confident in the task`,
                     ],
-                    boardImageText: ``,
+                    boardImageText: `To support this style in the classroom, predictability and clear expectations are important. These children benefit from gentle reassurance, step-by-step guidance, and encouragement to take small risks.`,
                     teacherParentSupportPoints: [
-
+                        `Provide written instructions or examples alongside verbal explanations`,
+                        `Create quiet opportunities to share, like small groups or reflective writing`,
+                        `Offer checklists or visual cues to support routines`,
+                        `Gently encourage them to try new things, even without full certainty`,
+                        `Celebrate effort, not just accuracy or results`,
+                        `Keep home–school communication open to monitor quiet worries or perfectionist tendencies`
                     ],
                     bottomHeadings: [
-
+                        `When supported well, C-style children often become focused, reliable learners. With thoughtful guidance, `+this.childName+` can grow into someone who not only values doing things well, but also learns how to adapt, try new things, and enjoy the process.`
                     ],
                 },
                 CS: {

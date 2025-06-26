@@ -324,20 +324,28 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> often keep their emotions to themselves. They may not show strong reactions outwardly, but that doesn’t mean they aren’t feeling something deeply. These children tend to internalise their emotions, especially when things feel uncertain, overwhelming, or out of their control.`,
+                        `They often become quiet when they feel upset or unsure. Rather than expressing frustration or sadness right away, they may retreat, overthink, or worry in silence. They want to get things right and may feel disappointed in themselves if they don’t.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     noticePoints: [
-
+                        `Going quiet or withdrawing when upset`,
+                        `Getting frustrated by mistakes or confusion`,
+                        `Worrying about doing something wrong`,
+                        `Needing time alone after a difficult moment`,
+                        `Holding back from talking about their feelings`,
                     ],
                     noticePointBottomHeadings: [
-
+                        `These children don’t usually seek comfort immediately, but they benefit from calm support and space to talk things through when ready. Helping `+this.childName+` name and understand emotions builds trust and emotional resilience.`
                     ],
                     supportPoints: [
-
+                        `Giving them words to describe what they’re feeling, like “It sounds like you felt unsure” or “That seemed frustrating”`,
+                        `Reassuring them that mistakes are part of learning and nothing to feel ashamed of`,
+                        `Creating quiet space to calm down before discussing what happened`,
+                        `Showing them how to talk about emotions without pressure or judgment`
                     ],
                     supportPointBottomHeadings: [
-
+                        `C-style children are often seen as composed, but they need just as much emotional support as any other child. With gentle encouragement and time, `+this.childName+` can learn to manage big feelings with clarity and confidence.`
                     ],
                 },
                 CS: {

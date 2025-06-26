@@ -452,21 +452,32 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> are often quiet and focused by nature. They may not appear overly energetic, but they usually concentrate well when they know what’s expected. These children tend to settle into tasks that feel structured and clear, especially if they can work at their own pace.`,
+                        this.childName+` is likely to do best in calm, tidy environments where they aren’t rushed. They may become distracted or shut down if the space feels chaotic, noisy, or unpredictable. Sudden changes can interrupt their concentration more than external noise.`
                     ],
                     topHeadingImages: ['61.svg', '62.svg'],
                     commonPatterns: [
-
+                        `Preferring quiet, orderly workspaces`,
+                        `Becoming unsettled by sudden changes in plans`,
+                        `Taking a long time to start, but focusing well once settled`,
+                        `Wanting to finish one thing before moving on`,
+                        `Avoiding noisy or high-energy group activities`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `These behaviours are not about being slow or disinterested. Most C-style children want to do things properly and need the right conditions to focus. With the right environment and rhythm, they are often the most thorough and consistent workers in the group.`,
                     supportPoints: [
-
+                        `Offer a tidy, quiet space to work or play`,
+                        `Let them focus on one task at a time`,
+                        `Use clear visual lists to show what’s expected`,
+                        `Avoid changing plans suddenly where possible`,
+                        `Praise them when they stick with something or show calm focus`
                     ],
                     shortQuestionsImages: [
                         '68.svg', '66.svg', '67.svg',
                     ],
                     shortQuestions: [
-
+                        `What’s helping you focus right now?`,
+                        `Is there anything we can move to help you get started?`,
+                        `Would it help to take a short break before the next part?`
                     ],
                     cloudImageClasses: [
                         'cloud-image-1',
@@ -477,7 +488,7 @@ export default {
                         'cloud-image-3',
                     ],
                     bottomHeadings: [
-
+                        `With support, `+this.childName+` can learn to manage their attention and energy in thoughtful, effective ways. Over time, this helps them become not just focused, but confident and capable when it matters most.`
                     ],
                 },
                 CS: {

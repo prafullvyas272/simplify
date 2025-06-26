@@ -361,15 +361,37 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> often enjoy quiet, structured activities that let them think carefully and work through a process. They are more likely to feel confident when there is a clear plan, clear rules, or a predictable outcome. These kinds of activities can help build confidence, flexibility, and social engagement in a way that feels comfortable to them.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
-                    // CONVERT THEM TO OBJECTS OF title, description
                     playFulWays: [
-
+                        {
+                            title: 'Step-by-step building',
+                            description: 'Use blocks, LEGO, or puzzles to encourage problem-solving and focus. Let them follow instructions, then slowly introduce creative changes.'
+                        },
+                        {
+                            title: 'Mini plan challenge',
+                            description: 'Ask them to plan a small task, like packing for a picnic or organising a drawer. This builds decision-making and confidence in taking charge.'
+                        },
+                        {
+                            title: '“Mistake of the day” game',
+                            description: 'Take turns sharing something that didn’t go to plan and what you learned. This builds resilience and shows that getting it wrong is okay.'
+                        },
+                        {
+                            title: 'Gentle what-if questions',
+                            description: 'Ask questions like, “What would you do if your plan changed?” to help them think flexibly without real pressure.'
+                        },
+                        {
+                            title: 'Quiet leadership',
+                            description: 'Let them take charge of a small routine, like ticking off a list or setting a timer. It encourages responsibility in a calm, predictable way.'
+                        },
+                        {
+                            title: 'Encouragement box',
+                            description: 'Write down kind notes or achievements and keep them in a box. Revisit these when they need a boost of confidence.'
+                        }
                     ],
                     bottomHeadings: [
-
+                        `These activities do not need to be noisy or fast-paced. Just a few minutes of calm, supported practice each day helps `+this.childName+` grow in confidence - not by changing who they are, but by building on their natural strengths.`
                     ],
                 },
                 CS: {

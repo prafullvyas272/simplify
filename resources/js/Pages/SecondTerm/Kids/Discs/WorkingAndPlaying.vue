@@ -326,21 +326,30 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> are often more comfortable in smaller groups or one-on-one settings. They may take time to warm up to new people or situations, but once they feel settled, they can be kind, thoughtful companions. They tend to avoid conflict and prefer peaceful, structured play where everyone understands the rules.`,
+                        `These children may step back when others are being loud or unpredictable. They might find it hard to speak up if someone is being unkind or breaking the rules, especially if they’re not sure how to respond.`
                     ],
                     topHeadingImages: ['75.svg'],
                     noticePoints: [
-
+                        `Playing quietly or sticking to familiar friends`,
+                        `Watching before joining in with a new group`,
+                        `Wanting everyone to follow the same rules or routines`,
+                        `Avoiding loud or chaotic games`,
+                        `Struggling to speak up when something feels wrong`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `These children are usually well liked by their peers, especially in calm or structured settings. However, they may need support in being more assertive, flexible, and confident in social situations that feel uncertain.`,
                     supportPoints: [
-
+                        `Practice social situations through role-play or gentle discussion`,
+                        `Encourage them to speak up by saying things like, “It’s okay to let others know how you feel”`,
+                        `Praise moments when they show kindness, fairness, or clear communication`,
+                        `Help them understand that not everyone follows rules the same way - and that it’s okay to adapt`,
+                        `Reflect on group experiences afterwards by asking, “What went well?” or “What could you try next time?”`
                     ],
                     supportPointImages: [
                         '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
                     ],
                     bottomHeadings: [
-
+                        `With support, `+this.childName+` can become a steady, respectful member of any group. Over time, they’ll grow into someone who brings fairness, structure, and quiet confidence into the way they work and play with others.`
                     ],
                 },
                 CS: {

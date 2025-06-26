@@ -361,21 +361,30 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> often approach problems by thinking carefully before acting. They like to gather information, follow a process, and get things right. Rather than guessing or rushing, they prefer to stop and check if their understanding is correct. They may take longer to begin, but once they feel confident, they work with focus and care.`,
+                        `They may become stuck when something is unclear or unexpected. If they’re not sure how to begin or what’s expected, they might avoid the task altogether. Mistakes can feel discouraging, especially if they place high expectations on themselves.`
                     ],
                     topHeadingImages: ['43.svg', '44.svg'],
                     noticePoints: [
-
+                        `Hesitating before starting something unfamiliar`,
+                        `Wanting clear steps or examples before trying`,
+                        `Getting frustrated when something doesn’t go to plan`,
+                        `Asking for help quietly or waiting to be asked`,
+                        `Checking their work repeatedly to avoid errors`,
                     ],
-                    middleHeading: '',
+                    middleHeading: 'Because C-style children like structure and certainty, they may need extra support when facing open-ended tasks or sudden changes. Helping them feel prepared gives them the confidence to try - even if they don’t have all the answers yet.',
                     supportPoints: [
-
+                        `Break tasks into small, clear steps`,
+                        `Reassure them that mistakes are part of learning`,
+                        `Offer quiet praise for trying, not just succeeding`,
+                        `Give them time to plan before expecting action`,
+                        `Help them practice flexibility with gentle, low-pressure choices`
                     ],
                     supportPointImages: [
                         '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
                     ],
                     bottomHeadings: [
-
+                        `It’s important to let C-style children keep their thoughtful, detail-focused nature. They don’t need to become fast or spontaneous, but they do benefit from learning how to move forward even when things aren’t perfect.`
                     ],
                 },
                 CS: {

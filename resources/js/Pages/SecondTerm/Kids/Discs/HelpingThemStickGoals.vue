@@ -326,21 +326,30 @@ export default {
                 },
                 C: {
                     topHeadings: [
-
+                        `Children with a <b>Cautious style</b> tend to prefer small, clear goals that feel achievable and well structured. They may not be the first to dream big or push forward quickly, but they are often very committed once they understand exactly what to do and how to do it. If something feels vague or open-ended, they might delay starting or worry about doing it wrong.`
                     ],
                     topHeadingImages: ['71.svg', '70.svg'],
                     noticePoints: [
-
+                        `Wanting to fully understand a goal before starting`,
+                        `Asking for clarification or written steps`,
+                        `Working carefully once confident in what’s expected`,
+                        `Avoiding goals that feel too risky or unclear`,
+                        `Feeling disappointed if they make a mistake`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `These children often set high standards for themselves. They may benefit from support that reminds them progress matters more than perfection. Helping them set realistic, step-by-step goals builds confidence and a healthy sense of achievement.`,
                     supportPoints: [
-
+                        `Break goals into small, clearly defined tasks`,
+                        `Use checklists or progress trackers they can follow`,
+                        `Ask questions like “What’s something small you could work on this week?”`,
+                        `Encourage them to start, even if they aren’t 100% sure`,
+                        `Celebrate progress and effort, not just final results`,
                     ],
                     supportPointImages: [
                         '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
                     ],
                     bottomHeadings: [
-
+                        `Letting them reflect on what went well builds ownership and motivation. For example, ask, “What helped you finish that?” or “What will you try differently next time?”`,
+                        `With the right support, `+this.childName+` can learn how to approach goals with clarity and care - and gradually feel more confident taking on challenges, even when things feel uncertain.`
                     ],
                 },
                 CS: {

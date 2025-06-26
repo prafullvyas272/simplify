@@ -114,7 +114,8 @@ export default {
                 },
                 C: {
                     bottomHeadings: [
-
+                        `The highest score shows that `+this.childName+` has a <b>Cautious (C) style</b>. This means `+this.childName+` is likely to be thoughtful, detail-focused, and careful about how things are done. Children with this style often enjoy order, clear instructions, and time to get things right.`,
+                        `This result is a helpful guide to how `+this.childName+` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+this.childName+` at home and at school.`
                     ],
                 },
                 CS: {
