@@ -396,15 +396,38 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> often enjoy calm, focused activities that give them time to think. They’re unlikely to seek excitement or fast-paced games - but they do enjoy predictable play that feels safe and purposeful. Structured activities can gently stretch their confidence, encourage small risks, and build problem-solving skills in ways that suit their natural rhythm.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     // CONVERT THEM TO OBJECTS OF title, description
                     playFulWays: [
-
+                        {
+                            title: 'Plan a weekly checklist',
+                            description: 'Let them create a short routine or job list for the week. Checking off small tasks gives them a sense of progress and ownership.'
+                        },
+                        {
+                            title: 'Try step-by-step challenges',
+                            description: 'Puzzles, model kits, or baking recipes help them work carefully and feel proud of their attention to detail.'
+                        },
+                        {
+                            title: 'Play “what if” games',
+                            description: 'Ask about imaginary scenarios: “What if your toy went missing - what would you do?” This builds flexible thinking and gentle problem-solving.'
+                        },
+                        {
+                            title: 'Quiet role-play',
+                            description: 'Act out polite ways to speak up or ask for help. It gives them language to use in real-life moments that feel tricky.'
+                        },
+                        {
+                            title: 'Create a comfort journal',
+                            description: 'Let them draw or write about what makes them feel safe, calm, or confident. Revisit it when they need support.'
+                        },
+                        {
+                            title: 'Introduce simple leadership',
+                            description: 'Ask them to lead a small family task, like choosing an afternoon activity or helping explain a routine. It builds belief in their ability to take charge.'
+                        }
                     ],
                     bottomHeadings: [
-
+                        `These activities help `+this.childName+` grow gradually - offering the right balance of structure and new experience to build steady confidence over time.`
                     ],
                 },
                 CD: {

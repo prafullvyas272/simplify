@@ -352,21 +352,29 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> are often quietly reliable. They take tasks seriously, follow instructions carefully, and may become frustrated if they feel they haven’t done something correctly. While they may not ask to take on more responsibility, they usually manage it well when it’s introduced clearly and calmly.`,
+                        `They may hesitate to take the lead or start something new if they’re unsure of the expectations. Rather than risk doing it “wrong,” they might hold back, ask for extra guidance, or avoid it entirely. They benefit from encouragement that helps them build trust in their own abilities.`
                     ],
                     topHeadingImages: ['53.svg'],
                     noticePoints: [
-
+                        `Completing familiar tasks well and with attention to detail`,
+                        `Wanting reassurance before trying something new`,
+                        `Following routines closely and preferring not to change them`,
+                        `Avoiding responsibility if the outcome is unclear`,
+                        `Being capable but sometimes unsure of themselves`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `To support their growth, it’s helpful to give them predictable, structured responsibilities and let them practice making decisions in safe, supported ways. They don’t need to be pushed - they need time and trust.`,
                     supportPoints: [
-
+                        `<h5><b>Start with steady routines.</b></h5> <h6>Give consistent tasks they can do independently, like packing their bag or helping set the table.</h6>`,
+                        `<h5><b>Use quiet encouragement.</b></h5> <h6>Let them know when they’ve done something well - even if they didn’t ask for praise.</h6>`,
+                        `<h5><b>Let them lead in small ways.</b></h5> <h6>Allow them to take charge of something familiar to build confidence.</h6>`,
+                        `<h5><b>Avoid stepping in too quickly.</b></h5> <h6>Give them space to figure things out, even if it takes longer.</h6>`,
                     ],
                     supportPointImages: [
                         '56.svg', '57.svg', '59.svg', '58.svg',
                     ],
                     bottomHeadings: [
-
+                        `With calm guidance, `+this.childName+` can grow into someone who takes responsibility in thoughtful, careful ways - learning to trust themselves and feel quietly proud of their progress.`
                     ],
                 },
                 CD: {

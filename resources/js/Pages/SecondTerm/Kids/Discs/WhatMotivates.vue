@@ -305,17 +305,23 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> are most motivated when they feel calm, prepared, and supported. They enjoy environments where expectations are clear, routines are consistent, and people are kind. They aren’t usually driven by competition or excitement - they are more focused on doing things correctly and helping in quiet, meaningful ways.`,
+                        `They may not seek attention or praise, but they do value feeling secure and appreciated. They’re often motivated by the chance to do something well and to be helpful without being rushed.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     motivationPoints: [
-
+                        `Having clear rules, steps, or instructions`,
+                        `Being trusted to complete tasks on their own`,
+                        `Knowing that they’re doing something “the right way”`,
+                        `Feeling calm, unhurried, and emotionally safe`,
+                        `Receiving gentle encouragement or quiet praise`,
+                        `Being helpful in familiar or routine settings`
                     ],
                     motivationPointsBottomHeadings: [
-
+                        this.childName+` is likely to feel most energised when tasks are steady and the environment feels predictable. They don’t need loud praise or bold rewards - just a sense of consistency and calm confidence in what they’re doing.`
                     ],
                     finalBottomHeadings: [
-
+                        `The key is to support their steady nature while gently encouraging them to try new things at their own pace. When `+this.childName+` feels secure, motivation builds slowly - and lasts.`
                     ],
                 },
                 CD: {

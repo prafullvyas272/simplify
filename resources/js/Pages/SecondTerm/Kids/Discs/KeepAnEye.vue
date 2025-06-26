@@ -386,14 +386,34 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> are dependable, gentle, and thoughtful. They bring calm, care, and quiet structure to the spaces they’re in - often helping things run smoothly without needing attention or reward. These strengths deserve to be recognised and supported as they grow.`,
+                        `At the same time, it’s important to gently encourage their confidence, flexibility, and ability to express themselves clearly. They don’t need to be louder or more outgoing - but they do benefit from learning that they can try new things and speak up for themselves with calm strength.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     keepAnEyeTips: [
-
+                        {
+                            title: 'Avoiding change',
+                            description: `They may prefer routines so much that change feels scary. Help them practice adjusting gently, with support and preparation.`,
+                            img: '101.svg',
+                        },
+                        {
+                            title: 'Holding back thoughts or feelings',
+                            description: `They might stay quiet even when they disagree or feel uncomfortable. Encourage them to share what’s on their mind in safe ways.`,
+                            img: '102.svg',
+                        },
+                        {
+                            title: 'Being hard on themselves',
+                            description: `They can become upset over small mistakes or imperfections. Remind them that trying, learning, and improving matter more than getting everything right.`,
+                            img: '103.svg',
+                        },
+                        {
+                            title: 'Waiting for permission',
+                            description: `They may be capable but unsure whether they’re “allowed” to take the lead. Give them chances to make small decisions on their own.`,
+                            img: '101.svg',
+                        },
                     ],
                     bottomHeading: [
-
+                        `With calm, consistent support, `+this.childName+` can grow into someone who combines thoughtfulness with quiet confidence - someone who takes care of others while also trusting in their own voice and abilities.`
                     ],
                 },
                 CD: {

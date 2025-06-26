@@ -352,18 +352,27 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `In school, children with a <b>CS style</b> are often quiet, thoughtful, and well-behaved. They tend to follow rules, complete their work carefully, and avoid drawing attention to themselves. Teachers often see them as dependable - but they may not always notice when these children are unsure, overwhelmed, or holding back.`,
+                        this.childName+` may not speak up if something feels difficult or confusing. They’re unlikely to seek help unless prompted, and they may be reluctant to try something unfamiliar without clear instruction. They thrive in calm, structured classrooms where expectations are consistent and changes are introduced gradually.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     teacherMightNotices: [
-
+                        `Working quietly and following routines without fuss`,
+                        `Being hesitant in new or fast-paced tasks`,
+                        `Avoiding group roles that involve speaking up or taking charge`,
+                        `Needing extra encouragement to share ideas or ask for help`,
+                        `Becoming quietly anxious when unsure what’s expected`,
                     ],
-                    boardImageText: ``,
+                    boardImageText: `These children benefit from environments that are calm and predictable, where quiet contributions are recognised and supported. Encouraging participation without pressure helps them grow confidence over time.`,
                     teacherParentSupportPoints: [
-
+                        `Provide step-by-step instructions and clear timeframes`,
+                        `Offer praise for focus, accuracy, and quiet effort`,
+                        `Use gentle prompts to check understanding before moving on`,
+                        `Allow extra time to prepare for changes or group tasks`,
+                        `Create opportunities for small-group participation before whole-class speaking`
                     ],
                     bottomHeadings: [
-
+                        `With support, CS-style children become dependable and thoughtful learners - bringing structure, care, and quiet strength to the classroom.`
                     ],
                 },
                 CD: {

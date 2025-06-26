@@ -499,15 +499,45 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> often enjoy helping at home, especially when they understand the task clearly and feel confident in what’s expected. They tend to be reliable and careful, preferring familiar routines over spontaneous tasks. While they may not volunteer for new responsibilities, they usually carry out regular tasks with quiet consistency.`,
+                        `They may become anxious if the task feels unclear or if too much is asked all at once. A calm tone, gentle guidance, and steady routines help them feel secure and motivated.`
                     ],
                     topHeadingImages: ['81.svg'],
                     middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
                     helpFullIdeas: [
-
+                        {
+                            img: '82.svg',
+                            title: 'Start with small, consistent tasks',
+                            description: 'Give them responsibilities like sorting items, feeding a pet, or setting the table - things that follow a pattern and are easy to succeed in.',
+                        },
+                        {
+                            img: '83.svg',
+                            title: 'Give instructions clearly and calmly',
+                            description: 'Explain what needs to be done step-by-step, and check that they feel confident before starting.',
+                        },
+                        {
+                            img: '84.svg',
+                            title: 'Create a visual routine',
+                            description: 'Charts or checklists can help them stay on track and give a sense of control.',
+                        },
+                        {
+                            img: '85.svg',
+                            title: 'Let them prepare for changes',
+                            description: 'If plans shift, give them time to adjust and offer reassurance that everything will be okay.',
+                        },
+                        {
+                            img: '82.svg',
+                            title: 'Praise quiet effort',
+                            description: 'They might not seek attention, but they appreciate knowing their consistency and care is seen.',
+                        },
+                        {
+                            img: '83.svg',
+                            title: 'Involve them in safe decision-making',
+                            description: 'Offer small choices like, “Would you like to tidy your desk or help with the shopping list today?”',
+                        },
                     ],
                     bottomHeadings: [
-
+                        `When `+this.childName+` feels secure and trusted, they become quietly reliable at home - contributing with focus, care, and a steady sense of responsibility.`
                     ],
                 },
                 CD: {

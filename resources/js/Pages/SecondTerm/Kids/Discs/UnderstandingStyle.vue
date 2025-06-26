@@ -252,13 +252,20 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a CS style are thoughtful, gentle, and careful in how they approach the world. They tend to like routine, structure, and knowing what to expect. These children are often quiet observers, taking their time to understand what’s happening around them before speaking or acting. They may prefer to follow clear steps and enjoy tasks that are organised and predictable.`,
+                        `They are also considerate of others and often go out of their way to be kind, polite, and helpful. They’re unlikely to cause conflict, and they may avoid drawing attention to themselves - even when they’ve done something well.`
                     ],
                     commonTraits: [
-
+                        `Enjoying structured, predictable environments`,
+                        `Being thoughtful and polite with peers and adults`,
+                        `Avoiding risks or fast changes`,
+                        `Thinking carefully before speaking`,
+                        `Being sensitive to tone and feedback`,
+                        `Working best when they know exactly what’s expected`,
                     ],
                     bottomHeadings: [
-
+                        `These children thrive in calm, emotionally safe settings where routines are clear and changes are introduced gently. They may need support when it comes to trying new things, sharing their opinions, or managing pressure.`,
+                        `With steady encouragement, `+this.childName+` can grow into someone who combines quiet thoughtfulness with real reliability - someone who contributes in meaningful ways, even if they aren’t always the first to speak up.`
                     ],
                 },
                 CD: {

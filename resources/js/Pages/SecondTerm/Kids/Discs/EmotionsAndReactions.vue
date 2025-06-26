@@ -350,20 +350,28 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> often feel deeply but express their emotions quietly. They tend to stay calm on the surface, even when something is bothering them. Rather than reacting outwardly, they may hold their feelings inside - especially if they’re unsure how others will respond or if they want to avoid upsetting someone.`,
+                        `They are especially sensitive to tension, changes in routine, or feeling like they’ve done something wrong. Instead of reacting quickly, they may withdraw, become quiet, or overthink the situation. They are usually more comfortable discussing their emotions privately and with someone they trust.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     noticePoints: [
-
+                        `Appearing calm but becoming quiet when upset`,
+                        `Holding back from sharing feelings unless invited gently`,
+                        `Feeling unsettled by change, noise, or strong emotion in others`,
+                        `Needing time to process how they feel`,
+                        `Wanting reassurance but not always asking for it`,
                     ],
                     noticePointBottomHeadings: [
-
+                        `These children benefit from a calm, consistent environment where they feel safe to share. Gentle check-ins and a non-judgemental tone can help them open up when they’re ready.`
                     ],
                     supportPoints: [
-
+                        `Quiet conversations at calm moments, like “You seemed quiet earlier - how were you feeling?”`,
+                        `Reassuring them that emotions are okay, even the difficult ones`,
+                        `Offering space to reflect through drawing, journaling, or one-on-one talks`,
+                        `Modelling emotional expression in simple, honest ways`
                     ],
                     supportPointBottomHeadings: [
-
+                        `With this support, `+this.childName+` can grow into someone who understands their emotions and shares them when they’re ready - with steady confidence and thoughtful care.`
                     ],
                 },
                 CD: {

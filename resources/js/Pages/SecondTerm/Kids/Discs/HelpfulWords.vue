@@ -355,20 +355,28 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> respond best to calm, thoughtful language. They may not ask for attention or recognition, but they still need to know that their quiet efforts matter. Encouraging phrases that focus on care, accuracy, and trust help them feel seen and secure. At the same time, gentle guidance can help them step out of hesitation and into small, steady growth.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     encouragingPhrases: [
-
+                        `You’re always so thoughtful - that really stands out.`,
+                        `You took your time and did that carefully - well done.`,
+                        `I noticed how quietly you helped - it made a big difference.`,
+                        `You stayed calm and focused - that’s a real strength.`,
+                        `You don’t rush, and that helps you get it right.`,
                     ],
                     encouragingPhraseBottomHeading: [
-
+                        `These phrases help them feel appreciated without putting them on the spot.`
                     ],
                     guidingPhrases: [
-
+                        `It’s okay to try, even if you’re not 100% sure.`,
+                        `You don’t have to be perfect - effort is what matters most.`,
+                        `You can speak up kindly - your voice matters too.`,
+                        `Let’s practice this step together first.`,
+                        `Taking small steps still helps you move forward.`,
                     ],
                     guidingPhraseBottomHeading: [
-
+                        `With this kind of quiet encouragement and thoughtful guidance, `+this.childName+` can grow into someone who trusts their abilities - even when they’re learning something new.`
                     ],
                 },
                 CD: {

@@ -60,8 +60,7 @@
                     </div>
                 </div>
                 <div class="col-6 flex items-center">
-                    <p class="">
-                        {{ reportData[discStyle]?.middleHeading }}
+                    <p class="" v-html="reportData[discStyle]?.middleHeading">
                     </p>
                 </div>
             </div>
@@ -389,21 +388,30 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> are careful, quiet problem-solvers. They usually want to understand exactly what’s going on before they act, and they prefer to follow a clear process. They’re unlikely to jump straight in - instead, they take their time, think through the details, and often ask for help if they feel unsure.`
                     ],
                     topHeadingImages: ['43.svg', '44.svg'],
                     noticePoints: [
-
+                        `Asking for more information before starting`,
+                        `Working slowly and carefully to avoid mistakes`,
+                        `Needing time to feel confident about what to do`,
+                        `Avoiding tasks that feel messy or uncertain`,
+                        `Becoming stuck if they feel overwhelmed or unprepared`,
                     ],
-                    middleHeading: '',
+                    middleHeading: 'Because they want to do things correctly and avoid conflict, they may need encouragement to take small risks or try new approaches. Learning that it’s okay to try, even without full certainty, builds resilience over time. <br><br>  They don’t need to be rushed or made bolder - their strength is in their care and thoughtfulness. But with support, they can learn to move forward more confidently when solving problems.',
                     supportPoints: [
-
+                        `Break tasks into manageable, structured steps`,
+                        `Offer calm guidance without stepping in too quickly`,
+                        `Ask questions like, “What do you think we could try first?”`,
+                        `Celebrate effort and willingness to try, not just success`,
+                        `Reflect on challenges afterwards: “What helped you work through that?”`
                     ],
                     supportPointImages: [
                         '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
                     ],
                     bottomHeadings: [
-
+                        `They may become hesitant or stuck when faced with unfamiliar challenges, especially if they don’t have clear instructions. If the problem feels too emotional, fast-paced, or unpredictable, they might step back or avoid it altogether rather than take the risk of getting it wrong.`,
+                        `With this approach, `+this.childName+` can become a capable, thoughtful problem-solver - someone who handles challenges with quiet focus and growing self-belief.`
                     ],
                 },
                 CD: {

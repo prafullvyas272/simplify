@@ -365,20 +365,28 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> tend to speak in quiet, thoughtful ways. They’re unlikely to interrupt, raise their voice, or speak without thinking. Instead, they often wait until they feel certain or comfortable - especially if the topic is unfamiliar or emotional. They usually prefer one-on-one conversations or calm group settings where they won’t be rushed or put on the spot.`,
+                        `Because they don’t always share their thoughts openly, they may be misunderstood or overlooked in louder groups. Even when they have something valuable to say, they might keep it to themselves unless directly invited to speak.`
                     ],
                     topHeadingImages: ["87.svg", "88.svg"],
                     noticePoints: [
-
+                        `Thinking carefully before speaking`,
+                        `Expressing themselves clearly, but often quietly`,
+                        `Avoiding group attention or high-pressure conversations`,
+                        `Speaking more openly in familiar, calm settings`,
+                        `Holding back thoughts if unsure how others will respond`,
                     ],
                     noticePointBottomHeadings: [
-
+                        `These children benefit from encouragement to speak up - and from reassurance that what they say matters, even if it’s said softly.`
                     ],
                     encouragePoints: [
-
+                        `Giving them time to prepare or think before speaking`,
+                        `Asking for their input gently and one-on-one`,
+                        `Praising them when they share a thoughtful idea`,
+                        `Creating quiet spaces where their voice can be heard clearly`,
                     ],
                     encouragePointBottomHeadings: [
-
+                        `With steady support, `+this.childName+` can learn to express themselves with quiet confidence - showing that being thoughtful and careful is just as powerful as being bold.`
                     ],
                 },
                 CD: {

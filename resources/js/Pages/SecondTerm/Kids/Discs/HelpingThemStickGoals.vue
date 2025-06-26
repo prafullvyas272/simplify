@@ -354,21 +354,30 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> are usually committed and careful when working towards a goal - especially when it’s clearly defined and broken into manageable steps. They’re unlikely to set bold or risky goals, but they often take pride in working quietly and thoroughly. They prefer structure and may feel unsure or stuck if the goal feels vague or too ambitious.`
                     ],
                     topHeadingImages: ['71.svg', '70.svg'],
                     noticePoints: [
-
+                        `Choosing safe, practical goals over big challenges`,
+                        `Preferring to follow a clear plan rather than figuring it out as they go`,
+                        `Needing reassurance that they’re “on track”`,
+                        `Losing motivation if things don’t go as planned`,
+                        `Responding well to routines and regular check-ins`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `These children benefit from goals that are structured and realistic, with space to reflect and feel supported along the way.`,
                     supportPoints: [
-
+                        `Help them set simple, achievable goals with step-by-step plans`,
+                        `Use checklists or trackers to show progress visually`,
+                        `Encourage them with phrases like, “You’re getting there - keep going”`,
+                        `Ask reflective questions like, “What helped you make progress this week?”`,
+                        `Remind them that mistakes are a normal part of any process`,
                     ],
                     supportPointImages: [
                         '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
                     ],
                     bottomHeadings: [
-
+                        `They can become discouraged if they make a mistake or don’t feel prepared, and they may abandon the goal if they think they’ve let someone down. They do best with calm encouragement, consistent tracking, and gentle reminders that progress, not perfection, is the aim.`,
+                        `With steady support and realistic expectations, `+this.childName+` can learn to set and reach goals with quiet focus - feeling proud of their ability to follow through thoughtfully and consistently.`
                     ],
                 },
                 CD: {

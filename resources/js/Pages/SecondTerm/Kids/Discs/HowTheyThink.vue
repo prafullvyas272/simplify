@@ -371,20 +371,29 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> tend to think carefully before they decide. They like to be sure of the details, understand what’s expected, and feel that they’ve thought everything through. They don’t usually rush into things - instead, they take time to process, and often want to avoid making mistakes or disappointing anyone.`,
+                        `They may rely on routines or rules to guide them, and they’re likely to avoid risks unless they feel fully prepared. If a decision feels uncertain, they may wait, ask for help, or choose the safer option.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     noticePoints: [
-
+                        `Asking for more information before deciding`,
+                        `Wanting time to think things through quietly`,
+                        `Avoiding unfamiliar or open-ended choices`,
+                        `Preferring to follow established rules or routines`,
+                        `Checking that others are comfortable with their choice`
                     ],
                     noticePointBottomHeading: [
-
+                        `These children benefit from reassurance that they can trust their thinking, even if they’re still learning. They don’t need to be faster - just confident enough to move forward when they feel ready.`
                     ],
                     supportPoints: [
-
+                        `Give time and space to think without pressure`,
+                        `Ask questions like, “What do you feel comfortable with right now?”`,
+                        `Help them practice small, low-risk choices`,
+                        `Reassure them that making mistakes is part of learning`,
+                        `Celebrate their thoughtful approach and quiet confidence`
                     ],
                     supportPointBottomHeading: [
-
+                        `With this kind of support, `+this.childName+` can learn to make careful, balanced decisions - combining kindness and logic with growing independence.`
                     ],
                 },
                 CD: {

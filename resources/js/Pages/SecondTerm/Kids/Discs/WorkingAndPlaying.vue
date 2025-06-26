@@ -354,21 +354,30 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> are typically kind, respectful, and observant in group settings. They prefer small groups or one-on-one play, and they’re more comfortable when things are calm, structured, and familiar. They usually avoid loud, fast-paced, or highly competitive activities and may choose to follow rather than lead.`,
+                        `They are unlikely to push their way into a group or draw attention to themselves. Instead, they often take a supportive role - helping things run smoothly, listening well, and making sure everyone is treated fairly. However, if the environment becomes too unpredictable or emotionally charged, they may withdraw.`
                     ],
                     topHeadingImages: ['75.svg'],
                     noticePoints: [
-
+                        `Playing well with others when the group is calm and kind`,
+                        `Avoiding noisy, chaotic, or competitive games`,
+                        `Taking a quiet role rather than leading or speaking up`,
+                        `Following group rules closely and helping others do the same`,
+                        `Struggling to assert themselves if treated unfairly`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `These children benefit from environments that value cooperation and give every child a chance to contribute. They may need support in speaking up, setting boundaries, and trusting that their voice matters.`,
                     supportPoints: [
-
+                        `Encourage them to take on small leadership roles in group settings`,
+                        `Offer praise for calm teamwork and quiet contribution`,
+                        `Give them language for speaking up kindly: “You can say, ‘I’d like a turn too’”`,
+                        `Check in after group time: “Did anything feel tricky or uncomfortable?”`,
+                        `Help them see that sharing their thoughts helps the whole group, not just themselves`
                     ],
                     supportPointImages: [
                         '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
                     ],
                     bottomHeadings: [
-
+                        `With the right support, `+this.childName+` can become a steady and thoughtful presence in group settings - someone who leads with care, contributes with focus, and helps others feel supported.`
                     ],
                 },
                 CD: {

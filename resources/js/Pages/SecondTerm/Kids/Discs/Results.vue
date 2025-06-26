@@ -120,7 +120,8 @@ export default {
                 },
                 CS: {
                     bottomHeadings: [
-
+                        `The scores show a combination of two styles - <b>Cautious (C) and Supportive (S)</b> - which together make up a <b>CS style</b>. This means `+this.childName+` is likely to be careful, thoughtful, and considerate. Children with this blend tend to enjoy following routines, thinking things through before acting, and helping in calm, structured ways.`,
+                        `This result is a helpful guide to how `+this.childName+` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+this.childName+` at home and at school.`
                     ],
                 },
                 CD: {

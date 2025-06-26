@@ -493,21 +493,32 @@ export default {
                 },
                 CS: {
                     topHeadings: [
-
+                        `Children with a <b>CS style</b> are often calm, steady, and able to focus for long periods - especially when the task is structured and quiet. They work best when they know what’s expected and when there are clear steps to follow. They may not enjoy fast-paced or noisy environments, and their energy tends to stay balanced when things feel calm and predictable.`,
+                        `If the situation becomes chaotic or emotionally charged, they may withdraw or become quietly distracted. They may also lose focus if they’re unsure how to begin or if they feel the task is too open-ended.`
                     ],
                     topHeadingImages: ['61.svg', '62.svg'],
                     commonPatterns: [
-
+                        `Sustained focus during calm, structured tasks`,
+                        `Needing time to settle into unfamiliar or unstructured activities`,
+                        `Becoming distracted if the environment feels unsettled or tense`,
+                        `Focusing too much on small details and losing sight of the bigger picture`,
+                        `Preferring quiet, low-pressure settings to do their best thinking`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `These children don’t need extra stimulation to stay focused - they need consistency, reassurance, and a calm environment. Helping them manage transitions and emotional shifts can make a big difference in keeping their attention steady.`,
                     supportPoints: [
-
+                        `Give a clear plan before starting new tasks`,
+                        `Let them know what to expect next - especially if routines are changing`,
+                        `Use visual checklists or step-by-step guides`,
+                        `Offer short breaks to reset when focus dips`,
+                        `Encourage a gentle pace, with reminders that progress matters more than perfection`
                     ],
                     shortQuestionsImages: [
                         '68.svg', '66.svg', '67.svg',
                     ],
                     shortQuestions: [
-
+                        `What made it easier to stay focused today?`,
+                        `Was there anything that distracted you?`,
+                        `What helps you feel calm and ready to work?`
                     ],
                     cloudImageClasses: [
                         'cloud-image-1',
@@ -518,7 +529,7 @@ export default {
                         'cloud-image-3',
                     ],
                     bottomHeadings: [
-
+                        `With the right support, `+this.childName+` can manage their focus with care and consistency - staying on track in a way that fits their natural rhythm and personality.`
                     ],
                 },
                 CD: {
