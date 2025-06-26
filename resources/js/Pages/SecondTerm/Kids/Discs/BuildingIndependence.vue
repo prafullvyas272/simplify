@@ -379,21 +379,30 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> are often naturally independent—especially when they feel confident in what they’re doing. They like to be in control of their work and are often self-motivated when the task has clear value. They take responsibility seriously and may prefer doing things themselves rather than relying on others.`,
+                        `However, because they like things done properly, they may avoid starting something new if they feel unprepared. They can also be critical of themselves or others if things don’t meet their standards. Supporting their growth means helping them balance independence with patience, flexibility, and self-kindness.`
                     ],
                     topHeadingImages: ['53.svg'],
                     noticePoints: [
-
+                        `Taking pride in doing things their own way`,
+                        `Wanting to get things right without too much help`,
+                        `Avoiding responsibility if they feel the task is too vague or inefficient`,
+                        `Becoming frustrated if others slow them down or make mistakes`,
+                        `Holding themselves to high standards, even on small tasks`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `These children thrive when trusted with real responsibility—especially when they understand why it matters and are given space to do it well.`,
                     supportPoints: [
-
+                        `<h5><b>Explain the purpose of the task.</b></h5> <h6>They value knowing why something matters and are more motivated when the reason is clear.</h6>`,
+                        `<h5><b>Give space, not pressure.</b></h5> <h6>Let them take the lead while staying available in the background for support.</h6>`,
+                        `<h5><b>Praise their planning and follow-through.</b></h5> <h6>Highlight not just results, but how they got there and the effort they put in.</h6>`,
+                        `<h5><b>Encourage reflection.</b></h5> <h6>Ask, “What would you improve next time?” to promote growth without criticism.</h6>`,
+                        `<h5><b>Support patience and flexibility.</b></h5> <h6>Remind them that it’s okay if others work differently—and that collaboration is a strength too.</h6>`,
                     ],
                     supportPointImages: [
                         '56.svg', '57.svg', '59.svg', '58.svg',
                     ],
                     bottomHeadings: [
-
+                        `With the right balance of trust and guidance, `+this.childName+` can become quietly confident and responsibly independent—showing leadership through focus, care, and strong self-direction.`
                     ],
                 },
                 D: {

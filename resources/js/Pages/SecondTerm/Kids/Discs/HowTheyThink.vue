@@ -398,20 +398,29 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> tend to think things through carefully, but with purpose. They like to understand the facts, weigh up the options, and then act—especially when they believe their choice is the right one. While they are logical and detail-focused, they also have a strong sense of direction once they’ve made up their mind.`,
+                        `They don’t usually make decisions based on emotion or group pressure. Instead, they want things to make sense and to be done properly. If something feels uncertain or inconsistent, they may ask challenging questions or hesitate until they’re confident in the next step.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     noticePoints: [
-
+                        `Asking questions like “Why?” or “How does that work?”`,
+                        `Thinking critically before acting, but moving with certainty once decided`,
+                        `Preferring to make choices based on logic, not emotion`,
+                        `Becoming frustrated by unclear instructions or slow decision-making`,
+                        `Being firm in their decisions once they’ve committed`
                     ],
                     noticePointBottomHeading: [
-
+                        `These children benefit from being given information and space to think independently. They don’t need to be told what to do every step of the way—they often prefer to be trusted with the facts and then left to decide.`
                     ],
                     supportPoints: [
-
+                        `Offer clear, factual explanations and options`,
+                        `Allow space for them to ask questions and challenge ideas respectfully`,
+                        `Encourage reflection, but don’t force it—let them process in their own way`,
+                        `Remind them that not every decision has a “perfect” answer`,
+                        `Support their confidence, while helping them stay open to feedback`
                     ],
                     supportPointBottomHeading: [
-
+                        `With the right balance of structure and autonomy, `+this.childName+` can grow into someone who makes well-considered, confident decisions—blending precision with a strong sense of direction.`
                     ],
                 },
                 D: {

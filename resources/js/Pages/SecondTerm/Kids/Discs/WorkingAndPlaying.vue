@@ -382,21 +382,30 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> often prefer working in small groups or on their own, especially when the task has a clear goal. They’re not always focused on the social side of things—instead, they care more about whether the activity makes sense and is being done efficiently. They tend to take group work seriously and may become frustrated if others don’t keep up or if the task feels disorganised.`,
+                        `They are more likely to lead with logic than emotion, and they might struggle with more playful or unstructured settings. They often prefer being around others who are focused and respectful, and they can be excellent team members when everyone is on the same page.`
                     ],
                     topHeadingImages: ['75.svg'],
                     noticePoints: [
-
+                        `Wanting roles or tasks that involve structure and control`,
+                        `Becoming frustrated by slow or distracted group members`,
+                        `Preferring clear rules and clear roles during group tasks`,
+                        `Taking charge when others are unsure—or when things feel inefficient`,
+                        `Needing help balancing assertiveness with collaboration`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `These children benefit from learning how to be flexible with others and from being reminded that people work at different paces. They don’t need to hold back their leadership—but learning to adjust their tone and expectations helps them build better relationships.`,
                     supportPoints: [
-
+                        `Offer group tasks with clearly defined roles`,
+                        `Let them practice leadership in calm, structured ways`,
+                        `Help them reflect: “What went well in the group? What felt tricky?”`,
+                        `Encourage empathy: “How might someone else have seen that moment?”`,
+                        `Praise not just results, but collaboration and respectful teamwork`
                     ],
                     supportPointImages: [
                         '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
                     ],
                     bottomHeadings: [
-
+                        `With support, `+this.childName+` can become a strong and fair group member—someone who brings logic, drive, and direction, while learning to work with others in ways that are respectful and inclusive.`
                     ],
                 },
                 D: {

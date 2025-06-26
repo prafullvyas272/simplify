@@ -391,20 +391,28 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> tend to be clear and direct in their communication—especially when they feel confident about what they’re saying. They may speak with precision and prefer facts over feelings. They are unlikely to be overly emotional in how they express themselves, and they may become frustrated if others are unclear or take too long to get to the point.`,
+                        `They often prefer to speak when they have something specific to contribute, and they may question or challenge ideas they don’t agree with. At times, they may seem blunt or overly serious—not out of rudeness, but because they value logic and efficiency.`
                     ],
                     topHeadingImages: ["87.svg", "88.svg"],
                     noticePoints: [
-
+                        `Speaking clearly, directly, and with purpose`,
+                        `Preferring facts and instructions over emotional language`,
+                        `Questioning things that don’t make sense to them`,
+                        `Avoiding small talk or overly emotional conversations`,
+                        `Expressing frustration when conversations feel disorganised`,
                     ],
                     noticePointBottomHeadings: [
-
+                        `These children benefit from learning when and how to adjust their communication depending on the situation. They don’t need to change their directness—just learn how to balance it with patience and empathy when needed.`
                     ],
                     encouragePoints: [
-
+                        `Praising their ability to explain things clearly and think critically`,
+                        `Offering chances to present ideas in structured ways (like charts or plans)`,
+                        `Helping them understand how tone and timing affect how they’re heard`,
+                        `Supporting emotional awareness by talking through how others might feel in a situation`,
                     ],
                     encouragePointBottomHeadings: [
-
+                        `With the right balance of structure and encouragement, `+this.childName+` can become someone who communicates with confidence—and learns to adapt their clarity to fit different settings.`
                     ],
                 },
                 D: {

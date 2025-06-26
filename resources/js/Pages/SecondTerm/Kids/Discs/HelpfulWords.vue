@@ -381,20 +381,29 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> respond best to communication that is clear, calm, and respectful. They don’t usually seek constant praise, but they do appreciate being recognised for their accuracy, logic, and effort. They also benefit from firm but thoughtful guidance—especially when it supports their desire for control without making them feel corrected or criticised.`,
+                        `Encouragement and guidance work best when linked to specific actions or outcomes—and when delivered in a calm, straightforward tone.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     encouragingPhrases: [
-
+                        `I really respect how carefully you worked that out.`,
+                        `You stuck with it and figured it out - that shows real focus.`,
+                        `You noticed the details others might have missed.`,
+                        `That was a clever way to solve the problem.`,
+                        `You’re great at thinking ahead and planning things well.`,
                     ],
                     encouragingPhraseBottomHeading: [
-
+                        `These affirm their strengths in analysis, structure, and independent thinking.`
                     ],
                     guidingPhrases: [
-
+                        `It’s okay if things don’t go exactly to plan - we can adjust.`,
+                        `Trying is just as important as getting it right.`,
+                        `Let’s talk through your idea - I want to hear how you see it.`,
+                        `Sometimes working with others means meeting in the middle.`,
+                        `You don’t need all the answers to get started - you’ll learn as you go.`,
                     ],
                     guidingPhraseBottomHeading: [
-
+                        `With consistent, respectful communication, `+this.childName+` can continue building their confidence—using their natural precision while learning how to stay open, flexible, and willing to grow.`
                     ],
                 },
                 D: {

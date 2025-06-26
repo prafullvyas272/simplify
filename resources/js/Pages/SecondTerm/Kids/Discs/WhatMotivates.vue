@@ -326,17 +326,23 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> are motivated by clarity, purpose, and progress. They like knowing what they’re working towards, why it matters, and how they’ll get there. They enjoy structure, but also want control over their work. When they feel confident that the task is worth doing and that it’s being done properly, they are focused and driven.`,
+                        `They are less likely to be motivated by praise alone or by tasks that feel disorganised or emotional. Instead, they are energised by challenge, logic, and seeing that their efforts lead to real outcomes.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     motivationPoints: [
-
+                        `Having clear expectations and well-defined goals`,
+                        `Knowing there’s a reason behind what they’re doing`,
+                        `Feeling confident in their own ability to complete a task well`,
+                        `Being trusted to work independently or lead a process`,
+                        `Seeing improvement or measurable progress`,
+                        `Being in an environment that values fairness, logic, and structure`
                     ],
                     motivationPointsBottomHeadings: [
-
+                        this.childName+` is likely to feel most motivated when they are given space to think, a clear plan to follow, and the chance to do things properly. They enjoy working through a challenge and often want their results to speak for themselves.`
                     ],
                     finalBottomHeadings: [
-
+                        `The key is to balance their natural drive for structure and control with reminders that it’s okay not to have all the answers straight away. With calm support, `+this.childName+` will usually keep going until they get it right.`
                     ],
                 },
                 D: {

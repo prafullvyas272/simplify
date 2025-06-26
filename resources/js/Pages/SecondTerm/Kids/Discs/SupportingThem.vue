@@ -377,18 +377,27 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `In school, children with a <b>CD style</b> are often independent, focused, and results-driven. They tend to take their work seriously and prefer tasks that are structured, logical, and purposeful. They may not be the most vocal in class discussions, but when they do speak, they’re usually well-prepared and confident in their answers.`,
+                        this.childName + ` may become frustrated if the classroom environment feels disorganised or inefficient. They’re less likely to enjoy activities that feel too open-ended or group dynamics that lack clear direction. They thrive in learning environments where expectations are clear and fairness is valued.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     teacherMightNotices: [
-
+                        `Staying focused and driven, especially during structured tasks`,
+                        `Wanting independence and preferring to work alone or in control`,
+                        `Showing frustration when rules or routines are unclear`,
+                        `Offering well-thought-out responses, but not always asking for help`,
+                        `Preferring tasks with clear goals and logical steps`,
                     ],
-                    boardImageText: ``,
+                    boardImageText: `These children benefit from clear communication, fair boundaries, and room to work things out on their own. They also benefit from reminders that learning isn’t just about outcomes - it’s about progress, reflection, and flexibility too.`,
                     teacherParentSupportPoints: [
-
+                        `Offer well-structured tasks with clear expectations`,
+                        `Allow time and space for independent work`,
+                        `Encourage them to ask questions, not just give answers`,
+                        `Provide calm, constructive feedback - they may take criticism seriously`,
+                        `Reinforce that growth includes trial and error, not just precision`,
                     ],
                     bottomHeadings: [
-
+                        `With the right support, CD-style children become strong, independent learners - combining careful thought with decisive action and a high standard for quality and results.`
                     ],
                 },
                 D: {

@@ -418,14 +418,34 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> are often self-driven, focused, and quietly confident. They enjoy solving problems, thinking things through, and taking pride in doing things properly. These are powerful traits – especially when paired with respect, fairness, and structure.`,
+                        `As ` + this.childName + ` grows, it’s important to support their strengths while gently helping them become more flexible, patient, and emotionally aware. They don’t need to soften their drive or stop being focused – but they do benefit from learning that collaboration, mistakes, and open-mindedness are just as valuable as being right.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     keepAnEyeTips: [
-
+                        {
+                            title: 'Becoming too focused on being correct',
+                            description: `They may struggle to let go of control or feel upset by small mistakes. Remind them that learning includes trial and error.`,
+                            img: '101.svg',
+                        },
+                        {
+                            title: 'Resisting feedback',
+                            description: `They may take suggestions as criticism. Help them see feedback as a tool for growth, not a judgement.`,
+                            img: '102.svg',
+                        },
+                        {
+                            title: 'Struggling with flexibility',
+                            description: `They might want everything to follow their plan. Encourage them to adapt when things change – and reflect afterwards.`,
+                            img: '103.svg',
+                        },
+                        {
+                            title: 'Being too blunt with others',
+                            description: `They may prioritise facts over feelings. Support them in practising empathy and understanding different perspectives.`,
+                            img: '101.svg',
+                        },
                     ],
                     bottomHeading: [
-
+                        `With calm support and firm encouragement, `+this.childName+` can grow into someone who leads with clarity and care – learning to balance structure with adaptability, and independence with emotional insight.`
                     ],
                 },
                 D: {

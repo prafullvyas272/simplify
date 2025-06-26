@@ -69,7 +69,7 @@
             </div>
 
             <!-- Awareness points -->
-            <div class="row p-6">
+            <div v-if="reportData[discStyle]?.shortQuestions.length" class="row p-6">
                 <h4 class="mb-4 font-bold text-green-400">
                     You can also use short check-in questions to build awareness. Try asking:
                 </h4>
@@ -534,21 +534,29 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> are often naturally focused, especially when they’re working on something that makes sense to them. They concentrate well when the task is structured, has a clear goal, and allows them to work independently. They don’t usually need reminders to stay on task – but they may need help stepping back when they become too focused or overly self-critical.`,
+                        `If something feels disorganised, pointless, or inefficient, they can quickly lose patience or become distracted by trying to “fix” it. They’re also more likely to lose energy when they feel that their time is being wasted or that the task doesn’t serve a clear purpose.`
                     ],
                     topHeadingImages: ['61.svg', '62.svg'],
                     commonPatterns: [
-
+                        `Strong focus on logical, purposeful tasks`,
+                        `Frustration when routines are unclear or instructions are vague`,
+                        `Becoming distracted by flaws or inefficiencies`,
+                        `Struggling with tasks that feel repetitive or overly simple`,
+                        `Working best in quiet, structured settings with minimal interruptions`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `These children benefit from having clarity and control in their schedule. When they know what to expect – and why it matters – they usually manage their focus well. They also benefit from gentle reminders that taking breaks and adjusting plans is okay too.`,
                     supportPoints: [
-
+                        `Provide a clear outline before starting a task`,
+                        `Let them know what the purpose or outcome will be`,
+                        `Encourage breaks to avoid overworking or perfectionism`,
+                        `Celebrate steady progress, not just completion`,
+                        `Ask questions like, “What helped you focus today?” or “Was anything getting in the way?”`
                     ],
                     shortQuestionsImages: [
                         '68.svg', '66.svg', '67.svg',
                     ],
                     shortQuestions: [
-
                     ],
                     cloudImageClasses: [
                         'cloud-image-1',
@@ -559,7 +567,7 @@ export default {
                         'cloud-image-3',
                     ],
                     bottomHeadings: [
-
+                        `With support, `+this.childName+` can manage their energy in a way that fits their strong focus – learning to balance intensity with healthy pauses and flexibility.`
                     ],
                 },
                 D: {

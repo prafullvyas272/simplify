@@ -270,13 +270,20 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a CD style are often focused, precise, and independent in how they approach the world. They tend to enjoy solving problems, understanding how things work, and following systems that make sense. These children are not only careful thinkers – they are also determined doers who like to see results when they apply themselves.`,
+                        `They may come across as serious or confident beyond their years, especially when they’ve had time to prepare or learn about something in detail. They usually prefer clear instructions but may also question rules if they don’t seem logical. While they enjoy doing things correctly, they also want to feel in control of how it’s done.`
                     ],
                     commonTraits: [
-
+                        `Thinking critically and logically about situations`,
+                        `Wanting to feel in control of their own work`,
+                        `Preferring accuracy and order in their environment`,
+                        `Questioning unclear or inefficient processes`,
+                        `Being highly focused on facts, fairness, and outcomes`,
+                        `Needing space to work independently and think deeply`
                     ],
                     bottomHeadings: [
-
+                        `These children often enjoy tasks where they can learn, analyse, and solve. They don’t always share how they’re feeling, especially if emotions feel messy or distracting. Helping them learn when to be flexible and when to collaborate is key to supporting their growth.`,
+                        `With thoughtful support, `+this.childName+` can grow into someone who uses both careful thinking and strong drive – leading with focus, clarity, and quiet confidence.`
                     ],
                 },
                 D: {

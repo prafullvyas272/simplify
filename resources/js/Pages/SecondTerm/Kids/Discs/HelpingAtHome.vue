@@ -542,15 +542,45 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> are often capable and self-sufficient—especially when they’re given clear instructions and space to complete tasks their way. They like to understand the goal, do it properly, and be trusted to follow through. They don’t usually enjoy being micromanaged, and may become frustrated if the task feels unnecessary or poorly organised.`,
+                        `They’re more likely to respond well to being treated with respect and fairness, and they appreciate when adults recognise their thoughtfulness and drive. However, they may be less open to help unless they ask for it themselves.`
                     ],
                     topHeadingImages: ['81.svg'],
                     middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
                     helpFullIdeas: [
-
+                        {
+                            img: '82.svg',
+                            title: 'Let them take the lead on tasks',
+                            description: 'Give them ownership of a routine like organising their school bag or managing their room—and allow them to improve the system if they see a better way.',
+                        },
+                        {
+                            img: '83.svg',
+                            title: 'Explain why the task matters',
+                            description: 'They are more motivated when they see the logic behind what they’re doing.',
+                        },
+                        {
+                            img: '84.svg',
+                            title: 'Avoid over-correcting',
+                            description: 'They respond better to trust and autonomy than repeated reminders.',
+                        },
+                        {
+                            img: '85.svg',
+                            title: 'Celebrate process and problem-solving',
+                            description: 'Praise how they approached the task, not just whether it’s done.',
+                        },
+                        {
+                            img: '82.svg',
+                            title: 'Give a challenge',
+                            description: 'Offer tasks that stretch their thinking or involve planning—they enjoy applying logic and structure.',
+                        },
+                        {
+                            img: '83.svg',
+                            title: 'Reflect together',
+                            description: 'Ask questions like, “What would you do differently next time?” to support growth without criticism.',
+                        },
                     ],
                     bottomHeadings: [
-
+                        `When `+this.childName+` feels respected and trusted at home, they often step up as dependable contributors—bringing precision, focus, and initiative to the family routine.`
                     ],
                 },
                 D: {

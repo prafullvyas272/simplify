@@ -382,21 +382,30 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> are often natural goal-setters—especially when the goal is clear, realistic, and meaningful. They enjoy planning, working through steps logically, and tracking progress. They’re often self-motivated when they can see the outcome and understand how to get there.`
                     ],
                     topHeadingImages: ['71.svg', '70.svg'],
                     noticePoints: [
-
+                        `Breaking big tasks into smaller, manageable parts`,
+                        `Wanting to meet goals without being reminded`,
+                        `Feeling discouraged if results don’t match their expectations`,
+                        `Wanting to change the plan if they see a better way to do it`,
+                        `Needing tasks to feel purposeful and worthwhile`,
                     ],
-                    middleHeading: ``,
+                    middleHeading: `These children benefit from being involved in setting their own goals, rather than being handed goals without explanation. When they feel ownership, they’re more likely to commit and stay on track.`,
                     supportPoints: [
-
+                        `Set goals together and talk through why they matter`,
+                        `Break tasks into steps they can track clearly`,
+                        `Celebrate process and effort, not just achievement`,
+                        `Check in gently to see what’s working and what might need adjusting`,
+                        `Encourage flexibility when plans shift or progress stalls`,
                     ],
                     supportPointImages: [
                         '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
                     ],
                     bottomHeadings: [
-
+                        `They can, however, become overly focused on doing things perfectly or get frustrated if progress is slower than expected. If they feel the goal isn’t well explained or the process is inefficient, they may lose motivation or try to take over entirely.`,
+                        `With the right mix of clarity and independence, `+this.childName+` can develop strong habits around goal-setting—becoming someone who moves forward with purpose, focus, and the resilience to keep going even when things change.`
                     ],
                 },
                 D: {

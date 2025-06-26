@@ -416,21 +416,30 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> approach problems with a mix of logic and determination. They like to understand the facts, break the task into parts, and take control of solving it in a way that makes sense. They are unlikely to act without thinking – but once they’ve made a plan, they tend to move forward with confidence and focus.`
                     ],
                     topHeadingImages: ['43.svg', '44.svg'],
                     noticePoints: [
-
+                        `Taking time to think things through before acting`,
+                        `Wanting structure and control in how the problem is tackled`,
+                        `Getting annoyed if others are disorganised or unclear`,
+                        `Showing confidence in solving tasks independently`,
+                        `Resisting help unless they’ve tried to fix it themselves first`,
                     ],
-                    middleHeading: '',
+                    middleHeading: 'Because they prefer control and accuracy, they benefit from learning that not every solution is perfect – and that collaboration doesn’t mean giving up their standards. <br><br>They don’t need to stop being focused or driven. But with support, they can learn to pause, listen, and adjust when needed - especially when working with others.',
                     supportPoints: [
-
+                        `Break problems into steps and let them lead where appropriate`,
+                        `Encourage questions like, “What’s the best way to approach this?”`,
+                        `Reinforce that changing direction doesn’t mean failing`,
+                        `Praise thoughtful effort, not just fast or correct results`,
+                        `Reflect on the process: “What worked well?” or “What would you try differently next time?”`
                     ],
                     supportPointImages: [
                         '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
                     ],
                     bottomHeadings: [
-
+                        `They may become frustrated if the task feels disorganised or if others get in the way of their process. If something doesn’t work, they might not immediately ask for help – instead, they’ll try to fix it themselves or figure out where the flaw is.`,
+                        `With guidance, `+this.childName+` can grow into a confident, capable problem-solver – using their focus and logic while learning to adapt and grow through each challenge.`
                     ],
                 },
                 D: {

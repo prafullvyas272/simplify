@@ -376,20 +376,29 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> often keep their emotions in check. They may not show how they feel right away and are more likely to think about the situation logically than react emotionally. They tend to prefer solving problems rather than sitting with feelings – and may feel uncomfortable when emotions are unpredictable or hard to explain.`,
+                        `Because they value control and clarity, they may become frustrated when things feel messy, unfair, or out of their hands. Instead of reacting outwardly, they might become quiet, blunt, or focused on fixing the problem themselves. They may not always ask for help, even when they need it.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
                     noticePoints: [
-
+                        `Staying calm or quiet when something is upsetting`,
+                        `Becoming frustrated when things feel disorganised or inefficient`,
+                        `Avoiding emotional conversations or shrugging things off`,
+                        `Reacting quickly when something feels unfair or out of control`,
+                        `Wanting to fix the problem rather than talk about how they feel`,
                     ],
                     noticePointBottomHeadings: [
-
+                        `These children benefit from gentle reminders that emotions are normal – and that talking about them can be helpful, even if they don’t always feel necessary.`
                     ],
                     supportPoints: [
-
+                        `Giving space to cool off before having a conversation`,
+                        `Using questions like, “What felt frustrating about that?”`,
+                        `Reminding them that emotions don’t always need solutions`,
+                        `Modelling calm expression of your own feelings`,
+                        `Encouraging reflection after the moment has passed`
                     ],
                     supportPointBottomHeadings: [
-
+                        `With this kind of support, `+this.childName+` can learn to recognise and manage emotions while keeping their natural clarity and self-control – building both emotional awareness and resilience.`
                     ],
                 },
                 D: {

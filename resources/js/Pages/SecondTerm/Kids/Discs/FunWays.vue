@@ -432,15 +432,38 @@ export default {
                 },
                 CD: {
                     topHeadings: [
-
+                        `Children with a <b>CD style</b> often enjoy activities that involve structure, challenge, and problem-solving. They are usually more drawn to tasks that have a clear purpose and outcome than to free play or overly social games. They enjoy being in control of the process and may even improve or redesign the task if they see a more efficient way.`,
+                        `That said, building flexibility, patience, and collaboration is just as important as nurturing their focus and logic. These skills can be encouraged through low-pressure activities that still appeal to their sense of purpose.`
                     ],
                     topHeadingImages: ['87.svg', '88.svg'],
-                    // CONVERT THEM TO OBJECTS OF title, description
                     playFulWays: [
-
+                        {
+                            title: 'Create a weekly challenge',
+                            description: 'Give them a task with clear rules (e.g. build something using limited materials). This builds creative problem-solving within structure.'
+                        },
+                        {
+                            title: 'Play planning games',
+                            description: 'Let them design something - a scavenger hunt, a home routine, or even a menu. It encourages organisation, logic, and leadership.'
+                        },
+                        {
+                            title: 'Try strategy-based games',
+                            description: 'Games like chess, puzzles, or logic cards appeal to their thoughtful and competitive side.'
+                        },
+                        {
+                            title: 'Give them a system to improve',
+                            description: 'Ask them to help make a process better (e.g. organising toys or homework space). It builds ownership and confidence.'
+                        },
+                        {
+                            title: 'Do a “fact hunt”',
+                            description: 'Give them a topic and ask them to research and present what they learn. It satisfies their love of detail and structured learning.'
+                        },
+                        {
+                            title: 'Reflect after the task',
+                            description: 'Ask, “What would you do differently next time?” to encourage growth without criticism.'
+                        }
                     ],
                     bottomHeadings: [
-
+                        `These activities help `+this.childName+` build emotional flexibility and social awareness - while still giving them space to lead with focus, structure, and curiosity.`
                     ],
                 },
                 D: {

@@ -126,7 +126,8 @@ export default {
                 },
                 CD: {
                     bottomHeadings: [
-
+                        `The scores show a combination of two styles - <b>Cautious (C) and Dominant (D)</b> - which together make up a <b>CD style</b>. This means `+this.childName+` is likely to be focused, determined, and detail-aware. Children with this blend often want things done properly and efficiently. They can be both analytical and strong-willed – preferring structure and logic, but also pushing forward when they feel confident.`,
+                        `This result is a helpful guide to how `+this.childName+` naturally behaves, learns, and responds to different situations. The next sections will explore what this means in everyday life, and how to best support `+this.childName+` at home and at school.`
                     ],
                 },
                 D: {
