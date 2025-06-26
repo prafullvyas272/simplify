@@ -324,6 +324,82 @@ export default {
                         `With support, `+this.childName+` can learn to bring their precision and drive into group settings - becoming someone who contributes with both purpose and respect.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['75.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
             }
         };
 

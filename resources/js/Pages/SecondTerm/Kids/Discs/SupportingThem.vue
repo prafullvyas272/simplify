@@ -324,6 +324,70 @@ export default {
                         `When supported well, DC-style children often become strong independent learners. With encouragement and balance, `+this.childName+` can continue to build confidence, rigour, and the ability to succeed in both structured and social learning settings.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+
+                    ],
+                    boardImageText: ``,
+                    teacherParentSupportPoints: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+
+                    ],
+                    boardImageText: ``,
+                    teacherParentSupportPoints: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+
+                    ],
+                    boardImageText: ``,
+                    teacherParentSupportPoints: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    teacherMightNotices: [
+
+                    ],
+                    boardImageText: ``,
+                    teacherParentSupportPoints: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
             }
         };
 

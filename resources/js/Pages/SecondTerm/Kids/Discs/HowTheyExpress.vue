@@ -337,6 +337,78 @@ export default {
                         `With support, `+this.childName+` can learn to use their clear and confident voice while also listening thoughtfully. This helps them become someone who communicates with both strength and respect.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeadings: [
+
+                    ],
+                    encouragePoints: [
+
+                    ],
+                    encouragePointBottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeadings: [
+
+                    ],
+                    encouragePoints: [
+
+                    ],
+                    encouragePointBottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeadings: [
+
+                    ],
+                    encouragePoints: [
+
+                    ],
+                    encouragePointBottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ["87.svg", "88.svg"],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeadings: [
+
+                    ],
+                    encouragePoints: [
+
+                    ],
+                    encouragePointBottomHeadings: [
+
+                    ],
+                },
             },
         };
     },

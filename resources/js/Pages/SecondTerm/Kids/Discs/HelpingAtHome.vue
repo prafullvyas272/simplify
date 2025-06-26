@@ -454,6 +454,58 @@ export default {
                         `With the right balance of structure, trust, and autonomy, `+this.childName+` can become a thoughtful, dependable helper - not just ticking off tasks, but taking real pride in doing them well.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['81.svg'],
+                    middleHeading: `Here are some helpful ideas for home life with ` + this.childName + `:`,
+                    helpFullIdeas: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
             }
         };
 

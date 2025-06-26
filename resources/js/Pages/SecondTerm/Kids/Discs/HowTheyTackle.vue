@@ -359,6 +359,82 @@ export default {
                         `With support, `+this.childName+` can learn to solve problems with both confidence and care - combining their natural precision and drive with growing patience, adaptability, and respect for different approaches.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: '',
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: '',
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: '',
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['43.svg', '44.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: '',
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '48.svg', '49.svg', '50.svg', '51.svg', '48.svg', '49.svg', '50.svg', '51.svg',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
             }
         };
 

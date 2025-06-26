@@ -232,6 +232,50 @@ export default {
                         `With steady support and space to think, `+this.childName+` can grow into a capable, independent thinker who brings both focus and depth to whatever they choose to do.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    commonTraits: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    commonTraits: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    commonTraits: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    commonTraits: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
             }
         };
 

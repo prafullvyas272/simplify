@@ -112,6 +112,26 @@ export default {
                         `These results provide a starting point for understanding how `+this.childName+` behaves, learns, and interacts with others. The next sections will explore this further, helping you support `+this.childName+` at home, in school, and beyond.`
                     ],
                 },
+                C: {
+                    bottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    bottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    bottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    bottomHeadings: [
+
+                    ],
+                },
             },
             parsedDiscScores: this.discScores
                 ? this.discScores

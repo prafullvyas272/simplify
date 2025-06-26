@@ -323,6 +323,82 @@ export default {
                         `Over time, helping `+this.childName+` stay consistent, flexible, and open to feedback helps build a deeper kind of independence - one that’s grounded not just in control, but in resilience and responsibility.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['53.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '56.svg', '57.svg', '59.svg', '58.svg',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
             }
         };
 

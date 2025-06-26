@@ -450,6 +450,126 @@ export default {
                         `With support, `+this.childName+` can learn to manage their energy in a way that balances intensity with flexibility - helping them stay focused, even when things don’t go exactly to plan.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['61.svg', '62.svg'],
+                    commonPatterns: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    shortQuestionsImages: [
+                        '68.svg', '66.svg', '67.svg',
+                    ],
+                    shortQuestions: [
+
+                    ],
+                    cloudImageClasses: [
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                        'cloud-image-1',
+                        'cloud-image-2',
+                        'cloud-image-3',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
             }
         }
     },

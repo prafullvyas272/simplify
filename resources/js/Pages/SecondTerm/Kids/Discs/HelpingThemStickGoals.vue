@@ -324,6 +324,82 @@ export default {
                         `With the right mix of structure and encouragement, `+this.childName+` can learn to balance high standards with resilience - sticking to goals with both focus and flexibility.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['71.svg', '70.svg'],
+                    noticePoints: [
+
+                    ],
+                    middleHeading: ``,
+                    supportPoints: [
+
+                    ],
+                    supportPointImages: [
+                        '150.png', '151.png', '152.png', '153.png', '154.png', '150.png', '151.png', '152.png', '153.png', '154.png',
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
             }
         };
 

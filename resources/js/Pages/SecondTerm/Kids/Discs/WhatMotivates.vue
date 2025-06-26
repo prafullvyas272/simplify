@@ -282,6 +282,67 @@ export default {
                         `The key is to balance their need for structure and control with encouragement to stay open, flexible, and collaborative. When `+this.childName+` feels trusted and challenged, motivation tends to follow naturally.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+
+                    ],
+                    motivationPointsBottomHeadings: [
+
+                    ],
+                    finalBottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+
+                    ],
+                    motivationPointsBottomHeadings: [
+
+                    ],
+                    finalBottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+
+                    ],
+                    motivationPointsBottomHeadings: [
+
+                    ],
+                    finalBottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    motivationPoints: [
+
+                    ],
+                    motivationPointsBottomHeadings: [
+
+                    ],
+                    finalBottomHeadings: [
+
+                    ],
+                },
+
             }
         };
 

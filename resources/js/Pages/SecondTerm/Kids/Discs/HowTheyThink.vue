@@ -343,6 +343,78 @@ export default {
                         `With guidance, `+this.childName+` can learn to balance careful thinking with flexibility. Their ability to analyse and decide with purpose is a strength - and one that can grow even stronger with time, patience, and a willingness to listen.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeading: [
+
+                    ],
+                    supportPoints: [
+
+                    ],
+                    supportPointBottomHeading: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeading: [
+
+                    ],
+                    supportPoints: [
+
+                    ],
+                    supportPointBottomHeading: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeading: [
+
+                    ],
+                    supportPoints: [
+
+                    ],
+                    supportPointBottomHeading: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeading: [
+
+                    ],
+                    supportPoints: [
+
+                    ],
+                    supportPointBottomHeading: [
+
+                    ],
+                },
             }
         };
 

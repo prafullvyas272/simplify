@@ -352,6 +352,54 @@ export default {
                         `With steady guidance, `+this.childName+` can grow into someone who blends focus with flexibility - someone who not only gets things done, but also learns to trust others, share responsibility, and lead with clarity and care.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+
+                    ],
+                    bottomHeading: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+
+                    ],
+                    bottomHeading: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+
+                    ],
+                    bottomHeading: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    keepAnEyeTips: [
+
+                    ],
+                    bottomHeading: [
+
+                    ],
+                },
             }
         };
 

@@ -326,6 +326,78 @@ export default {
                         `Over time, a mix of recognition and calm redirection helps `+this.childName+` grow into someone who thinks with clarity, acts with purpose, and communicates with both confidence and consideration.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+
+                    ],
+                    encouragingPhraseBottomHeading: [
+
+                    ],
+                    guidingPhrases: [
+
+                    ],
+                    guidingPhraseBottomHeading: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+
+                    ],
+                    encouragingPhraseBottomHeading: [
+
+                    ],
+                    guidingPhrases: [
+
+                    ],
+                    guidingPhraseBottomHeading: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+
+                    ],
+                    encouragingPhraseBottomHeading: [
+
+                    ],
+                    guidingPhrases: [
+
+                    ],
+                    guidingPhraseBottomHeading: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    encouragingPhrases: [
+
+                    ],
+                    encouragingPhraseBottomHeading: [
+
+                    ],
+                    guidingPhrases: [
+
+                    ],
+                    guidingPhraseBottomHeading: [
+
+                    ],
+                },
             }
         };
 

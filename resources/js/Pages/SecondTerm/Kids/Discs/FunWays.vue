@@ -359,6 +359,58 @@ export default {
                         `These activities can help `+this.childName+` feel challenged, respected, and in control - while also helping them practice adapting, collaborating, and stepping back when needed.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    // CONVERT THEM TO OBJECTS OF title, description
+                    playFulWays: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    // CONVERT THEM TO OBJECTS OF title, description
+                    playFulWays: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    // CONVERT THEM TO OBJECTS OF title, description
+                    playFulWays: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    // CONVERT THEM TO OBJECTS OF title, description
+                    playFulWays: [
+
+                    ],
+                    bottomHeadings: [
+
+                    ],
+                },
             }
         };
 

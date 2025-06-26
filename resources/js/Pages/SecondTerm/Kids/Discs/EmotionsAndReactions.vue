@@ -322,6 +322,78 @@ export default {
                         `With time and the right support, `+this.childName+` can learn to handle strong emotions in a way that protects their sense of control while also building empathy and connection.`
                     ],
                 },
+                C: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeadings: [
+
+                    ],
+                    supportPoints: [
+
+                    ],
+                    supportPointBottomHeadings: [
+
+                    ],
+                },
+                CS: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeadings: [
+
+                    ],
+                    supportPoints: [
+
+                    ],
+                    supportPointBottomHeadings: [
+
+                    ],
+                },
+                CD: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeadings: [
+
+                    ],
+                    supportPoints: [
+
+                    ],
+                    supportPointBottomHeadings: [
+
+                    ],
+                },
+                D: {
+                    topHeadings: [
+
+                    ],
+                    topHeadingImages: ['87.svg', '88.svg'],
+                    noticePoints: [
+
+                    ],
+                    noticePointBottomHeadings: [
+
+                    ],
+                    supportPoints: [
+
+                    ],
+                    supportPointBottomHeadings: [
+
+                    ],
+                },
             }
         };
 
